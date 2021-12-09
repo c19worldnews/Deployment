@@ -1,0 +1,10 @@
+beautifulsoup4
+geopy
+html_table_parser
+numpy
+pandas
+requests_html
+scikit_learn
+selenium
+streamlit
+tensorflow
