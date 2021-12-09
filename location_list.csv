@@ -1,0 +1,511 @@
+City,Country,ISO,Label
+Victoria,Australia,AUS,11
+Australian Capital Territory,Australia,AUS,11
+New South Wales,Australia,AUS,11
+Western Australia,Australia,AUS,11
+Tasmania,Australia,AUS,11
+South Australia,Australia,AUS,11
+Queensland,Australia,AUS,11
+Rondônia,Brazil,BRA,27
+Espírito Santo,Brazil,BRA,27
+Rio Grande do Norte,Brazil,BRA,27
+Roraima,Brazil,BRA,27
+Amapá,Brazil,BRA,27
+Rio de Janeiro,Brazil,BRA,27
+São Paulo,Brazil,BRA,27
+Pará,Brazil,BRA,27
+Distrito Federal,Brazil,BRA,27
+Pernambuco,Brazil,BRA,27
+Maranhão,Brazil,BRA,27
+Amazonas,Brazil,BRA,27
+Ceará,Brazil,BRA,27
+Sergipe,Brazil,BRA,27
+Yukon,Canada,CAN,32
+Manitoba,Canada,CAN,32
+Northwest Territories,Canada,CAN,32
+Saskatchewan,Canada,CAN,32
+New Brunswick,Canada,CAN,32
+Quebec,Canada,CAN,32
+Alberta,Canada,CAN,32
+British Columbia,Canada,CAN,32
+Ontario,Canada,CAN,32
+Nova Scotia,Canada,CAN,32
+Prince Edward Island,Canada,CAN,32
+Newfoundland and Labrador,Canada,CAN,32
+Nunavut,Canada,CAN,32
+Martinique,France,FRA,63
+French Guiana,France,FRA,63
+Corse,France,FRA,63
+Pays de la Loire,France,FRA,63
+Guadeloupe,France,FRA,63
+Centre-Val de Loire,France,FRA,63
+La Réunion,France,FRA,63
+Occitanie,France,FRA,63
+Hauts-de-France,France,FRA,63
+Grand Est,France,FRA,63
+Nouvelle-Aquitaine,France,FRA,63
+Bourgogne-Franche-Comté,France,FRA,63
+Île-de-France,France,FRA,63
+Normandie,France,FRA,63
+Bretagne,France,FRA,63
+Paris,France,FRA,63
+Mayotte,France,FRA,63
+Orne,France,FRA,63
+Ardèche,France,FRA,63
+Jura,France,FRA,63
+Bouches-du-Rhône,France,FRA,63
+Eure-et-Loir,France,FRA,63
+Creuse,France,FRA,63
+Hérault,France,FRA,63
+Hautes-Pyrénées,France,FRA,63
+Aisne,France,FRA,63
+Yonne,France,FRA,63
+Haute-Corse,France,FRA,63
+Maine-et-Loire,France,FRA,63
+Vaucluse,France,FRA,63
+Territoire de Belfort,France,FRA,63
+Rhône,France,FRA,63
+Haut-Rhin,France,FRA,63
+Lozère,France,FRA,63
+Ardennes,France,FRA,63
+Corrèze,France,FRA,63
+Val-d'Oise,France,FRA,63
+Tarn-et-Garonne,France,FRA,63
+Pyrénées-Orientales,France,FRA,63
+Allier,France,FRA,63
+Drôme,France,FRA,63
+Saône-et-Loire,France,FRA,63
+Moselle,France,FRA,63
+Val-de-Marne,France,FRA,63
+Loire,France,FRA,63
+Meuse,France,FRA,63
+Aveyron,France,FRA,63
+Hautes-Alpes,France,FRA,63
+Alpes-Maritimes,France,FRA,63
+Savoie,France,FRA,63
+Lot-et-Garonne,France,FRA,63
+Oise,France,FRA,63
+Doubs,France,FRA,63
+Bas-Rhin,France,FRA,63
+Gers,France,FRA,63
+Nord,France,FRA,63
+Var,France,FRA,63
+Lot,France,FRA,63
+Yvelines,France,FRA,63
+Ille-et-Vilaine,France,FRA,63
+Sarthe,France,FRA,63
+Paris,France,FRA,63
+Seine-Saint-Denis,France,FRA,63
+Aube,France,FRA,63
+Cantal,France,FRA,63
+Haute-Loire,France,FRA,63
+Loiret,France,FRA,63
+Charente,France,FRA,63
+Pyrénées-Atlantiques,France,FRA,63
+Morbihan,France,FRA,63
+Vienne,France,FRA,63
+Nièvre,France,FRA,63
+Gard,France,FRA,63
+Loire-Atlantique,France,FRA,63
+Haute-Vienne,France,FRA,63
+Hauts-de-Seine,France,FRA,63
+Haute-Savoie,France,FRA,63
+Isère,France,FRA,63
+Haute-Garonne,France,FRA,63
+Essonne,France,FRA,63
+Marne,France,FRA,63
+Meurthe-et-Moselle,France,FRA,63
+Haute-Marne,France,FRA,63
+Seine-et-Marne,France,FRA,63
+Ariège,France,FRA,63
+Gironde,France,FRA,63
+Mayenne,France,FRA,63
+Corse-du-Sud,France,FRA,63
+Vendée,France,FRA,63
+Puy-de-Dôme,France,FRA,63
+Cher,France,FRA,63
+Loir-et-Cher,France,FRA,63
+Indre-et-Loire,France,FRA,63
+Tarn,France,FRA,63
+Charente-Maritime,France,FRA,63
+Seine-Maritime,France,FRA,63
+Calvados,France,FRA,63
+Landes,France,FRA,63
+Eure,France,FRA,63
+Indre,France,FRA,63
+Alpes-de-Haute-Provence,France,FRA,63
+Manche,France,FRA,63
+Vosges,France,FRA,63
+Aude,France,FRA,63
+Pas-de-Calais,France,FRA,63
+Côte-d'Or,France,FRA,63
+Finistère,France,FRA,63
+Ain,France,FRA,63
+Côtes-d'Armor,France,FRA,63
+Dordogne,France,FRA,63
+Haute-Saône,France,FRA,63
+Deux-Sèvres,France,FRA,63
+Saxony,Germany,DEU,49
+Bavaria,Germany,DEU,49
+Thuringia,Germany,DEU,49
+Saxony-Anhalt,Germany,DEU,49
+Brandenburg,Germany,DEU,49
+Baden-Württemberg,Germany,DEU,49
+Berlin,Germany,DEU,49
+Saarland,Germany,DEU,49
+Rhineland-Palatinate,Germany,DEU,49
+Hamburg,Germany,DEU,49
+Hesse,Germany,DEU,49
+Mecklenburg-Western Pomerania,Germany,DEU,49
+North Rhine-Westphalia,Germany,DEU,49
+Bremen,Germany,DEU,49
+Lower Saxony,Germany,DEU,49
+Schleswig-Holstein,Germany,DEU,49
+Mizoram,India,IND,87
+Kerala,India,IND,87
+Ladakh,India,IND,87
+Puducherry,India,IND,87
+Manipur,India,IND,87
+Goa,India,IND,87
+Himachal Pradesh,India,IND,87
+Jammu and Kashmir,India,IND,87
+Lakshadweep,India,IND,87
+Tamil Nadu,India,IND,87
+Sikkim,India,IND,87
+Meghalaya,India,IND,87
+West Bengal,India,IND,87
+Maharashtra,India,IND,87
+Odisha,India,IND,87
+Nagaland,India,IND,87
+Karnataka,India,IND,87
+Telangana,India,IND,87
+Andhra Pradesh,India,IND,87
+Arunachal Pradesh,India,IND,87
+Chandigarh,India,IND,87
+Delhi,India,IND,87
+Andaman and Nicobar Islands,India,IND,87
+Tripura,India,IND,87
+Uttarakhand,India,IND,87
+Chhattisgarh,India,IND,87
+Punjab,India,IND,87
+Gujarat,India,IND,87
+Haryana,India,IND,87
+Jharkhand,India,IND,87
+Rajasthan,India,IND,87
+Madhya Pradesh,India,IND,87
+Bihar,India,IND,87
+Uttar Pradesh,India,IND,87
+Dadra and Nagar Haveli and Daman and Diu,India,IND,87
+Friuli Venezia Giulia,Italy,ITA,93
+Trentino-Alto Adige,Italy,ITA,93
+Valle d'Aosta,Italy,ITA,93
+Veneto,Italy,ITA,93
+Marche,Italy,ITA,93
+Emilia-Romagna,Italy,ITA,93
+Lazio,Italy,ITA,93
+Liguria,Italy,ITA,93
+Campania,Italy,ITA,93
+Abruzzo,Italy,ITA,93
+Lombardy,Italy,ITA,93
+Piedmont,Italy,ITA,93
+Tuscany,Italy,ITA,93
+Sicily,Italy,ITA,93
+Umbria,Italy,ITA,93
+Calabria,Italy,ITA,93
+Molise,Italy,ITA,93
+Sardinia,Italy,ITA,93
+Puglia,Italy,ITA,93
+Basilicata,Italy,ITA,93
+Trieste,Italy,ITA,93
+Gorizia,Italy,ITA,93
+Bolzano,Italy,ITA,93
+Forlì-Cesena,Italy,ITA,93
+Padua,Italy,ITA,93
+Rimini,Italy,ITA,93
+Aosta,Italy,ITA,93
+Ravenna,Italy,ITA,93
+Treviso,Italy,ITA,93
+Venice,Italy,ITA,93
+Vicenza,Italy,ITA,93
+Pordenone,Italy,ITA,93
+Udine,Italy,ITA,93
+Imperia,Italy,ITA,93
+Ascoli Piceno,Italy,ITA,93
+Belluno,Italy,ITA,93
+Fermo,Italy,ITA,93
+Rovigo,Italy,ITA,93
+La Spezia,Italy,ITA,93
+Bologna,Italy,ITA,93
+Rome,Italy,ITA,93
+Grosseto,Italy,ITA,93
+Verona,Italy,ITA,93
+Teramo,Italy,ITA,93
+Trento,Italy,ITA,93
+Verbano-Cusio-Ossola,Italy,ITA,93
+Varese,Italy,ITA,93
+Viterbo,Italy,ITA,93
+Messina,Italy,ITA,93
+Ferrara,Italy,ITA,93
+Latina,Italy,ITA,93
+Genoa,Italy,ITA,93
+Cremona,Italy,ITA,93
+Pesaro and Urbino,Italy,ITA,93
+Siena,Italy,ITA,93
+Ancona,Italy,ITA,93
+Milan,Italy,ITA,93
+Monza and Brianza,Italy,ITA,93
+Savona,Italy,ITA,93
+Rieti,Italy,ITA,93
+Caserta,Italy,ITA,93
+Pescara,Italy,ITA,93
+Sondrio,Italy,ITA,93
+Como,Italy,ITA,93
+Reggio di Calabria,Italy,ITA,93
+Mantua,Italy,ITA,93
+Naples,Italy,ITA,93
+Brescia,Italy,ITA,93
+Pistoia,Italy,ITA,93
+Catania,Italy,ITA,93
+Asti,Italy,ITA,93
+Siracusa,Italy,ITA,93
+Modena,Italy,ITA,93
+Piacenza,Italy,ITA,93
+L'Aquila,Italy,ITA,93
+Frosinone,Italy,ITA,93
+Salerno,Italy,ITA,93
+Macerata,Italy,ITA,93
+Benevento,Italy,ITA,93
+Vibo Valentia,Italy,ITA,93
+Chieti,Italy,ITA,93
+Massa Carrara,Italy,ITA,93
+Turin,Italy,ITA,93
+Lodi,Italy,ITA,93
+Cuneo,Italy,ITA,93
+Reggio nell'Emilia,Italy,ITA,93
+Livorno,Italy,ITA,93
+Novara,Italy,ITA,93
+Isernia,Italy,ITA,93
+Caltanissetta,Italy,ITA,93
+Pavia,Italy,ITA,93
+Avellino,Italy,ITA,93
+Pisa,Italy,ITA,93
+Alessandria,Italy,ITA,93
+Perugia,Italy,ITA,93
+Nuoro,Italy,ITA,93
+Lecco,Italy,ITA,93
+Trapani,Italy,ITA,93
+Prato,Italy,ITA,93
+Biella,Italy,ITA,93
+Vercelli,Italy,ITA,93
+Sassari,Italy,ITA,93
+Palermo,Italy,ITA,93
+Lucca,Italy,ITA,93
+Florence,Italy,ITA,93
+Bergamo,Italy,ITA,93
+Campobasso,Italy,ITA,93
+Matera,Italy,ITA,93
+Parma,Italy,ITA,93
+Taranto,Italy,ITA,93
+Agrigento,Italy,ITA,93
+Foggia,Italy,ITA,93
+Ragusa,Italy,ITA,93
+Enna,Italy,ITA,93
+Oristano,Italy,ITA,93
+Crotone,Italy,ITA,93
+Cosenza,Italy,ITA,93
+Arezzo,Italy,ITA,93
+Brindisi,Italy,ITA,93
+Terni,Italy,ITA,93
+South Sardinia,Italy,ITA,93
+Lecce,Italy,ITA,93
+Catanzaro,Italy,ITA,93
+Cagliari,Italy,ITA,93
+Bari,Italy,ITA,93
+Barletta-Andria-Trani,Italy,ITA,93
+Potenza,Italy,ITA,93
+Okayama,Japan,JPN,97
+Hokkaido,Japan,JPN,97
+Osaka,Japan,JPN,97
+Kanagawa,Japan,JPN,97
+Kyoto,Japan,JPN,97
+Gunma,Japan,JPN,97
+Fukuoka,Japan,JPN,97
+Saitama,Japan,JPN,97
+Tokyo,Japan,JPN,97
+Hyogo,Japan,JPN,97
+Tochigi,Japan,JPN,97
+Shiga,Japan,JPN,97
+Aichi,Japan,JPN,97
+Chiba,Japan,JPN,97
+Hiroshima,Japan,JPN,97
+Nara,Japan,JPN,97
+Okinawa,Japan,JPN,97
+Ibaraki,Japan,JPN,97
+Saga,Japan,JPN,97
+Gifu,Japan,JPN,97
+Shizuoka,Japan,JPN,97
+Yamagata,Japan,JPN,97
+Niigata,Japan,JPN,97
+Yamaguchi,Japan,JPN,97
+Wakayama,Japan,JPN,97
+Ishikawa,Japan,JPN,97
+Mie,Japan,JPN,97
+Tokushima,Japan,JPN,97
+Kumamoto,Japan,JPN,97
+Kagawa,Japan,JPN,97
+Iwate,Japan,JPN,97
+Ehime,Japan,JPN,97
+Fukushima,Japan,JPN,97
+Miyagi,Japan,JPN,97
+Akita,Japan,JPN,97
+Aomori,Japan,JPN,97
+Fukui,Japan,JPN,97
+Kagoshima,Japan,JPN,97
+Kochi,Japan,JPN,97
+Miyazaki,Japan,JPN,97
+Nagano,Japan,JPN,97
+Nagasaki,Japan,JPN,97
+Oita,Japan,JPN,97
+Shimane,Japan,JPN,97
+Tottori,Japan,JPN,97
+Toyama,Japan,JPN,97
+Yamanashi,Japan,JPN,97
+Baja California,Mexico,MEX,123
+Sonora,Mexico,MEX,123
+Baja California Sur,Mexico,MEX,123
+Coahuila,Mexico,MEX,123
+Mexico City,Mexico,MEX,123
+Guanajuato,Mexico,MEX,123
+Chihuahua,Mexico,MEX,123
+Aguascalientes,Mexico,MEX,123
+Querétaro,Mexico,MEX,123
+San Luis Potosí,Mexico,MEX,123
+Yucatán,Mexico,MEX,123
+Nuevo León,Mexico,MEX,123
+Tabasco,Mexico,MEX,123
+Durango,Mexico,MEX,123
+Morelos,Mexico,MEX,123
+Tamaulipas,Mexico,MEX,123
+Oaxaca,Mexico,MEX,123
+Sinaloa,Mexico,MEX,123
+Zacatecas,Mexico,MEX,123
+Nayarit,Mexico,MEX,123
+State of Mexico,Mexico,MEX,123
+Colima,Mexico,MEX,123
+Jalisco,Mexico,MEX,123
+Hidalgo,Mexico,MEX,123
+Quintana Roo,Mexico,MEX,123
+Veracruz,Mexico,MEX,123
+Campeche,Mexico,MEX,123
+Michoacán,Mexico,MEX,123
+Guerrero,Mexico,MEX,123
+Puebla,Mexico,MEX,123
+Tlaxcala,Mexico,MEX,123
+Chiapas,Mexico,MEX,123
+Navarra,Spain,ESP,57
+País Vasco,Spain,ESP,57
+Aragón,Spain,ESP,57
+Cataluña,Spain,ESP,57
+Baleares,Spain,ESP,57
+La Rioja,Spain,ESP,57
+Murcia,Spain,ESP,57
+Castilla y León,Spain,ESP,57
+C. Valenciana,Spain,ESP,57
+Canarias,Spain,ESP,57
+Madrid,Spain,ESP,57
+Cantabria,Spain,ESP,57
+Galicia,Spain,ESP,57
+Castilla La Mancha,Spain,ESP,57
+Andalucía,Spain,ESP,57
+Asturias,Spain,ESP,57
+Extremadura,Spain,ESP,57
+Ceuta,Spain,ESP,57
+Melilla,Spain,ESP,57
+Rutland,United-Kingdom,GBR,66
+Devon,United-Kingdom,GBR,66
+Telford and Wrekin,United-Kingdom,GBR,66
+Torbay,United-Kingdom,GBR,66
+Leicestershire,United-Kingdom,GBR,66
+West Sussex,United-Kingdom,GBR,66
+Wiltshire,United-Kingdom,GBR,66
+Shropshire,United-Kingdom,GBR,66
+"Bournemouth,Christchurch and Poole",United-Kingdom,GBR,66
+South Gloucestershire,United-Kingdom,GBR,66
+Central Bedfordshire,United-Kingdom,GBR,66
+Surrey,United-Kingdom,GBR,66
+Plymouth,United-Kingdom,GBR,66
+North Yorkshire,United-Kingdom,GBR,66
+Dorset,United-Kingdom,GBR,66
+West Berkshire,United-Kingdom,GBR,66
+Bedford,United-Kingdom,GBR,66
+Windsor and Maidenhead,United-Kingdom,GBR,66
+Gloucestershire,United-Kingdom,GBR,66
+Isle of Wight,United-Kingdom,GBR,66
+North Lincolnshire,United-Kingdom,GBR,66
+Buckinghamshire,United-Kingdom,GBR,66
+Hampshire,United-Kingdom,GBR,66
+Bath and North East Somerset,United-Kingdom,GBR,66
+Hertfordshire,United-Kingdom,GBR,66
+East Sussex,United-Kingdom,GBR,66
+Bracknell Forest,United-Kingdom,GBR,66
+Southampton,United-Kingdom,GBR,66
+North East Lincolnshire,United-Kingdom,GBR,66
+Staffordshire,United-Kingdom,GBR,66
+Darlington,United-Kingdom,GBR,66
+Milton Keynes,United-Kingdom,GBR,66
+Portsmouth,United-Kingdom,GBR,66
+Wokingham,United-Kingdom,GBR,66
+Cheshire West and Chester,United-Kingdom,GBR,66
+Oxfordshire,United-Kingdom,GBR,66
+East Riding of Yorkshire,United-Kingdom,GBR,66
+Thurrock,United-Kingdom,GBR,66
+Essex,United-Kingdom,GBR,66
+Herefordshire,United-Kingdom,GBR,66
+York,United-Kingdom,GBR,66
+Kent,United-Kingdom,GBR,66
+Northamptonshire,United-Kingdom,GBR,66
+Stoke-on-Trent,United-Kingdom,GBR,66
+Peterborough,United-Kingdom,GBR,66
+Brighton and Hove,United-Kingdom,GBR,66
+Lincolnshire,United-Kingdom,GBR,66
+Warwickshire,United-Kingdom,GBR,66
+Kingston upon Hull,United-Kingdom,GBR,66
+Somerset,United-Kingdom,GBR,66
+Medway,United-Kingdom,GBR,66
+Worcestershire,United-Kingdom,GBR,66
+Derbyshire,United-Kingdom,GBR,66
+Nottinghamshire,United-Kingdom,GBR,66
+Reading,United-Kingdom,GBR,66
+Luton,United-Kingdom,GBR,66
+Halton,United-Kingdom,GBR,66
+Cornwall and Isles of Scilly,United-Kingdom,GBR,66
+Stockton-on-Tees,United-Kingdom,GBR,66
+Cambridgeshire,United-Kingdom,GBR,66
+North Somerset,United-Kingdom,GBR,66
+Cheshire East,United-Kingdom,GBR,66
+Southend-on-Sea,United-Kingdom,GBR,66
+Bristol,United-Kingdom,GBR,66
+Lancashire,United-Kingdom,GBR,66
+Leicester,United-Kingdom,GBR,66
+Slough,United-Kingdom,GBR,66
+County Durham,United-Kingdom,GBR,66
+Northumberland,United-Kingdom,GBR,66
+Warrington,United-Kingdom,GBR,66
+Swindon,United-Kingdom,GBR,66
+Suffolk,United-Kingdom,GBR,66
+South Yorkshire,United-Kingdom,GBR,66
+Tyne and Wear,United-Kingdom,GBR,66
+Greater Manchester,United-Kingdom,GBR,66
+Merseyside,United-Kingdom,GBR,66
+Hartlepool,United-Kingdom,GBR,66
+Derby,United-Kingdom,GBR,66
+Redcar and Cleveland,United-Kingdom,GBR,66
+Blackpool,United-Kingdom,GBR,66
+Nottingham,United-Kingdom,GBR,66
+Norfolk,United-Kingdom,GBR,66
+Blackburn with Darwen,United-Kingdom,GBR,66
+Cumbria,United-Kingdom,GBR,66
+West Midlands,United-Kingdom,GBR,66
+Greater London,United-Kingdom,GBR,66
+West Yorkshire,United-Kingdom,GBR,66
+Middlesbrough,United-Kingdom,GBR,66

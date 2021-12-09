@@ -1,0 +1,2671 @@
+Country,ISO,State,City,Label
+USA,USA,Alabama,Franklin,210
+USA,USA,Alabama,Wilcox,210
+USA,USA,Alabama,Lawrence,210
+USA,USA,Alabama,Fayette,210
+USA,USA,Alabama,Lamar,210
+USA,USA,Alabama,Blount,210
+USA,USA,Alabama,Crenshaw,210
+USA,USA,Alabama,Butler,210
+USA,USA,Alabama,Covington,210
+USA,USA,Alabama,Pike,210
+USA,USA,Alabama,Walker,210
+USA,USA,Alabama,Autauga,210
+USA,USA,Alabama,Chilton,210
+USA,USA,Alabama,Coosa,210
+USA,USA,Alabama,Barbour,210
+USA,USA,Alabama,Tallapoosa,210
+USA,USA,Alabama,Elmore,210
+USA,USA,Alabama,DeKalb,210
+USA,USA,Alabama,Sumter,210
+USA,USA,Alabama,Talladega,210
+USA,USA,Alabama,Cherokee,210
+USA,USA,Alabama,Colbert,210
+USA,USA,Alabama,Morgan,210
+USA,USA,Alabama,Hale,210
+USA,USA,Alabama,Henry,210
+USA,USA,Alabama,Clay,210
+USA,USA,Alabama,Cullman,210
+USA,USA,Alabama,Cleburne,210
+USA,USA,Alabama,Calhoun,210
+USA,USA,Alabama,Lauderdale,210
+USA,USA,Alabama,Marion,210
+USA,USA,Alabama,Winston,210
+USA,USA,Alabama,Tuscaloosa,210
+USA,USA,Alabama,St. Clair,210
+USA,USA,Alabama,Bullock,210
+USA,USA,Alabama,Limestone,210
+USA,USA,Alabama,Jackson,210
+USA,USA,Alabama,Greene,210
+USA,USA,Alabama,Geneva,210
+USA,USA,Alabama,Conecuh,210
+USA,USA,Alabama,Coffee,210
+USA,USA,Alabama,Russell,210
+USA,USA,Alabama,Escambia,210
+USA,USA,Alabama,Shelby,210
+USA,USA,Alabama,Macon,210
+USA,USA,Alabama,Clarke,210
+USA,USA,Alabama,Mobile,210
+USA,USA,Alabama,Choctaw,210
+USA,USA,Alabama,Bibb,210
+USA,USA,Alabama,Pickens,210
+USA,USA,Alabama,Monroe,210
+USA,USA,Alabama,Randolph,210
+USA,USA,Alabama,Baldwin,210
+USA,USA,Alabama,Washington,210
+USA,USA,Alabama,Dale,210
+USA,USA,Alabama,Madison,210
+USA,USA,Alabama,Lee,210
+USA,USA,Alabama,Dallas,210
+USA,USA,Alabama,Marshall,210
+USA,USA,Alabama,Chambers,210
+USA,USA,Alabama,Perry,210
+USA,USA,Alabama,Houston,210
+USA,USA,Alabama,Montgomery,210
+USA,USA,Alabama,Lowndes,210
+USA,USA,Alabama,Marengo,210
+USA,USA,Alabama,Jefferson,210
+USA,USA,Alabama,Etowah,210
+USA,USA,Alaska,Petersburg Borough,210
+USA,USA,Alaska,Northwest Arctic Borough,210
+USA,USA,Alaska,Nome Census Area,210
+USA,USA,Alaska,Bethel Census Area,210
+USA,USA,Alaska,Ketchikan Gateway Borough,210
+USA,USA,Alaska,Wrangell City and Borough,210
+USA,USA,Alaska,North Slope Borough,210
+USA,USA,Alaska,Valdez-Cordova Census Area,210
+USA,USA,Alaska,Matanuska-Susitna Borough,210
+USA,USA,Alaska,Prince of Wales-Hyder Census Area,210
+USA,USA,Alaska,Kusilvak Census Area,210
+USA,USA,Alaska,Dillingham Census Area,210
+USA,USA,Alaska,Fairbanks North Star Borough,210
+USA,USA,Alaska,"Bristol Bay, Lake and Peninsula Boroughs",210
+USA,USA,Alaska,Anchorage Municipality,210
+USA,USA,Alaska,Kenai Peninsula Borough,210
+USA,USA,Alaska,Southeast Fairbanks Census Area,210
+USA,USA,Alaska,Juneau City and Borough,210
+USA,USA,Alaska,Denali Borough,210
+USA,USA,Alaska,Yukon-Koyukuk Census Area,210
+USA,USA,Alaska,"Yakutat City and Borough, Hoonah-Angoon Census Area",210
+USA,USA,Alaska,Sitka City and Borough,210
+USA,USA,Alaska,Aleutians West Census Area,210
+USA,USA,Alaska,Kodiak Island Borough,210
+USA,USA,Alaska,Aleutians East Borough,210
+USA,USA,Alaska,Haines Borough,210
+USA,USA,Alaska,Skagway Municipality,210
+USA,USA,Arizona,Gila,210
+USA,USA,Arizona,Navajo,210
+USA,USA,Arizona,Graham,210
+USA,USA,Arizona,Yavapai,210
+USA,USA,Arizona,Santa Cruz,210
+USA,USA,Arizona,Greenlee,210
+USA,USA,Arizona,Pinal,210
+USA,USA,Arizona,Cochise,210
+USA,USA,Arizona,Pima,210
+USA,USA,Arizona,Apache,210
+USA,USA,Arizona,Maricopa,210
+USA,USA,Arizona,Coconino,210
+USA,USA,Arizona,Mohave,210
+USA,USA,Arizona,La Paz,210
+USA,USA,Arizona,Yuma,210
+USA,USA,Arkansas,Fulton,210
+USA,USA,Arkansas,Izard,210
+USA,USA,Arkansas,Stone,210
+USA,USA,Arkansas,Sharp,210
+USA,USA,Arkansas,Madison,210
+USA,USA,Arkansas,Independence,210
+USA,USA,Arkansas,Jackson,210
+USA,USA,Arkansas,Searcy,210
+USA,USA,Arkansas,Newton,210
+USA,USA,Arkansas,Perry,210
+USA,USA,Arkansas,Lawrence,210
+USA,USA,Arkansas,Clay,210
+USA,USA,Arkansas,Marion,210
+USA,USA,Arkansas,Poinsett,210
+USA,USA,Arkansas,Sevier,210
+USA,USA,Arkansas,Baxter,210
+USA,USA,Arkansas,Conway,210
+USA,USA,Arkansas,White,210
+USA,USA,Arkansas,Faulkner,210
+USA,USA,Arkansas,Mississippi,210
+USA,USA,Arkansas,Boone,210
+USA,USA,Arkansas,Cleburne,210
+USA,USA,Arkansas,Randolph,210
+USA,USA,Arkansas,Pope,210
+USA,USA,Arkansas,Yell,210
+USA,USA,Arkansas,Montgomery,210
+USA,USA,Arkansas,Craighead,210
+USA,USA,Arkansas,Benton,210
+USA,USA,Arkansas,Lonoke,210
+USA,USA,Arkansas,Sebastian,210
+USA,USA,Arkansas,Franklin,210
+USA,USA,Arkansas,Woodruff,210
+USA,USA,Arkansas,Greene,210
+USA,USA,Arkansas,Howard,210
+USA,USA,Arkansas,Union,210
+USA,USA,Arkansas,Washington,210
+USA,USA,Arkansas,Clark,210
+USA,USA,Arkansas,Van Buren,210
+USA,USA,Arkansas,Crittenden,210
+USA,USA,Arkansas,Logan,210
+USA,USA,Arkansas,Desha,210
+USA,USA,Arkansas,Pulaski,210
+USA,USA,Arkansas,Monroe,210
+USA,USA,Arkansas,Saline,210
+USA,USA,Arkansas,Lincoln,210
+USA,USA,Arkansas,Crawford,210
+USA,USA,Arkansas,Carroll,210
+USA,USA,Arkansas,Little River,210
+USA,USA,Arkansas,Bradley,210
+USA,USA,Arkansas,Hot Spring,210
+USA,USA,Arkansas,Scott,210
+USA,USA,Arkansas,Nevada,210
+USA,USA,Arkansas,Hempstead,210
+USA,USA,Arkansas,Lee,210
+USA,USA,Arkansas,Cleveland,210
+USA,USA,Arkansas,Calhoun,210
+USA,USA,Arkansas,Pike,210
+USA,USA,Arkansas,Grant,210
+USA,USA,Arkansas,Miller,210
+USA,USA,Arkansas,Ouachita,210
+USA,USA,Arkansas,Jefferson,210
+USA,USA,Arkansas,Johnson,210
+USA,USA,Arkansas,Cross,210
+USA,USA,Arkansas,Drew,210
+USA,USA,Arkansas,St. Francis,210
+USA,USA,Arkansas,Columbia,210
+USA,USA,Arkansas,Lafayette,210
+USA,USA,Arkansas,Garland,210
+USA,USA,Arkansas,Arkansas,210
+USA,USA,Arkansas,Ashley,210
+USA,USA,Arkansas,Chicot,210
+USA,USA,Arkansas,Dallas,210
+USA,USA,Arkansas,Polk,210
+USA,USA,Arkansas,Phillips,210
+USA,USA,Arkansas,Prairie,210
+USA,USA,California,Modoc,210
+USA,USA,California,Mono,210
+USA,USA,California,Inyo,210
+USA,USA,California,Imperial,210
+USA,USA,California,Trinity,210
+USA,USA,California,Mariposa,210
+USA,USA,California,Mendocino,210
+USA,USA,California,Kings,210
+USA,USA,California,Shasta,210
+USA,USA,California,Kern,210
+USA,USA,California,Madera,210
+USA,USA,California,Colusa,210
+USA,USA,California,Plumas,210
+USA,USA,California,Tuolumne,210
+USA,USA,California,Lassen,210
+USA,USA,California,Tulare,210
+USA,USA,California,Nevada,210
+USA,USA,California,Stanislaus,210
+USA,USA,California,Merced,210
+USA,USA,California,Del Norte,210
+USA,USA,California,Yuba,210
+USA,USA,California,Fresno,210
+USA,USA,California,Sierra,210
+USA,USA,California,Humboldt,210
+USA,USA,California,San Bernardino,210
+USA,USA,California,Calaveras,210
+USA,USA,California,Siskiyou,210
+USA,USA,California,Tehama,210
+USA,USA,California,San Luis Obispo,210
+USA,USA,California,Riverside,210
+USA,USA,California,San Joaquin,210
+USA,USA,California,San Diego,210
+USA,USA,California,San Benito,210
+USA,USA,California,Placer,210
+USA,USA,California,Butte,210
+USA,USA,California,Amador,210
+USA,USA,California,Santa Cruz,210
+USA,USA,California,Lake,210
+USA,USA,California,Santa Barbara,210
+USA,USA,California,Alpine,210
+USA,USA,California,El Dorado,210
+USA,USA,California,Sacramento,210
+USA,USA,California,Los Angeles,210
+USA,USA,California,Sutter,210
+USA,USA,California,Yolo,210
+USA,USA,California,Monterey,210
+USA,USA,California,Napa,210
+USA,USA,California,Santa Clara,210
+USA,USA,California,Sonoma,210
+USA,USA,California,Solano,210
+USA,USA,California,Contra Costa,210
+USA,USA,California,Glenn,210
+USA,USA,California,Ventura,210
+USA,USA,California,Orange,210
+USA,USA,California,Marin,210
+USA,USA,California,Alameda,210
+USA,USA,California,San Mateo,210
+USA,USA,California,San Francisco,210
+USA,USA,Colorado,Cheyenne,210
+USA,USA,Colorado,Bent,210
+USA,USA,Colorado,Mineral,210
+USA,USA,Colorado,Otero,210
+USA,USA,Colorado,Alamosa,210
+USA,USA,Colorado,Montezuma,210
+USA,USA,Colorado,Huerfano,210
+USA,USA,Colorado,Archuleta,210
+USA,USA,Colorado,Baca,210
+USA,USA,Colorado,Fremont,210
+USA,USA,Colorado,Kit Carson,210
+USA,USA,Colorado,Mesa,210
+USA,USA,Colorado,Phillips,210
+USA,USA,Colorado,Sedgwick,210
+USA,USA,Colorado,Lake,210
+USA,USA,Colorado,Adams,210
+USA,USA,Colorado,Summit,210
+USA,USA,Colorado,Las Animas,210
+USA,USA,Colorado,Montrose,210
+USA,USA,Colorado,Rio Grande,210
+USA,USA,Colorado,Pueblo,210
+USA,USA,Colorado,Morgan,210
+USA,USA,Colorado,Kiowa,210
+USA,USA,Colorado,Teller,210
+USA,USA,Colorado,La Plata,210
+USA,USA,Colorado,Saguache,210
+USA,USA,Colorado,Jefferson,210
+USA,USA,Colorado,Logan,210
+USA,USA,Colorado,Douglas,210
+USA,USA,Colorado,Arapahoe,210
+USA,USA,Colorado,Chaffee,210
+USA,USA,Colorado,Weld,210
+USA,USA,Colorado,Denver,210
+USA,USA,Colorado,El Paso,210
+USA,USA,Colorado,Conejos,210
+USA,USA,Colorado,Prowers,210
+USA,USA,Colorado,Clear Creek,210
+USA,USA,Colorado,Delta,210
+USA,USA,Colorado,Moffat,210
+USA,USA,Colorado,Eagle,210
+USA,USA,Colorado,Lincoln,210
+USA,USA,Colorado,Gunnison,210
+USA,USA,Colorado,Park,210
+USA,USA,Colorado,San Miguel,210
+USA,USA,Colorado,Larimer,210
+USA,USA,Colorado,Jackson,210
+USA,USA,Colorado,San Juan,210
+USA,USA,Colorado,Washington,210
+USA,USA,Colorado,Crowley,210
+USA,USA,Colorado,Boulder,210
+USA,USA,Colorado,Routt,210
+USA,USA,Colorado,Broomfield,210
+USA,USA,Colorado,Hinsdale,210
+USA,USA,Colorado,Rio Blanco,210
+USA,USA,Colorado,Costilla,210
+USA,USA,Colorado,Garfield,210
+USA,USA,Colorado,Yuma,210
+USA,USA,Colorado,Pitkin,210
+USA,USA,Colorado,Ouray,210
+USA,USA,Colorado,Elbert,210
+USA,USA,Colorado,Grand,210
+USA,USA,Colorado,Gilpin,210
+USA,USA,Colorado,Dolores,210
+USA,USA,Colorado,Custer,210
+USA,USA,Connecticut,Windham,210
+USA,USA,Connecticut,New London,210
+USA,USA,Connecticut,Litchfield,210
+USA,USA,Connecticut,Middlesex,210
+USA,USA,Connecticut,New Haven,210
+USA,USA,Connecticut,Tolland,210
+USA,USA,Connecticut,Hartford,210
+USA,USA,Connecticut,Fairfield,210
+USA,USA,Delaware,Kent,210
+USA,USA,Delaware,New Castle,210
+USA,USA,Delaware,Sussex,210
+USA,USA,Florida,Madison,210
+USA,USA,Florida,Monroe,210
+USA,USA,Florida,Hillsborough,210
+USA,USA,Florida,Osceola,210
+USA,USA,Florida,Lake,210
+USA,USA,Florida,Miami-Dade,210
+USA,USA,Florida,Volusia,210
+USA,USA,Florida,Seminole,210
+USA,USA,Florida,St. Johns,210
+USA,USA,Florida,Jefferson,210
+USA,USA,Florida,Levy,210
+USA,USA,Florida,Polk,210
+USA,USA,Florida,Nassau,210
+USA,USA,Florida,Broward,210
+USA,USA,Florida,Alachua,210
+USA,USA,Florida,Palm Beach,210
+USA,USA,Florida,Charlotte,210
+USA,USA,Florida,Suwannee,210
+USA,USA,Florida,Walton,210
+USA,USA,Florida,Flagler,210
+USA,USA,Florida,Collier,210
+USA,USA,Florida,Sarasota,210
+USA,USA,Florida,Union,210
+USA,USA,Florida,Bradford,210
+USA,USA,Florida,Pasco,210
+USA,USA,Florida,Sumter,210
+USA,USA,Florida,Brevard,210
+USA,USA,Florida,Manatee,210
+USA,USA,Florida,DeSoto,210
+USA,USA,Florida,Okaloosa,210
+USA,USA,Florida,Hendry,210
+USA,USA,Florida,Holmes,210
+USA,USA,Florida,Okeechobee,210
+USA,USA,Florida,Martin,210
+USA,USA,Florida,Marion,210
+USA,USA,Florida,Santa Rosa,210
+USA,USA,Florida,Lee,210
+USA,USA,Florida,Pinellas,210
+USA,USA,Florida,Hardee,210
+USA,USA,Florida,Leon,210
+USA,USA,Florida,Putnam,210
+USA,USA,Florida,Wakulla,210
+USA,USA,Florida,Citrus,210
+USA,USA,Florida,Columbia,210
+USA,USA,Florida,Highlands,210
+USA,USA,Florida,Escambia,210
+USA,USA,Florida,Jackson,210
+USA,USA,Florida,Orange,210
+USA,USA,Florida,Indian River,210
+USA,USA,Florida,Bay,210
+USA,USA,Florida,Duval,210
+USA,USA,Florida,Gadsden,210
+USA,USA,Florida,Baker,210
+USA,USA,Florida,Dixie,210
+USA,USA,Florida,Clay,210
+USA,USA,Florida,Calhoun,210
+USA,USA,Florida,Hernando,210
+USA,USA,Florida,St. Lucie,210
+USA,USA,Florida,Gilchrist,210
+USA,USA,Florida,Glades,210
+USA,USA,Florida,Lafayette,210
+USA,USA,Florida,Taylor,210
+USA,USA,Florida,Franklin,210
+USA,USA,Florida,Washington,210
+USA,USA,Florida,Gulf,210
+USA,USA,Florida,Hamilton,210
+USA,USA,Florida,Liberty,210
+USA,USA,Georgia,Elbert,210
+USA,USA,Georgia,Schley,210
+USA,USA,Georgia,White,210
+USA,USA,Georgia,Lumpkin,210
+USA,USA,Georgia,Bartow,210
+USA,USA,Georgia,Turner,210
+USA,USA,Georgia,Walker,210
+USA,USA,Georgia,Habersham,210
+USA,USA,Georgia,Oconee,210
+USA,USA,Georgia,Echols,210
+USA,USA,Georgia,Oglethorpe,210
+USA,USA,Georgia,Floyd,210
+USA,USA,Georgia,Pike,210
+USA,USA,Georgia,Crawford,210
+USA,USA,Georgia,Jasper,210
+USA,USA,Georgia,Chattahoochee,210
+USA,USA,Georgia,Taylor,210
+USA,USA,Georgia,Forsyth,210
+USA,USA,Georgia,Polk,210
+USA,USA,Georgia,Jackson,210
+USA,USA,Georgia,Dawson,210
+USA,USA,Georgia,Randolph,210
+USA,USA,Georgia,Thomas,210
+USA,USA,Georgia,Hall,210
+USA,USA,Georgia,Catoosa,210
+USA,USA,Georgia,Walton,210
+USA,USA,Georgia,Rabun,210
+USA,USA,Georgia,Evans,210
+USA,USA,Georgia,Cobb,210
+USA,USA,Georgia,Meriwether,210
+USA,USA,Georgia,Rockdale,210
+USA,USA,Georgia,Gwinnett,210
+USA,USA,Georgia,Paulding,210
+USA,USA,Georgia,Peach,210
+USA,USA,Georgia,Monroe,210
+USA,USA,Georgia,Spalding,210
+USA,USA,Georgia,Newton,210
+USA,USA,Georgia,Fannin,210
+USA,USA,Georgia,Pickens,210
+USA,USA,Georgia,Bacon,210
+USA,USA,Georgia,Stewart,210
+USA,USA,Georgia,Coweta,210
+USA,USA,Georgia,Putnam,210
+USA,USA,Georgia,Fayette,210
+USA,USA,Georgia,Barrow,210
+USA,USA,Georgia,Gordon,210
+USA,USA,Georgia,Twiggs,210
+USA,USA,Georgia,Lamar,210
+USA,USA,Georgia,Richmond,210
+USA,USA,Georgia,Warren,210
+USA,USA,Georgia,Chattooga,210
+USA,USA,Georgia,Murray,210
+USA,USA,Georgia,Henry,210
+USA,USA,Georgia,Wilkes,210
+USA,USA,Georgia,Franklin,210
+USA,USA,Georgia,Sumter,210
+USA,USA,Georgia,Gilmer,210
+USA,USA,Georgia,Fulton,210
+USA,USA,Georgia,Dade,210
+USA,USA,Georgia,Decatur,210
+USA,USA,Georgia,Banks,210
+USA,USA,Georgia,Lanier,210
+USA,USA,Georgia,Webster,210
+USA,USA,Georgia,Bibb,210
+USA,USA,Georgia,Emanuel,210
+USA,USA,Georgia,Baker,210
+USA,USA,Georgia,Douglas,210
+USA,USA,Georgia,Union,210
+USA,USA,Georgia,Brooks,210
+USA,USA,Georgia,Columbia,210
+USA,USA,Georgia,Carroll,210
+USA,USA,Georgia,DeKalb,210
+USA,USA,Georgia,Muscogee,210
+USA,USA,Georgia,Calhoun,210
+USA,USA,Georgia,Macon,210
+USA,USA,Georgia,Stephens,210
+USA,USA,Georgia,Miller,210
+USA,USA,Georgia,Upson,210
+USA,USA,Georgia,Hancock,210
+USA,USA,Georgia,Laurens,210
+USA,USA,Georgia,Cherokee,210
+USA,USA,Georgia,Terrell,210
+USA,USA,Georgia,Bleckley,210
+USA,USA,Georgia,Dodge,210
+USA,USA,Georgia,Lee,210
+USA,USA,Georgia,Clarke,210
+USA,USA,Georgia,Towns,210
+USA,USA,Georgia,Jones,210
+USA,USA,Georgia,Butts,210
+USA,USA,Georgia,Houston,210
+USA,USA,Georgia,Crisp,210
+USA,USA,Georgia,Clayton,210
+USA,USA,Georgia,Madison,210
+USA,USA,Georgia,Effingham,210
+USA,USA,Georgia,Lincoln,210
+USA,USA,Georgia,Haralson,210
+USA,USA,Georgia,Jenkins,210
+USA,USA,Georgia,Whitfield,210
+USA,USA,Georgia,Jefferson,210
+USA,USA,Georgia,Worth,210
+USA,USA,Georgia,Telfair,210
+USA,USA,Georgia,Screven,210
+USA,USA,Georgia,Greene,210
+USA,USA,Georgia,Chatham,210
+USA,USA,Georgia,Troup,210
+USA,USA,Georgia,Hart,210
+USA,USA,Georgia,Brantley,210
+USA,USA,Georgia,Morgan,210
+USA,USA,Georgia,Pierce,210
+USA,USA,Georgia,Bryan,210
+USA,USA,Georgia,Baldwin,210
+USA,USA,Georgia,Harris,210
+USA,USA,Georgia,Glynn,210
+USA,USA,Georgia,Tattnall,210
+USA,USA,Georgia,Talbot,210
+USA,USA,Georgia,Seminole,210
+USA,USA,Georgia,Coffee,210
+USA,USA,Georgia,Tift,210
+USA,USA,Georgia,Grady,210
+USA,USA,Georgia,Bulloch,210
+USA,USA,Georgia,Berrien,210
+USA,USA,Georgia,Clay,210
+USA,USA,Georgia,Pulaski,210
+USA,USA,Georgia,Wilcox,210
+USA,USA,Georgia,Heard,210
+USA,USA,Georgia,Appling,210
+USA,USA,Georgia,Atkinson,210
+USA,USA,Georgia,Marion,210
+USA,USA,Georgia,Johnson,210
+USA,USA,Georgia,Clinch,210
+USA,USA,Georgia,Washington,210
+USA,USA,Georgia,Ben Hill,210
+USA,USA,Georgia,Dooly,210
+USA,USA,Georgia,Lowndes,210
+USA,USA,Georgia,Wayne,210
+USA,USA,Georgia,McDuffie,210
+USA,USA,Georgia,Ware,210
+USA,USA,Georgia,Mitchell,210
+USA,USA,Georgia,Burke,210
+USA,USA,Georgia,Jeff Davis,210
+USA,USA,Georgia,Charlton,210
+USA,USA,Georgia,Toombs,210
+USA,USA,Georgia,Liberty,210
+USA,USA,Georgia,Colquitt,210
+USA,USA,Georgia,Camden,210
+USA,USA,Georgia,Cook,210
+USA,USA,Georgia,Dougherty,210
+USA,USA,Georgia,Wilkinson,210
+USA,USA,Georgia,Irwin,210
+USA,USA,Georgia,Treutlen,210
+USA,USA,Georgia,Montgomery,210
+USA,USA,Georgia,Long,210
+USA,USA,Georgia,Candler,210
+USA,USA,Georgia,Wheeler,210
+USA,USA,Georgia,McIntosh,210
+USA,USA,Georgia,Early,210
+USA,USA,Georgia,Glascock,210
+USA,USA,Georgia,Quitman,210
+USA,USA,Georgia,Taliaferro,210
+USA,USA,Hawaii,Kauai,210
+USA,USA,Hawaii,Hawaii,210
+USA,USA,Hawaii,Maui,210
+USA,USA,Hawaii,Honolulu,210
+USA,USA,Hawaii,Kalawao,210
+USA,USA,Idaho,Benewah,210
+USA,USA,Idaho,Lincoln,210
+USA,USA,Idaho,Bonner,210
+USA,USA,Idaho,Lewis,210
+USA,USA,Idaho,Boundary,210
+USA,USA,Idaho,Clark,210
+USA,USA,Idaho,Lemhi,210
+USA,USA,Idaho,Shoshone,210
+USA,USA,Idaho,Adams,210
+USA,USA,Idaho,Bonneville,210
+USA,USA,Idaho,Oneida,210
+USA,USA,Idaho,Butte,210
+USA,USA,Idaho,Kootenai,210
+USA,USA,Idaho,Franklin,210
+USA,USA,Idaho,Custer,210
+USA,USA,Idaho,Jefferson,210
+USA,USA,Idaho,Madison,210
+USA,USA,Idaho,Elmore,210
+USA,USA,Idaho,Valley,210
+USA,USA,Idaho,Idaho,210
+USA,USA,Idaho,Fremont,210
+USA,USA,Idaho,Teton,210
+USA,USA,Idaho,Bannock,210
+USA,USA,Idaho,Ada,210
+USA,USA,Idaho,Blaine,210
+USA,USA,Idaho,Power,210
+USA,USA,Idaho,Gem,210
+USA,USA,Idaho,Bingham,210
+USA,USA,Idaho,Caribou,210
+USA,USA,Idaho,Jerome,210
+USA,USA,Idaho,Canyon,210
+USA,USA,Idaho,Owyhee,210
+USA,USA,Idaho,Clearwater,210
+USA,USA,Idaho,Twin Falls,210
+USA,USA,Idaho,Nez Perce,210
+USA,USA,Idaho,Gooding,210
+USA,USA,Idaho,Boise,210
+USA,USA,Idaho,Payette,210
+USA,USA,Idaho,Camas,210
+USA,USA,Idaho,Washington,210
+USA,USA,Idaho,Latah,210
+USA,USA,Idaho,Minidoka,210
+USA,USA,Idaho,Cassia,210
+USA,USA,Idaho,Bear Lake,210
+USA,USA,Indiana,DeKalb,210
+USA,USA,Indiana,Huntington,210
+USA,USA,Indiana,Steuben,210
+USA,USA,Indiana,Fountain,210
+USA,USA,Indiana,Grant,210
+USA,USA,Indiana,Wabash,210
+USA,USA,Indiana,Union,210
+USA,USA,Indiana,Noble,210
+USA,USA,Indiana,Howard,210
+USA,USA,Indiana,Whitley,210
+USA,USA,Indiana,Allen,210
+USA,USA,Indiana,Kosciusko,210
+USA,USA,Indiana,Rush,210
+USA,USA,Indiana,Blackford,210
+USA,USA,Indiana,Jennings,210
+USA,USA,Indiana,Elkhart,210
+USA,USA,Indiana,Wells,210
+USA,USA,Indiana,Jefferson,210
+USA,USA,Indiana,Marshall,210
+USA,USA,Indiana,Fulton,210
+USA,USA,Indiana,Jasper,210
+USA,USA,Indiana,Scott,210
+USA,USA,Indiana,White,210
+USA,USA,Indiana,Shelby,210
+USA,USA,Indiana,Warren,210
+USA,USA,Indiana,Henry,210
+USA,USA,Indiana,Montgomery,210
+USA,USA,Indiana,Ripley,210
+USA,USA,Indiana,St. Joseph,210
+USA,USA,Indiana,Pike,210
+USA,USA,Indiana,Decatur,210
+USA,USA,Indiana,Pulaski,210
+USA,USA,Indiana,Madison,210
+USA,USA,Indiana,Hancock,210
+USA,USA,Indiana,Orange,210
+USA,USA,Indiana,LaGrange,210
+USA,USA,Indiana,LaPorte,210
+USA,USA,Indiana,Newton,210
+USA,USA,Indiana,Dearborn,210
+USA,USA,Indiana,Miami,210
+USA,USA,Indiana,Johnson,210
+USA,USA,Indiana,Jay,210
+USA,USA,Indiana,Hendricks,210
+USA,USA,Indiana,Tipton,210
+USA,USA,Indiana,Perry,210
+USA,USA,Indiana,Morgan,210
+USA,USA,Indiana,Randolph,210
+USA,USA,Indiana,Benton,210
+USA,USA,Indiana,Porter,210
+USA,USA,Indiana,Fayette,210
+USA,USA,Indiana,Carroll,210
+USA,USA,Indiana,Adams,210
+USA,USA,Indiana,Delaware,210
+USA,USA,Indiana,Putnam,210
+USA,USA,Indiana,Clay,210
+USA,USA,Indiana,Owen,210
+USA,USA,Indiana,Tippecanoe,210
+USA,USA,Indiana,Bartholomew,210
+USA,USA,Indiana,Vigo,210
+USA,USA,Indiana,Brown,210
+USA,USA,Indiana,Cass,210
+USA,USA,Indiana,Switzerland,210
+USA,USA,Indiana,Washington,210
+USA,USA,Indiana,Greene,210
+USA,USA,Indiana,Vermillion,210
+USA,USA,Indiana,Hamilton,210
+USA,USA,Indiana,Warrick,210
+USA,USA,Indiana,Knox,210
+USA,USA,Indiana,Clinton,210
+USA,USA,Indiana,Wayne,210
+USA,USA,Indiana,Dubois,210
+USA,USA,Indiana,Franklin,210
+USA,USA,Indiana,Clark,210
+USA,USA,Indiana,Gibson,210
+USA,USA,Indiana,Daviess,210
+USA,USA,Indiana,Posey,210
+USA,USA,Indiana,Vanderburgh,210
+USA,USA,Indiana,Starke,210
+USA,USA,Indiana,Lake,210
+USA,USA,Indiana,Boone,210
+USA,USA,Indiana,Ohio,210
+USA,USA,Indiana,Jackson,210
+USA,USA,Indiana,Floyd,210
+USA,USA,Indiana,Lawrence,210
+USA,USA,Indiana,Spencer,210
+USA,USA,Indiana,Marion,210
+USA,USA,Indiana,Parke,210
+USA,USA,Indiana,Harrison,210
+USA,USA,Indiana,Monroe,210
+USA,USA,Indiana,Crawford,210
+USA,USA,Indiana,Martin,210
+USA,USA,Indiana,Sullivan,210
+USA,USA,Iowa,Jackson,210
+USA,USA,Iowa,Decatur,210
+USA,USA,Iowa,Ida,210
+USA,USA,Iowa,Dubuque,210
+USA,USA,Iowa,Winnebago,210
+USA,USA,Iowa,Union,210
+USA,USA,Iowa,Franklin,210
+USA,USA,Iowa,Delaware,210
+USA,USA,Iowa,Taylor,210
+USA,USA,Iowa,Howard,210
+USA,USA,Iowa,Hancock,210
+USA,USA,Iowa,Clarke,210
+USA,USA,Iowa,Adair,210
+USA,USA,Iowa,Pottawattamie,210
+USA,USA,Iowa,Jones,210
+USA,USA,Iowa,Worth,210
+USA,USA,Iowa,Benton,210
+USA,USA,Iowa,Cerro Gordo,210
+USA,USA,Iowa,Butler,210
+USA,USA,Iowa,Mitchell,210
+USA,USA,Iowa,Clayton,210
+USA,USA,Iowa,Jefferson,210
+USA,USA,Iowa,Sac,210
+USA,USA,Iowa,Warren,210
+USA,USA,Iowa,Cherokee,210
+USA,USA,Iowa,Chickasaw,210
+USA,USA,Iowa,Wayne,210
+USA,USA,Iowa,Bremer,210
+USA,USA,Iowa,Mahaska,210
+USA,USA,Iowa,Floyd,210
+USA,USA,Iowa,Dallas,210
+USA,USA,Iowa,Van Buren,210
+USA,USA,Iowa,Winneshiek,210
+USA,USA,Iowa,Audubon,210
+USA,USA,Iowa,Clinton,210
+USA,USA,Iowa,Greene,210
+USA,USA,Iowa,Boone,210
+USA,USA,Iowa,Johnson,210
+USA,USA,Iowa,Pocahontas,210
+USA,USA,Iowa,Appanoose,210
+USA,USA,Iowa,Buchanan,210
+USA,USA,Iowa,Sioux,210
+USA,USA,Iowa,Wapello,210
+USA,USA,Iowa,Lucas,210
+USA,USA,Iowa,Polk,210
+USA,USA,Iowa,Monona,210
+USA,USA,Iowa,Mills,210
+USA,USA,Iowa,Linn,210
+USA,USA,Iowa,Plymouth,210
+USA,USA,Iowa,Harrison,210
+USA,USA,Iowa,Jasper,210
+USA,USA,Iowa,Humboldt,210
+USA,USA,Iowa,Fayette,210
+USA,USA,Iowa,Iowa,210
+USA,USA,Iowa,Grundy,210
+USA,USA,Iowa,Madison,210
+USA,USA,Iowa,Marion,210
+USA,USA,Iowa,Guthrie,210
+USA,USA,Iowa,Kossuth,210
+USA,USA,Iowa,Calhoun,210
+USA,USA,Iowa,Page,210
+USA,USA,Iowa,Adams,210
+USA,USA,Iowa,Hamilton,210
+USA,USA,Iowa,Scott,210
+USA,USA,Iowa,Henry,210
+USA,USA,Iowa,Black Hawk,210
+USA,USA,Iowa,Cass,210
+USA,USA,Iowa,Wright,210
+USA,USA,Iowa,Shelby,210
+USA,USA,Iowa,Hardin,210
+USA,USA,Iowa,Allamakee,210
+USA,USA,Iowa,Story,210
+USA,USA,Iowa,O’Brien,210
+USA,USA,Iowa,Ringgold,210
+USA,USA,Iowa,Fremont,210
+USA,USA,Iowa,Washington,210
+USA,USA,Iowa,Emmet,210
+USA,USA,Iowa,Lyon,210
+USA,USA,Iowa,Woodbury,210
+USA,USA,Iowa,Poweshiek,210
+USA,USA,Iowa,Tama,210
+USA,USA,Iowa,Montgomery,210
+USA,USA,Iowa,Osceola,210
+USA,USA,Iowa,Lee,210
+USA,USA,Iowa,Muscatine,210
+USA,USA,Iowa,Marshall,210
+USA,USA,Iowa,Carroll,210
+USA,USA,Iowa,Palo Alto,210
+USA,USA,Iowa,Davis,210
+USA,USA,Iowa,Crawford,210
+USA,USA,Iowa,Webster,210
+USA,USA,Iowa,Des Moines,210
+USA,USA,Iowa,Louisa,210
+USA,USA,Iowa,Cedar,210
+USA,USA,Iowa,Dickinson,210
+USA,USA,Iowa,Keokuk,210
+USA,USA,Iowa,Clay,210
+USA,USA,Iowa,Buena Vista,210
+USA,USA,Iowa,Monroe,210
+USA,USA,Kansas,Gove,210
+USA,USA,Kansas,Wallace,210
+USA,USA,Kansas,Harper,210
+USA,USA,Kansas,Logan,210
+USA,USA,Kansas,Jewell,210
+USA,USA,Kansas,Smith,210
+USA,USA,Kansas,Decatur,210
+USA,USA,Kansas,Thomas,210
+USA,USA,Kansas,Barber,210
+USA,USA,Kansas,Lane,210
+USA,USA,Kansas,Rawlins,210
+USA,USA,Kansas,Greeley,210
+USA,USA,Kansas,Kearny,210
+USA,USA,Kansas,Sherman,210
+USA,USA,Kansas,Stafford,210
+USA,USA,Kansas,Rooks,210
+USA,USA,Kansas,Marshall,210
+USA,USA,Kansas,Neosho,210
+USA,USA,Kansas,Cloud,210
+USA,USA,Kansas,Grant,210
+USA,USA,Kansas,Ottawa,210
+USA,USA,Kansas,Russell,210
+USA,USA,Kansas,Sheridan,210
+USA,USA,Kansas,Doniphan,210
+USA,USA,Kansas,Ness,210
+USA,USA,Kansas,Reno,210
+USA,USA,Kansas,Norton,210
+USA,USA,Kansas,Allen,210
+USA,USA,Kansas,Finney,210
+USA,USA,Kansas,Coffey,210
+USA,USA,Kansas,Nemaha,210
+USA,USA,Kansas,Washington,210
+USA,USA,Kansas,Cowley,210
+USA,USA,Kansas,Elk,210
+USA,USA,Kansas,Greenwood,210
+USA,USA,Kansas,Osborne,210
+USA,USA,Kansas,Seward,210
+USA,USA,Kansas,Stevens,210
+USA,USA,Kansas,Jackson,210
+USA,USA,Kansas,Chase,210
+USA,USA,Kansas,Brown,210
+USA,USA,Kansas,Haskell,210
+USA,USA,Kansas,Scott,210
+USA,USA,Kansas,Labette,210
+USA,USA,Kansas,Rush,210
+USA,USA,Kansas,Morton,210
+USA,USA,Kansas,Woodson,210
+USA,USA,Kansas,Morris,210
+USA,USA,Kansas,Sumner,210
+USA,USA,Kansas,Marion,210
+USA,USA,Kansas,Edwards,210
+USA,USA,Kansas,Harvey,210
+USA,USA,Kansas,Comanche,210
+USA,USA,Kansas,Pottawatomie,210
+USA,USA,Kansas,Wilson,210
+USA,USA,Kansas,McPherson,210
+USA,USA,Kansas,Osage,210
+USA,USA,Kansas,Rice,210
+USA,USA,Kansas,Crawford,210
+USA,USA,Kansas,Lincoln,210
+USA,USA,Kansas,Hodgeman,210
+USA,USA,Kansas,Dickinson,210
+USA,USA,Kansas,Barton,210
+USA,USA,Kansas,Clay,210
+USA,USA,Kansas,Kingman,210
+USA,USA,Kansas,Republic,210
+USA,USA,Kansas,Lyon,210
+USA,USA,Kansas,Clark,210
+USA,USA,Kansas,Butler,210
+USA,USA,Kansas,Atchison,210
+USA,USA,Kansas,Saline,210
+USA,USA,Kansas,Chautauqua,210
+USA,USA,Kansas,Bourbon,210
+USA,USA,Kansas,Wabaunsee,210
+USA,USA,Kansas,Pratt,210
+USA,USA,Kansas,Sedgwick,210
+USA,USA,Kansas,Miami,210
+USA,USA,Kansas,Shawnee,210
+USA,USA,Kansas,Cheyenne,210
+USA,USA,Kansas,Jefferson,210
+USA,USA,Kansas,Franklin,210
+USA,USA,Kansas,Pawnee,210
+USA,USA,Kansas,Stanton,210
+USA,USA,Kansas,Kiowa,210
+USA,USA,Kansas,Leavenworth,210
+USA,USA,Kansas,Phillips,210
+USA,USA,Kansas,Linn,210
+USA,USA,Kansas,Ellis,210
+USA,USA,Kansas,Gray,210
+USA,USA,Kansas,Ellsworth,210
+USA,USA,Kansas,Trego,210
+USA,USA,Kansas,Johnson,210
+USA,USA,Kansas,Montgomery,210
+USA,USA,Kansas,Cherokee,210
+USA,USA,Kansas,Wichita,210
+USA,USA,Kansas,Ford,210
+USA,USA,Kansas,Anderson,210
+USA,USA,Kansas,Wyandotte,210
+USA,USA,Kansas,Geary,210
+USA,USA,Kansas,Douglas,210
+USA,USA,Kansas,Riley,210
+USA,USA,Kansas,Graham,210
+USA,USA,Kansas,Hamilton,210
+USA,USA,Kansas,Meade,210
+USA,USA,Kansas,Mitchell,210
+USA,USA,Kentucky,Robertson,210
+USA,USA,Kentucky,Bracken,210
+USA,USA,Kentucky,Carroll,210
+USA,USA,Kentucky,Powell,210
+USA,USA,Kentucky,Bath,210
+USA,USA,Kentucky,Rowan,210
+USA,USA,Kentucky,Grant,210
+USA,USA,Kentucky,Magoffin,210
+USA,USA,Kentucky,Henry,210
+USA,USA,Kentucky,Fleming,210
+USA,USA,Kentucky,Bourbon,210
+USA,USA,Kentucky,Harlan,210
+USA,USA,Kentucky,Spencer,210
+USA,USA,Kentucky,Breckinridge,210
+USA,USA,Kentucky,Adair,210
+USA,USA,Kentucky,Hopkins,210
+USA,USA,Kentucky,McCreary,210
+USA,USA,Kentucky,Morgan,210
+USA,USA,Kentucky,Fulton,210
+USA,USA,Kentucky,Lawrence,210
+USA,USA,Kentucky,Simpson,210
+USA,USA,Kentucky,Marion,210
+USA,USA,Kentucky,Washington,210
+USA,USA,Kentucky,Cumberland,210
+USA,USA,Kentucky,Crittenden,210
+USA,USA,Kentucky,Monroe,210
+USA,USA,Kentucky,Lewis,210
+USA,USA,Kentucky,Nicholas,210
+USA,USA,Kentucky,Harrison,210
+USA,USA,Kentucky,Floyd,210
+USA,USA,Kentucky,Martin,210
+USA,USA,Kentucky,Carter,210
+USA,USA,Kentucky,Leslie,210
+USA,USA,Kentucky,Barren,210
+USA,USA,Kentucky,Daviess,210
+USA,USA,Kentucky,Kenton,210
+USA,USA,Kentucky,Madison,210
+USA,USA,Kentucky,Greenup,210
+USA,USA,Kentucky,Pulaski,210
+USA,USA,Kentucky,Grayson,210
+USA,USA,Kentucky,Trimble,210
+USA,USA,Kentucky,Trigg,210
+USA,USA,Kentucky,Clinton,210
+USA,USA,Kentucky,Boyd,210
+USA,USA,Kentucky,Boone,210
+USA,USA,Kentucky,Garrard,210
+USA,USA,Kentucky,Anderson,210
+USA,USA,Kentucky,Ohio,210
+USA,USA,Kentucky,Butler,210
+USA,USA,Kentucky,Estill,210
+USA,USA,Kentucky,Shelby,210
+USA,USA,Kentucky,Jackson,210
+USA,USA,Kentucky,Johnson,210
+USA,USA,Kentucky,Scott,210
+USA,USA,Kentucky,Campbell,210
+USA,USA,Kentucky,Whitley,210
+USA,USA,Kentucky,Jessamine,210
+USA,USA,Kentucky,Hancock,210
+USA,USA,Kentucky,Rockcastle,210
+USA,USA,Kentucky,Letcher,210
+USA,USA,Kentucky,Warren,210
+USA,USA,Kentucky,McLean,210
+USA,USA,Kentucky,Metcalfe,210
+USA,USA,Kentucky,Gallatin,210
+USA,USA,Kentucky,Mason,210
+USA,USA,Kentucky,Wayne,210
+USA,USA,Kentucky,Oldham,210
+USA,USA,Kentucky,Hardin,210
+USA,USA,Kentucky,Elliott,210
+USA,USA,Kentucky,Owen,210
+USA,USA,Kentucky,Franklin,210
+USA,USA,Kentucky,Larue,210
+USA,USA,Kentucky,Nelson,210
+USA,USA,Kentucky,Knox,210
+USA,USA,Kentucky,Carlisle,210
+USA,USA,Kentucky,Henderson,210
+USA,USA,Kentucky,Breathitt,210
+USA,USA,Kentucky,Hart,210
+USA,USA,Kentucky,Caldwell,210
+USA,USA,Kentucky,Clark,210
+USA,USA,Kentucky,Taylor,210
+USA,USA,Kentucky,Montgomery,210
+USA,USA,Kentucky,Bullitt,210
+USA,USA,Kentucky,Graves,210
+USA,USA,Kentucky,Allen,210
+USA,USA,Kentucky,Mercer,210
+USA,USA,Kentucky,Muhlenberg,210
+USA,USA,Kentucky,Christian,210
+USA,USA,Kentucky,Woodford,210
+USA,USA,Kentucky,Perry,210
+USA,USA,Kentucky,Jefferson,210
+USA,USA,Kentucky,Pendleton,210
+USA,USA,Kentucky,Russell,210
+USA,USA,Kentucky,Hickman,210
+USA,USA,Kentucky,Knott,210
+USA,USA,Kentucky,Pike,210
+USA,USA,Kentucky,Ballard,210
+USA,USA,Kentucky,McCracken,210
+USA,USA,Kentucky,Logan,210
+USA,USA,Kentucky,Lincoln,210
+USA,USA,Kentucky,Union,210
+USA,USA,Kentucky,Fayette,210
+USA,USA,Kentucky,Boyle,210
+USA,USA,Kentucky,Owsley,210
+USA,USA,Kentucky,Marshall,210
+USA,USA,Kentucky,Webster,210
+USA,USA,Kentucky,Livingston,210
+USA,USA,Kentucky,Casey,210
+USA,USA,Kentucky,Laurel,210
+USA,USA,Kentucky,Lyon,210
+USA,USA,Kentucky,Wolfe,210
+USA,USA,Kentucky,Todd,210
+USA,USA,Kentucky,Menifee,210
+USA,USA,Kentucky,Meade,210
+USA,USA,Kentucky,Clay,210
+USA,USA,Kentucky,Calloway,210
+USA,USA,Kentucky,Bell,210
+USA,USA,Kentucky,Edmonson,210
+USA,USA,Kentucky,Green,210
+USA,USA,Kentucky,Lee,210
+USA,USA,Louisiana,West Carroll,210
+USA,USA,Louisiana,Caldwell,210
+USA,USA,Louisiana,Washington,210
+USA,USA,Louisiana,Union,210
+USA,USA,Louisiana,Grant,210
+USA,USA,Louisiana,LaSalle,210
+USA,USA,Louisiana,Franklin,210
+USA,USA,Louisiana,Ouachita,210
+USA,USA,Louisiana,East Carroll,210
+USA,USA,Louisiana,St. Bernard,210
+USA,USA,Louisiana,Lincoln,210
+USA,USA,Louisiana,Morehouse,210
+USA,USA,Louisiana,Webster,210
+USA,USA,Louisiana,Vernon,210
+USA,USA,Louisiana,Assumption,210
+USA,USA,Louisiana,St. Landry,210
+USA,USA,Louisiana,Madison,210
+USA,USA,Louisiana,Richland,210
+USA,USA,Louisiana,Tensas,210
+USA,USA,Louisiana,West Baton Rouge,210
+USA,USA,Louisiana,Acadia,210
+USA,USA,Louisiana,Calcasieu,210
+USA,USA,Louisiana,Red River,210
+USA,USA,Louisiana,Vermilion,210
+USA,USA,Louisiana,Terrebonne,210
+USA,USA,Louisiana,Bossier,210
+USA,USA,Louisiana,Ascension,210
+USA,USA,Louisiana,Lafourche,210
+USA,USA,Louisiana,Winn,210
+USA,USA,Louisiana,Jackson,210
+USA,USA,Louisiana,Concordia,210
+USA,USA,Louisiana,Allen,210
+USA,USA,Louisiana,St. Tammany,210
+USA,USA,Louisiana,Lafayette,210
+USA,USA,Louisiana,Bienville,210
+USA,USA,Louisiana,Livingston,210
+USA,USA,Louisiana,Rapides,210
+USA,USA,Louisiana,Claiborne,210
+USA,USA,Louisiana,Caddo,210
+USA,USA,Louisiana,Avoyelles,210
+USA,USA,Louisiana,St. Martin,210
+USA,USA,Louisiana,Iberville,210
+USA,USA,Louisiana,Pointe Coupee,210
+USA,USA,Louisiana,Orleans,210
+USA,USA,Louisiana,Evangeline,210
+USA,USA,Louisiana,East Baton Rouge,210
+USA,USA,Louisiana,Tangipahoa,210
+USA,USA,Louisiana,Iberia,210
+USA,USA,Louisiana,Sabine,210
+USA,USA,Louisiana,De Soto,210
+USA,USA,Louisiana,Catahoula,210
+USA,USA,Louisiana,Jefferson Davis,210
+USA,USA,Louisiana,Beauregard,210
+USA,USA,Louisiana,Natchitoches,210
+USA,USA,Louisiana,Plaquemines,210
+USA,USA,Louisiana,Jefferson,210
+USA,USA,Louisiana,St. Mary,210
+USA,USA,Louisiana,St. Charles,210
+USA,USA,Louisiana,St. John the Baptist,210
+USA,USA,Louisiana,East Feliciana,210
+USA,USA,Louisiana,St. James,210
+USA,USA,Louisiana,Cameron,210
+USA,USA,Louisiana,St. Helena,210
+USA,USA,Louisiana,West Feliciana,210
+USA,USA,Maine,Piscataquis,210
+USA,USA,Maine,Aroostook,210
+USA,USA,Maine,Androscoggin,210
+USA,USA,Maine,Washington,210
+USA,USA,Maine,Oxford,210
+USA,USA,Maine,Somerset,210
+USA,USA,Maine,Kennebec,210
+USA,USA,Maine,Hancock,210
+USA,USA,Maine,Penobscot,210
+USA,USA,Maine,Franklin,210
+USA,USA,Maine,Sagadahoc,210
+USA,USA,Maine,Lincoln,210
+USA,USA,Maine,York,210
+USA,USA,Maine,Waldo,210
+USA,USA,Maine,Cumberland,210
+USA,USA,Maine,Knox,210
+USA,USA,Maryland,Garrett,210
+USA,USA,Maryland,Allegany,210
+USA,USA,Maryland,Washington,210
+USA,USA,Maryland,Dorchester,210
+USA,USA,Maryland,Talbot,210
+USA,USA,Maryland,Kent,210
+USA,USA,Maryland,Caroline,210
+USA,USA,Maryland,Cecil,210
+USA,USA,Maryland,Carroll,210
+USA,USA,Maryland,Frederick,210
+USA,USA,Maryland,Queen Anne’s,210
+USA,USA,Maryland,Harford,210
+USA,USA,Maryland,Wicomico,210
+USA,USA,Maryland,Baltimore,210
+USA,USA,Maryland,Anne Arundel,210
+USA,USA,Maryland,Baltimore County,210
+USA,USA,Maryland,Worcester,210
+USA,USA,Maryland,St. Mary’s,210
+USA,USA,Maryland,Howard,210
+USA,USA,Maryland,Charles,210
+USA,USA,Maryland,Montgomery,210
+USA,USA,Maryland,Prince George’s,210
+USA,USA,Maryland,Somerset,210
+USA,USA,Maryland,Calvert,210
+USA,USA,Massachusetts,Berkshire,210
+USA,USA,Massachusetts,Bristol,210
+USA,USA,Massachusetts,Essex,210
+USA,USA,Massachusetts,Plymouth,210
+USA,USA,Massachusetts,Worcester,210
+USA,USA,Massachusetts,Barnstable,210
+USA,USA,Massachusetts,Hampden,210
+USA,USA,Massachusetts,Franklin,210
+USA,USA,Massachusetts,Middlesex,210
+USA,USA,Massachusetts,Suffolk,210
+USA,USA,Massachusetts,Norfolk,210
+USA,USA,Massachusetts,Hampshire,210
+USA,USA,Massachusetts,Dukes,210
+USA,USA,Massachusetts,Nantucket,210
+USA,USA,Michigan,Keweenaw,210
+USA,USA,Michigan,Mason,210
+USA,USA,Michigan,Shiawassee,210
+USA,USA,Michigan,Houghton,210
+USA,USA,Michigan,Ionia,210
+USA,USA,Michigan,Jackson,210
+USA,USA,Michigan,Oceana,210
+USA,USA,Michigan,Ottawa,210
+USA,USA,Michigan,Barry,210
+USA,USA,Michigan,Crawford,210
+USA,USA,Michigan,Sanilac,210
+USA,USA,Michigan,Clinton,210
+USA,USA,Michigan,Alpena,210
+USA,USA,Michigan,Livingston,210
+USA,USA,Michigan,Montcalm,210
+USA,USA,Michigan,Branch,210
+USA,USA,Michigan,St. Clair,210
+USA,USA,Michigan,Benzie,210
+USA,USA,Michigan,Muskegon,210
+USA,USA,Michigan,Kent,210
+USA,USA,Michigan,Tuscola,210
+USA,USA,Michigan,Manistee,210
+USA,USA,Michigan,Lapeer,210
+USA,USA,Michigan,Allegan,210
+USA,USA,Michigan,Calhoun,210
+USA,USA,Michigan,Eaton,210
+USA,USA,Michigan,Newaygo,210
+USA,USA,Michigan,Hillsdale,210
+USA,USA,Michigan,Roscommon,210
+USA,USA,Michigan,Lenawee,210
+USA,USA,Michigan,Gogebic,210
+USA,USA,Michigan,St. Joseph,210
+USA,USA,Michigan,Iron,210
+USA,USA,Michigan,Wexford,210
+USA,USA,Michigan,Saginaw,210
+USA,USA,Michigan,Kalkaska,210
+USA,USA,Michigan,Van Buren,210
+USA,USA,Michigan,Dickinson,210
+USA,USA,Michigan,Leelanau,210
+USA,USA,Michigan,Genesee,210
+USA,USA,Michigan,Huron,210
+USA,USA,Michigan,Gratiot,210
+USA,USA,Michigan,Macomb,210
+USA,USA,Michigan,Charlevoix,210
+USA,USA,Michigan,Grand Traverse,210
+USA,USA,Michigan,Bay,210
+USA,USA,Michigan,Ogemaw,210
+USA,USA,Michigan,Otsego,210
+USA,USA,Michigan,Menominee,210
+USA,USA,Michigan,Mecosta,210
+USA,USA,Michigan,Lake,210
+USA,USA,Michigan,Clare,210
+USA,USA,Michigan,Kalamazoo,210
+USA,USA,Michigan,Oakland,210
+USA,USA,Michigan,Delta,210
+USA,USA,Michigan,Monroe,210
+USA,USA,Michigan,Midland,210
+USA,USA,Michigan,Wayne,210
+USA,USA,Michigan,Osceola,210
+USA,USA,Michigan,Berrien,210
+USA,USA,Michigan,Montmorency,210
+USA,USA,Michigan,Ingham,210
+USA,USA,Michigan,Cass,210
+USA,USA,Michigan,Luce,210
+USA,USA,Michigan,Antrim,210
+USA,USA,Michigan,Mackinac,210
+USA,USA,Michigan,Isabella,210
+USA,USA,Michigan,Iosco,210
+USA,USA,Michigan,Chippewa,210
+USA,USA,Michigan,Alger,210
+USA,USA,Michigan,Baraga,210
+USA,USA,Michigan,Washtenaw,210
+USA,USA,Michigan,Missaukee,210
+USA,USA,Michigan,Arenac,210
+USA,USA,Michigan,Oscoda,210
+USA,USA,Michigan,Alcona,210
+USA,USA,Michigan,Cheboygan,210
+USA,USA,Michigan,Gladwin,210
+USA,USA,Michigan,Emmet,210
+USA,USA,Michigan,Schoolcraft,210
+USA,USA,Michigan,Presque Isle,210
+USA,USA,Michigan,Marquette,210
+USA,USA,Michigan,Ontonagon,210
+USA,USA,Minnesota,Dodge,210
+USA,USA,Minnesota,Goodhue,210
+USA,USA,Minnesota,Mille Lacs,210
+USA,USA,Minnesota,Douglas,210
+USA,USA,Minnesota,Benton,210
+USA,USA,Minnesota,Stevens,210
+USA,USA,Minnesota,Kanabec,210
+USA,USA,Minnesota,Swift,210
+USA,USA,Minnesota,Pope,210
+USA,USA,Minnesota,Sherburne,210
+USA,USA,Minnesota,Yellow Medicine,210
+USA,USA,Minnesota,Pennington,210
+USA,USA,Minnesota,Wright,210
+USA,USA,Minnesota,Wadena,210
+USA,USA,Minnesota,Clearwater,210
+USA,USA,Minnesota,Scott,210
+USA,USA,Minnesota,Stearns,210
+USA,USA,Minnesota,Red Lake,210
+USA,USA,Minnesota,St. Louis,210
+USA,USA,Minnesota,Grant,210
+USA,USA,Minnesota,Koochiching,210
+USA,USA,Minnesota,Faribault,210
+USA,USA,Minnesota,Cottonwood,210
+USA,USA,Minnesota,Carver,210
+USA,USA,Minnesota,Roseau,210
+USA,USA,Minnesota,Isanti,210
+USA,USA,Minnesota,Anoka,210
+USA,USA,Minnesota,Hubbard,210
+USA,USA,Minnesota,McLeod,210
+USA,USA,Minnesota,Redwood,210
+USA,USA,Minnesota,Todd,210
+USA,USA,Minnesota,Sibley,210
+USA,USA,Minnesota,Morrison,210
+USA,USA,Minnesota,Olmsted,210
+USA,USA,Minnesota,Kittson,210
+USA,USA,Minnesota,Blue Earth,210
+USA,USA,Minnesota,Carlton,210
+USA,USA,Minnesota,Nicollet,210
+USA,USA,Minnesota,Wabasha,210
+USA,USA,Minnesota,Itasca,210
+USA,USA,Minnesota,Fillmore,210
+USA,USA,Minnesota,Steele,210
+USA,USA,Minnesota,Dakota,210
+USA,USA,Minnesota,Meeker,210
+USA,USA,Minnesota,Lyon,210
+USA,USA,Minnesota,Washington,210
+USA,USA,Minnesota,Beltrami,210
+USA,USA,Minnesota,Lac qui Parle,210
+USA,USA,Minnesota,Waseca,210
+USA,USA,Minnesota,Pine,210
+USA,USA,Minnesota,Le Sueur,210
+USA,USA,Minnesota,Becker,210
+USA,USA,Minnesota,Rice,210
+USA,USA,Minnesota,Clay,210
+USA,USA,Minnesota,Polk,210
+USA,USA,Minnesota,Kandiyohi,210
+USA,USA,Minnesota,Chisago,210
+USA,USA,Minnesota,Cass,210
+USA,USA,Minnesota,Freeborn,210
+USA,USA,Minnesota,Martin,210
+USA,USA,Minnesota,Otter Tail,210
+USA,USA,Minnesota,Houston,210
+USA,USA,Minnesota,Chippewa,210
+USA,USA,Minnesota,Aitkin,210
+USA,USA,Minnesota,Brown,210
+USA,USA,Minnesota,Crow Wing,210
+USA,USA,Minnesota,Lake of the Woods,210
+USA,USA,Minnesota,Mahnomen,210
+USA,USA,Minnesota,Wilkin,210
+USA,USA,Minnesota,Big Stone,210
+USA,USA,Minnesota,Hennepin,210
+USA,USA,Minnesota,Lake,210
+USA,USA,Minnesota,Ramsey,210
+USA,USA,Minnesota,Norman,210
+USA,USA,Minnesota,Winona,210
+USA,USA,Minnesota,Renville,210
+USA,USA,Minnesota,Marshall,210
+USA,USA,Minnesota,Mower,210
+USA,USA,Minnesota,Watonwan,210
+USA,USA,Minnesota,Lincoln,210
+USA,USA,Minnesota,Murray,210
+USA,USA,Minnesota,Rock,210
+USA,USA,Minnesota,Nobles,210
+USA,USA,Minnesota,Jackson,210
+USA,USA,Minnesota,Pipestone,210
+USA,USA,Minnesota,Traverse,210
+USA,USA,Minnesota,Cook,210
+USA,USA,Mississippi,Tishomingo,210
+USA,USA,Mississippi,Union,210
+USA,USA,Mississippi,Itawamba,210
+USA,USA,Mississippi,Chickasaw,210
+USA,USA,Mississippi,Adams,210
+USA,USA,Mississippi,Pontotoc,210
+USA,USA,Mississippi,Carroll,210
+USA,USA,Mississippi,Yalobusha,210
+USA,USA,Mississippi,Prentiss,210
+USA,USA,Mississippi,Lee,210
+USA,USA,Mississippi,Monroe,210
+USA,USA,Mississippi,Tippah,210
+USA,USA,Mississippi,Franklin,210
+USA,USA,Mississippi,Marshall,210
+USA,USA,Mississippi,DeSoto,210
+USA,USA,Mississippi,Benton,210
+USA,USA,Mississippi,Lafayette,210
+USA,USA,Mississippi,Tate,210
+USA,USA,Mississippi,Copiah,210
+USA,USA,Mississippi,Panola,210
+USA,USA,Mississippi,Calhoun,210
+USA,USA,Mississippi,Kemper,210
+USA,USA,Mississippi,Lowndes,210
+USA,USA,Mississippi,Lauderdale,210
+USA,USA,Mississippi,Alcorn,210
+USA,USA,Mississippi,Forrest,210
+USA,USA,Mississippi,Perry,210
+USA,USA,Mississippi,Tunica,210
+USA,USA,Mississippi,Jefferson,210
+USA,USA,Mississippi,Choctaw,210
+USA,USA,Mississippi,Lawrence,210
+USA,USA,Mississippi,Newton,210
+USA,USA,Mississippi,Covington,210
+USA,USA,Mississippi,Jones,210
+USA,USA,Mississippi,Harrison,210
+USA,USA,Mississippi,Neshoba,210
+USA,USA,Mississippi,Simpson,210
+USA,USA,Mississippi,Greene,210
+USA,USA,Mississippi,Bolivar,210
+USA,USA,Mississippi,Stone,210
+USA,USA,Mississippi,Sunflower,210
+USA,USA,Mississippi,Attala,210
+USA,USA,Mississippi,Lincoln,210
+USA,USA,Mississippi,Coahoma,210
+USA,USA,Mississippi,Tallahatchie,210
+USA,USA,Mississippi,Amite,210
+USA,USA,Mississippi,Jasper,210
+USA,USA,Mississippi,Webster,210
+USA,USA,Mississippi,Jefferson Davis,210
+USA,USA,Mississippi,Lamar,210
+USA,USA,Mississippi,Yazoo,210
+USA,USA,Mississippi,Grenada,210
+USA,USA,Mississippi,Warren,210
+USA,USA,Mississippi,Leflore,210
+USA,USA,Mississippi,Pearl River,210
+USA,USA,Mississippi,Montgomery,210
+USA,USA,Mississippi,Leake,210
+USA,USA,Mississippi,Scott,210
+USA,USA,Mississippi,Humphreys,210
+USA,USA,Mississippi,George,210
+USA,USA,Mississippi,Holmes,210
+USA,USA,Mississippi,Hancock,210
+USA,USA,Mississippi,Clarke,210
+USA,USA,Mississippi,Hinds,210
+USA,USA,Mississippi,Rankin,210
+USA,USA,Mississippi,Walthall,210
+USA,USA,Mississippi,Wilkinson,210
+USA,USA,Mississippi,Wayne,210
+USA,USA,Mississippi,Madison,210
+USA,USA,Mississippi,Quitman,210
+USA,USA,Mississippi,Pike,210
+USA,USA,Mississippi,Clay,210
+USA,USA,Mississippi,Jackson,210
+USA,USA,Mississippi,Marion,210
+USA,USA,Mississippi,Winston,210
+USA,USA,Mississippi,Oktibbeha,210
+USA,USA,Mississippi,Washington,210
+USA,USA,Mississippi,Smith,210
+USA,USA,Mississippi,Claiborne,210
+USA,USA,Mississippi,Sharkey,210
+USA,USA,Mississippi,Noxubee,210
+USA,USA,Mississippi,Issaquena,210
+USA,USA,Missouri,Knox,210
+USA,USA,Missouri,Atchison,210
+USA,USA,Missouri,Nodaway,210
+USA,USA,Missouri,Gentry,210
+USA,USA,Missouri,Worth,210
+USA,USA,Missouri,Chariton,210
+USA,USA,Missouri,Pike,210
+USA,USA,Missouri,Clark,210
+USA,USA,Missouri,Ralls,210
+USA,USA,Missouri,Holt,210
+USA,USA,Missouri,Shannon,210
+USA,USA,Missouri,Andrew,210
+USA,USA,Missouri,Dent,210
+USA,USA,Missouri,Cedar,210
+USA,USA,Missouri,Shelby,210
+USA,USA,Missouri,Scott,210
+USA,USA,Missouri,Audrain,210
+USA,USA,Missouri,Callaway,210
+USA,USA,Missouri,Phelps,210
+USA,USA,Missouri,Lewis,210
+USA,USA,Missouri,Oregon,210
+USA,USA,Missouri,Harrison,210
+USA,USA,Missouri,Gasconade,210
+USA,USA,Missouri,Dallas,210
+USA,USA,Missouri,Howell,210
+USA,USA,Missouri,Ray,210
+USA,USA,Missouri,Lincoln,210
+USA,USA,Missouri,Maries,210
+USA,USA,Missouri,Hickory,210
+USA,USA,Missouri,Franklin,210
+USA,USA,Missouri,Randolph,210
+USA,USA,Missouri,Clay,210
+USA,USA,Missouri,Henry,210
+USA,USA,Missouri,Platte,210
+USA,USA,Missouri,Putnam,210
+USA,USA,Missouri,Carroll,210
+USA,USA,Missouri,Bates,210
+USA,USA,Missouri,Jefferson,210
+USA,USA,Missouri,Mississippi,210
+USA,USA,Missouri,Marion,210
+USA,USA,Missouri,Stoddard,210
+USA,USA,Missouri,Johnson,210
+USA,USA,Missouri,Buchanan,210
+USA,USA,Missouri,Caldwell,210
+USA,USA,Missouri,Osage,210
+USA,USA,Missouri,Wayne,210
+USA,USA,Missouri,Lafayette,210
+USA,USA,Missouri,St. Charles,210
+USA,USA,Missouri,St. Francois,210
+USA,USA,Missouri,Cass,210
+USA,USA,Missouri,Saline,210
+USA,USA,Missouri,Madison,210
+USA,USA,Missouri,Pettis,210
+USA,USA,Missouri,Bollinger,210
+USA,USA,Missouri,Warren,210
+USA,USA,Missouri,Mercer,210
+USA,USA,Missouri,Daviess,210
+USA,USA,Missouri,Laclede,210
+USA,USA,Missouri,Clinton,210
+USA,USA,Missouri,Macon,210
+USA,USA,Missouri,Cole,210
+USA,USA,Missouri,Jackson,210
+USA,USA,Missouri,Douglas,210
+USA,USA,Missouri,Ripley,210
+USA,USA,Missouri,Vernon,210
+USA,USA,Missouri,DeKalb,210
+USA,USA,Missouri,Dunklin,210
+USA,USA,Missouri,Christian,210
+USA,USA,Missouri,Kansas City,210
+USA,USA,Missouri,Cape Girardeau,210
+USA,USA,Missouri,Howard,210
+USA,USA,Missouri,Wright,210
+USA,USA,Missouri,Boone,210
+USA,USA,Missouri,Adair,210
+USA,USA,Missouri,Texas,210
+USA,USA,Missouri,Benton,210
+USA,USA,Missouri,Ste. Genevieve,210
+USA,USA,Missouri,Barton,210
+USA,USA,Missouri,Perry,210
+USA,USA,Missouri,Polk,210
+USA,USA,Missouri,Jasper,210
+USA,USA,Missouri,Washington,210
+USA,USA,Missouri,Joplin,210
+USA,USA,Missouri,Monroe,210
+USA,USA,Missouri,Barry,210
+USA,USA,Missouri,Sullivan,210
+USA,USA,Missouri,St. Louis County,210
+USA,USA,Missouri,Ozark,210
+USA,USA,Missouri,Morgan,210
+USA,USA,Missouri,Webster,210
+USA,USA,Missouri,Cooper,210
+USA,USA,Missouri,Greene,210
+USA,USA,Missouri,Miller,210
+USA,USA,Missouri,Butler,210
+USA,USA,Missouri,Scotland,210
+USA,USA,Missouri,Stone,210
+USA,USA,Missouri,St. Louis,210
+USA,USA,Missouri,Newton,210
+USA,USA,Missouri,Grundy,210
+USA,USA,Missouri,New Madrid,210
+USA,USA,Missouri,Schuyler,210
+USA,USA,Missouri,Taney,210
+USA,USA,Missouri,Camden,210
+USA,USA,Missouri,Reynolds,210
+USA,USA,Missouri,Dade,210
+USA,USA,Missouri,Pemiscot,210
+USA,USA,Missouri,Moniteau,210
+USA,USA,Missouri,Pulaski,210
+USA,USA,Missouri,Livingston,210
+USA,USA,Missouri,Iron,210
+USA,USA,Missouri,Lawrence,210
+USA,USA,Missouri,McDonald,210
+USA,USA,Missouri,Crawford,210
+USA,USA,Missouri,Linn,210
+USA,USA,Missouri,St. Clair,210
+USA,USA,Missouri,Montgomery,210
+USA,USA,Missouri,Carter,210
+USA,USA,Montana,Big Horn,210
+USA,USA,Montana,McCone,210
+USA,USA,Montana,Blaine,210
+USA,USA,Montana,Musselshell,210
+USA,USA,Montana,Prairie,210
+USA,USA,Montana,Broadwater,210
+USA,USA,Montana,Richland,210
+USA,USA,Montana,Carbon,210
+USA,USA,Montana,Treasure,210
+USA,USA,Montana,Phillips,210
+USA,USA,Montana,Daniels,210
+USA,USA,Montana,Petroleum,210
+USA,USA,Montana,Dawson,210
+USA,USA,Montana,Roosevelt,210
+USA,USA,Montana,Golden Valley,210
+USA,USA,Montana,Fallon,210
+USA,USA,Montana,Jefferson,210
+USA,USA,Montana,Glacier,210
+USA,USA,Montana,Yellowstone,210
+USA,USA,Montana,Flathead,210
+USA,USA,Montana,Sanders,210
+USA,USA,Montana,Valley,210
+USA,USA,Montana,Gallatin,210
+USA,USA,Montana,Lake,210
+USA,USA,Montana,Silver Bow,210
+USA,USA,Montana,Custer,210
+USA,USA,Montana,Lincoln,210
+USA,USA,Montana,Beaverhead,210
+USA,USA,Montana,Lewis and Clark,210
+USA,USA,Montana,Park,210
+USA,USA,Montana,Sheridan,210
+USA,USA,Montana,Ravalli,210
+USA,USA,Montana,Fergus,210
+USA,USA,Montana,Chouteau,210
+USA,USA,Montana,Mineral,210
+USA,USA,Montana,Cascade,210
+USA,USA,Montana,Pondera,210
+USA,USA,Montana,Wibaux,210
+USA,USA,Montana,Rosebud,210
+USA,USA,Montana,Powell,210
+USA,USA,Montana,Meagher,210
+USA,USA,Montana,Missoula,210
+USA,USA,Montana,Madison,210
+USA,USA,Montana,Deer Lodge,210
+USA,USA,Montana,Hill,210
+USA,USA,Montana,Granite,210
+USA,USA,Montana,Judith Basin,210
+USA,USA,Montana,Liberty,210
+USA,USA,Montana,Teton,210
+USA,USA,Montana,Toole,210
+USA,USA,Montana,Stillwater,210
+USA,USA,Montana,Carter,210
+USA,USA,Montana,Garfield,210
+USA,USA,Montana,Powder River,210
+USA,USA,Montana,Sweet Grass,210
+USA,USA,Montana,Wheatland,210
+USA,USA,Nebraska,Morrill,210
+USA,USA,Nebraska,Banner,210
+USA,USA,Nebraska,Hitchcock,210
+USA,USA,Nebraska,Boyd,210
+USA,USA,Nebraska,Blaine,210
+USA,USA,Nebraska,Perkins,210
+USA,USA,Nebraska,Madison,210
+USA,USA,Nebraska,Sherman,210
+USA,USA,Nebraska,Custer,210
+USA,USA,Nebraska,Richardson,210
+USA,USA,Nebraska,Red Willow,210
+USA,USA,Nebraska,Garfield,210
+USA,USA,Nebraska,Cuming,210
+USA,USA,Nebraska,Knox,210
+USA,USA,Nebraska,Pierce,210
+USA,USA,Nebraska,Dodge,210
+USA,USA,Nebraska,Holt,210
+USA,USA,Nebraska,Loup,210
+USA,USA,Nebraska,Lincoln,210
+USA,USA,Nebraska,Adams,210
+USA,USA,Nebraska,Boone,210
+USA,USA,Nebraska,Hamilton,210
+USA,USA,Nebraska,Buffalo,210
+USA,USA,Nebraska,Furnas,210
+USA,USA,Nebraska,Phelps,210
+USA,USA,Nebraska,Clay,210
+USA,USA,Nebraska,Logan,210
+USA,USA,Nebraska,Dixon,210
+USA,USA,Nebraska,Nemaha,210
+USA,USA,Nebraska,Kimball,210
+USA,USA,Nebraska,Platte,210
+USA,USA,Nebraska,Sheridan,210
+USA,USA,Nebraska,Saunders,210
+USA,USA,Nebraska,Saline,210
+USA,USA,Nebraska,Keya Paha,210
+USA,USA,Nebraska,Colfax,210
+USA,USA,Nebraska,Keith,210
+USA,USA,Nebraska,York,210
+USA,USA,Nebraska,Chase,210
+USA,USA,Nebraska,Sarpy,210
+USA,USA,Nebraska,Nance,210
+USA,USA,Nebraska,Deuel,210
+USA,USA,Nebraska,Jefferson,210
+USA,USA,Nebraska,Hayes,210
+USA,USA,Nebraska,Scotts Bluff,210
+USA,USA,Nebraska,Howard,210
+USA,USA,Nebraska,Box Butte,210
+USA,USA,Nebraska,Brown,210
+USA,USA,Nebraska,Washington,210
+USA,USA,Nebraska,Gosper,210
+USA,USA,Nebraska,Otoe,210
+USA,USA,Nebraska,Lancaster,210
+USA,USA,Nebraska,Cass,210
+USA,USA,Nebraska,Merrick,210
+USA,USA,Nebraska,Dundy,210
+USA,USA,Nebraska,Nuckolls,210
+USA,USA,Nebraska,Webster,210
+USA,USA,Nebraska,Thayer,210
+USA,USA,Nebraska,Cedar,210
+USA,USA,Nebraska,Garden,210
+USA,USA,Nebraska,Douglas,210
+USA,USA,Nebraska,Hall,210
+USA,USA,Nebraska,Valley,210
+USA,USA,Nebraska,Greeley,210
+USA,USA,Nebraska,Burt,210
+USA,USA,Nebraska,Dawson,210
+USA,USA,Nebraska,Antelope,210
+USA,USA,Nebraska,Kearney,210
+USA,USA,Nebraska,Thurston,210
+USA,USA,Nebraska,Frontier,210
+USA,USA,Nebraska,Dawes,210
+USA,USA,Nebraska,Dakota,210
+USA,USA,Nebraska,Wayne,210
+USA,USA,Nebraska,McPherson,210
+USA,USA,Nebraska,Fillmore,210
+USA,USA,Nebraska,Butler,210
+USA,USA,Nebraska,Cheyenne,210
+USA,USA,Nebraska,Harlan,210
+USA,USA,Nebraska,Gage,210
+USA,USA,Nebraska,Polk,210
+USA,USA,Nebraska,Franklin,210
+USA,USA,Nebraska,Johnson,210
+USA,USA,Nebraska,Hooker,210
+USA,USA,Nebraska,Thomas,210
+USA,USA,Nebraska,Seward,210
+USA,USA,Nebraska,Wheeler,210
+USA,USA,Nebraska,Stanton,210
+USA,USA,Nebraska,Pawnee,210
+USA,USA,Nebraska,Cherry,210
+USA,USA,Nebraska,Rock,210
+USA,USA,Nebraska,Arthur,210
+USA,USA,Nebraska,Grant,210
+USA,USA,Nebraska,Sioux,210
+USA,USA,Nevada,Eureka,210
+USA,USA,Nevada,Churchill,210
+USA,USA,Nevada,Humboldt,210
+USA,USA,Nevada,White Pine,210
+USA,USA,Nevada,Lyon,210
+USA,USA,Nevada,Pershing,210
+USA,USA,Nevada,Storey,210
+USA,USA,Nevada,Carson City,210
+USA,USA,Nevada,Washoe,210
+USA,USA,Nevada,Clark,210
+USA,USA,Nevada,Nye,210
+USA,USA,Nevada,Elko,210
+USA,USA,Nevada,Douglas,210
+USA,USA,Nevada,Lander,210
+USA,USA,Nevada,Lincoln,210
+USA,USA,Nevada,Esmeralda,210
+USA,USA,Nevada,Mineral,210
+USA,USA,New Hampshire,Sullivan,210
+USA,USA,New Hampshire,Carroll,210
+USA,USA,New Hampshire,Belknap,210
+USA,USA,New Hampshire,Merrimack,210
+USA,USA,New Hampshire,Hillsborough,210
+USA,USA,New Hampshire,Strafford,210
+USA,USA,New Hampshire,Grafton,210
+USA,USA,New Hampshire,Cheshire,210
+USA,USA,New Hampshire,Rockingham,210
+USA,USA,New Hampshire,Coos,210
+USA,USA,New Jersey,Warren,210
+USA,USA,New Jersey,Salem,210
+USA,USA,New Jersey,Sussex,210
+USA,USA,New Jersey,Ocean,210
+USA,USA,New Jersey,Burlington,210
+USA,USA,New Jersey,Gloucester,210
+USA,USA,New Jersey,Hunterdon,210
+USA,USA,New Jersey,Monmouth,210
+USA,USA,New Jersey,Camden,210
+USA,USA,New Jersey,Cumberland,210
+USA,USA,New Jersey,Cape May,210
+USA,USA,New Jersey,Morris,210
+USA,USA,New Jersey,Atlantic,210
+USA,USA,New Jersey,Mercer,210
+USA,USA,New Jersey,Passaic,210
+USA,USA,New Jersey,Middlesex,210
+USA,USA,New Jersey,Bergen,210
+USA,USA,New Jersey,Essex,210
+USA,USA,New Jersey,Union,210
+USA,USA,New Jersey,Somerset,210
+USA,USA,New Jersey,Hudson,210
+USA,USA,New Mexico,Union,210
+USA,USA,New Mexico,Quay,210
+USA,USA,New Mexico,San Juan,210
+USA,USA,New Mexico,Doña Ana,210
+USA,USA,New Mexico,De Baca,210
+USA,USA,New Mexico,Grant,210
+USA,USA,New Mexico,Socorro,210
+USA,USA,New Mexico,Colfax,210
+USA,USA,New Mexico,Roosevelt,210
+USA,USA,New Mexico,Sierra,210
+USA,USA,New Mexico,Sandoval,210
+USA,USA,New Mexico,McKinley,210
+USA,USA,New Mexico,Valencia,210
+USA,USA,New Mexico,Harding,210
+USA,USA,New Mexico,Otero,210
+USA,USA,New Mexico,Rio Arriba,210
+USA,USA,New Mexico,Lincoln,210
+USA,USA,New Mexico,Chaves,210
+USA,USA,New Mexico,Bernalillo,210
+USA,USA,New Mexico,Guadalupe,210
+USA,USA,New Mexico,Torrance,210
+USA,USA,New Mexico,Luna,210
+USA,USA,New Mexico,San Miguel,210
+USA,USA,New Mexico,Santa Fe,210
+USA,USA,New Mexico,Eddy,210
+USA,USA,New Mexico,Curry,210
+USA,USA,New Mexico,Taos,210
+USA,USA,New Mexico,Cibola,210
+USA,USA,New Mexico,Los Alamos,210
+USA,USA,New Mexico,Hidalgo,210
+USA,USA,New Mexico,Mora,210
+USA,USA,New Mexico,Lea,210
+USA,USA,New Mexico,Catron,210
+USA,USA,New York,Washington,210
+USA,USA,New York,Cattaraugus,210
+USA,USA,New York,Warren,210
+USA,USA,New York,Genesee,210
+USA,USA,New York,Niagara,210
+USA,USA,New York,Wyoming,210
+USA,USA,New York,Schuyler,210
+USA,USA,New York,Livingston,210
+USA,USA,New York,Fulton,210
+USA,USA,New York,Herkimer,210
+USA,USA,New York,Orleans,210
+USA,USA,New York,Allegany,210
+USA,USA,New York,Steuben,210
+USA,USA,New York,Chautauqua,210
+USA,USA,New York,Chemung,210
+USA,USA,New York,Lewis,210
+USA,USA,New York,Erie,210
+USA,USA,New York,Tioga,210
+USA,USA,New York,Saratoga,210
+USA,USA,New York,Ontario,210
+USA,USA,New York,Chenango,210
+USA,USA,New York,Oneida,210
+USA,USA,New York,Jefferson,210
+USA,USA,New York,Montgomery,210
+USA,USA,New York,Franklin,210
+USA,USA,New York,Oswego,210
+USA,USA,New York,Wayne,210
+USA,USA,New York,Delaware,210
+USA,USA,New York,Broome,210
+USA,USA,New York,Monroe,210
+USA,USA,New York,Schenectady,210
+USA,USA,New York,St. Lawrence,210
+USA,USA,New York,Seneca,210
+USA,USA,New York,Rensselaer,210
+USA,USA,New York,Onondaga,210
+USA,USA,New York,Columbia,210
+USA,USA,New York,Madison,210
+USA,USA,New York,Hamilton,210
+USA,USA,New York,Clinton,210
+USA,USA,New York,Greene,210
+USA,USA,New York,Yates,210
+USA,USA,New York,Essex,210
+USA,USA,New York,Sullivan,210
+USA,USA,New York,Otsego,210
+USA,USA,New York,Schoharie,210
+USA,USA,New York,Cayuga,210
+USA,USA,New York,Orange,210
+USA,USA,New York,Cortland,210
+USA,USA,New York,Suffolk,210
+USA,USA,New York,Ulster,210
+USA,USA,New York,Albany,210
+USA,USA,New York,Nassau,210
+USA,USA,New York,Tompkins,210
+USA,USA,New York,Dutchess,210
+USA,USA,New York,Putnam,210
+USA,USA,New York,Rockland,210
+USA,USA,New York,New York City,210
+USA,USA,New York,Westchester,210
+USA,USA,North Carolina,Alleghany,210
+USA,USA,North Carolina,Yancey,210
+USA,USA,North Carolina,Surry,210
+USA,USA,North Carolina,Perquimans,210
+USA,USA,North Carolina,Wayne,210
+USA,USA,North Carolina,Alexander,210
+USA,USA,North Carolina,Lincoln,210
+USA,USA,North Carolina,Hyde,210
+USA,USA,North Carolina,Yadkin,210
+USA,USA,North Carolina,Stokes,210
+USA,USA,North Carolina,Iredell,210
+USA,USA,North Carolina,Swain,210
+USA,USA,North Carolina,Stanly,210
+USA,USA,North Carolina,Gaston,210
+USA,USA,North Carolina,Ashe,210
+USA,USA,North Carolina,Avery,210
+USA,USA,North Carolina,Currituck,210
+USA,USA,North Carolina,Rockingham,210
+USA,USA,North Carolina,Henderson,210
+USA,USA,North Carolina,Davidson,210
+USA,USA,North Carolina,Union,210
+USA,USA,North Carolina,Wilkes,210
+USA,USA,North Carolina,Madison,210
+USA,USA,North Carolina,Forsyth,210
+USA,USA,North Carolina,Carteret,210
+USA,USA,North Carolina,Davie,210
+USA,USA,North Carolina,Cabarrus,210
+USA,USA,North Carolina,Granville,210
+USA,USA,North Carolina,McDowell,210
+USA,USA,North Carolina,Mitchell,210
+USA,USA,North Carolina,Johnston,210
+USA,USA,North Carolina,Buncombe,210
+USA,USA,North Carolina,Haywood,210
+USA,USA,North Carolina,Catawba,210
+USA,USA,North Carolina,Bladen,210
+USA,USA,North Carolina,Pender,210
+USA,USA,North Carolina,Caldwell,210
+USA,USA,North Carolina,Alamance,210
+USA,USA,North Carolina,Person,210
+USA,USA,North Carolina,Rowan,210
+USA,USA,North Carolina,Franklin,210
+USA,USA,North Carolina,Vance,210
+USA,USA,North Carolina,Camden,210
+USA,USA,North Carolina,Pasquotank,210
+USA,USA,North Carolina,Dare,210
+USA,USA,North Carolina,Hoke,210
+USA,USA,North Carolina,Gates,210
+USA,USA,North Carolina,Jackson,210
+USA,USA,North Carolina,Edgecombe,210
+USA,USA,North Carolina,Greene,210
+USA,USA,North Carolina,Anson,210
+USA,USA,North Carolina,Randolph,210
+USA,USA,North Carolina,Wake,210
+USA,USA,North Carolina,Cleveland,210
+USA,USA,North Carolina,Graham,210
+USA,USA,North Carolina,Pamlico,210
+USA,USA,North Carolina,Mecklenburg,210
+USA,USA,North Carolina,Jones,210
+USA,USA,North Carolina,Chowan,210
+USA,USA,North Carolina,Beaufort,210
+USA,USA,North Carolina,Guilford,210
+USA,USA,North Carolina,Bertie,210
+USA,USA,North Carolina,Rutherford,210
+USA,USA,North Carolina,Wilson,210
+USA,USA,North Carolina,Sampson,210
+USA,USA,North Carolina,Caswell,210
+USA,USA,North Carolina,Polk,210
+USA,USA,North Carolina,Cumberland,210
+USA,USA,North Carolina,Columbus,210
+USA,USA,North Carolina,Pitt,210
+USA,USA,North Carolina,Craven,210
+USA,USA,North Carolina,Nash,210
+USA,USA,North Carolina,Tyrrell,210
+USA,USA,North Carolina,Warren,210
+USA,USA,North Carolina,Brunswick,210
+USA,USA,North Carolina,Montgomery,210
+USA,USA,North Carolina,Harnett,210
+USA,USA,North Carolina,Robeson,210
+USA,USA,North Carolina,Chatham,210
+USA,USA,North Carolina,Duplin,210
+USA,USA,North Carolina,Martin,210
+USA,USA,North Carolina,Richmond,210
+USA,USA,North Carolina,Watauga,210
+USA,USA,North Carolina,Cherokee,210
+USA,USA,North Carolina,Durham,210
+USA,USA,North Carolina,Burke,210
+USA,USA,North Carolina,Orange,210
+USA,USA,North Carolina,Lenoir,210
+USA,USA,North Carolina,Moore,210
+USA,USA,North Carolina,New Hanover,210
+USA,USA,North Carolina,Macon,210
+USA,USA,North Carolina,Transylvania,210
+USA,USA,North Carolina,Scotland,210
+USA,USA,North Carolina,Lee,210
+USA,USA,North Carolina,Onslow,210
+USA,USA,North Carolina,Washington,210
+USA,USA,North Carolina,Northampton,210
+USA,USA,North Carolina,Halifax,210
+USA,USA,North Carolina,Hertford,210
+USA,USA,North Carolina,Clay,210
+USA,USA,North Dakota,Adams,210
+USA,USA,North Dakota,Dickey,210
+USA,USA,North Dakota,Pembina,210
+USA,USA,North Dakota,McLean,210
+USA,USA,North Dakota,Griggs,210
+USA,USA,North Dakota,Steele,210
+USA,USA,North Dakota,Mercer,210
+USA,USA,North Dakota,Golden Valley,210
+USA,USA,North Dakota,Renville,210
+USA,USA,North Dakota,Traill,210
+USA,USA,North Dakota,Sargent,210
+USA,USA,North Dakota,Rolette,210
+USA,USA,North Dakota,Stutsman,210
+USA,USA,North Dakota,Mountrail,210
+USA,USA,North Dakota,Bowman,210
+USA,USA,North Dakota,Bottineau,210
+USA,USA,North Dakota,Stark,210
+USA,USA,North Dakota,Williams,210
+USA,USA,North Dakota,Divide,210
+USA,USA,North Dakota,Ward,210
+USA,USA,North Dakota,Oliver,210
+USA,USA,North Dakota,Nelson,210
+USA,USA,North Dakota,Sioux,210
+USA,USA,North Dakota,Wells,210
+USA,USA,North Dakota,Cass,210
+USA,USA,North Dakota,Emmons,210
+USA,USA,North Dakota,Foster,210
+USA,USA,North Dakota,Walsh,210
+USA,USA,North Dakota,Morton,210
+USA,USA,North Dakota,McIntosh,210
+USA,USA,North Dakota,Burke,210
+USA,USA,North Dakota,Hettinger,210
+USA,USA,North Dakota,Burleigh,210
+USA,USA,North Dakota,LaMoure,210
+USA,USA,North Dakota,Dunn,210
+USA,USA,North Dakota,Grant,210
+USA,USA,North Dakota,Ramsey,210
+USA,USA,North Dakota,Billings,210
+USA,USA,North Dakota,Kidder,210
+USA,USA,North Dakota,Benson,210
+USA,USA,North Dakota,Slope,210
+USA,USA,North Dakota,Sheridan,210
+USA,USA,North Dakota,Pierce,210
+USA,USA,North Dakota,Grand Forks,210
+USA,USA,North Dakota,Richland,210
+USA,USA,North Dakota,Logan,210
+USA,USA,North Dakota,Eddy,210
+USA,USA,North Dakota,Barnes,210
+USA,USA,North Dakota,Ransom,210
+USA,USA,North Dakota,McKenzie,210
+USA,USA,North Dakota,McHenry,210
+USA,USA,North Dakota,Towner,210
+USA,USA,North Dakota,Cavalier,210
+USA,USA,Ohio,Williams,210
+USA,USA,Ohio,Van Wert,210
+USA,USA,Ohio,Ashtabula,210
+USA,USA,Ohio,Allen,210
+USA,USA,Ohio,Putnam,210
+USA,USA,Ohio,Defiance,210
+USA,USA,Ohio,Columbiana,210
+USA,USA,Ohio,Lake,210
+USA,USA,Ohio,Fulton,210
+USA,USA,Ohio,Carroll,210
+USA,USA,Oklahoma,Roger Mills,210
+USA,USA,Oklahoma,Latimer,210
+USA,USA,Oklahoma,Major,210
+USA,USA,Oklahoma,Custer,210
+USA,USA,Oklahoma,Beckham,210
+USA,USA,Oklahoma,Jackson,210
+USA,USA,Oklahoma,Alfalfa,210
+USA,USA,Oklahoma,Cimarron,210
+USA,USA,Oklahoma,Okmulgee,210
+USA,USA,Oklahoma,Blaine,210
+USA,USA,Oklahoma,Kay,210
+USA,USA,Oklahoma,Ottawa,210
+USA,USA,Oklahoma,Washita,210
+USA,USA,Oklahoma,Dewey,210
+USA,USA,Oklahoma,Nowata,210
+USA,USA,Oklahoma,Texas,210
+USA,USA,Oklahoma,Craig,210
+USA,USA,Oklahoma,Woodward,210
+USA,USA,Oklahoma,Greer,210
+USA,USA,Oklahoma,Le Flore,210
+USA,USA,Oklahoma,Pittsburg,210
+USA,USA,Oklahoma,Pawnee,210
+USA,USA,Oklahoma,Ellis,210
+USA,USA,Oklahoma,Delaware,210
+USA,USA,Oklahoma,Beaver,210
+USA,USA,Oklahoma,Muskogee,210
+USA,USA,Oklahoma,Rogers,210
+USA,USA,Oklahoma,Tillman,210
+USA,USA,Oklahoma,Pontotoc,210
+USA,USA,Oklahoma,Adair,210
+USA,USA,Oklahoma,Woods,210
+USA,USA,Oklahoma,Mayes,210
+USA,USA,Oklahoma,Pottawatomie,210
+USA,USA,Oklahoma,Marshall,210
+USA,USA,Oklahoma,Osage,210
+USA,USA,Oklahoma,Grady,210
+USA,USA,Oklahoma,Creek,210
+USA,USA,Oklahoma,Bryan,210
+USA,USA,Oklahoma,McClain,210
+USA,USA,Oklahoma,Kiowa,210
+USA,USA,Oklahoma,Garvin,210
+USA,USA,Oklahoma,Seminole,210
+USA,USA,Oklahoma,Washington,210
+USA,USA,Oklahoma,Canadian,210
+USA,USA,Oklahoma,Harmon,210
+USA,USA,Oklahoma,Wagoner,210
+USA,USA,Oklahoma,Coal,210
+USA,USA,Oklahoma,Cleveland,210
+USA,USA,Oklahoma,Harper,210
+USA,USA,Oklahoma,Tulsa,210
+USA,USA,Oklahoma,McCurtain,210
+USA,USA,Oklahoma,Carter,210
+USA,USA,Oklahoma,Kingfisher,210
+USA,USA,Oklahoma,Pushmataha,210
+USA,USA,Oklahoma,Noble,210
+USA,USA,Oklahoma,Grant,210
+USA,USA,Oklahoma,Johnston,210
+USA,USA,Oklahoma,Garfield,210
+USA,USA,Oklahoma,Oklahoma,210
+USA,USA,Oklahoma,Stephens,210
+USA,USA,Oklahoma,Okfuskee,210
+USA,USA,Oklahoma,Logan,210
+USA,USA,Oklahoma,Lincoln,210
+USA,USA,Oklahoma,McIntosh,210
+USA,USA,Oklahoma,Murray,210
+USA,USA,Oklahoma,Caddo,210
+USA,USA,Oklahoma,Haskell,210
+USA,USA,Oklahoma,Love,210
+USA,USA,Oklahoma,Hughes,210
+USA,USA,Oklahoma,Atoka,210
+USA,USA,Oklahoma,Payne,210
+USA,USA,Oklahoma,Sequoyah,210
+USA,USA,Oklahoma,Cherokee,210
+USA,USA,Oklahoma,Comanche,210
+USA,USA,Oklahoma,Cotton,210
+USA,USA,Oklahoma,Jefferson,210
+USA,USA,Oklahoma,Choctaw,210
+USA,USA,Oregon,Wheeler ,210
+USA,USA,Oregon,Baker,210
+USA,USA,Oregon,Deschutes,210
+USA,USA,Oregon,Sherman,210
+USA,USA,Oregon,Crook,210
+USA,USA,Oregon,Douglas,210
+USA,USA,Oregon,Linn,210
+USA,USA,Oregon,Jefferson,210
+USA,USA,Oregon,Morrow,210
+USA,USA,Oregon,Klamath,210
+USA,USA,Oregon,Lincoln,210
+USA,USA,Oregon,Polk,210
+USA,USA,Oregon,Hood River,210
+USA,USA,Oregon,Wallowa,210
+USA,USA,Oregon,Columbia,210
+USA,USA,Oregon,Coos,210
+USA,USA,Oregon,Union,210
+USA,USA,Oregon,Lake,210
+USA,USA,Oregon,Jackson,210
+USA,USA,Oregon,Marion,210
+USA,USA,Oregon,Josephine,210
+USA,USA,Oregon,Yamhill,210
+USA,USA,Oregon,Clackamas,210
+USA,USA,Oregon,Grant,210
+USA,USA,Oregon,Lane,210
+USA,USA,Oregon,Harney,210
+USA,USA,Oregon,Umatilla,210
+USA,USA,Oregon,Curry,210
+USA,USA,Oregon,Malheur,210
+USA,USA,Oregon,Clatsop,210
+USA,USA,Oregon,Wasco,210
+USA,USA,Oregon,Multnomah,210
+USA,USA,Oregon,Washington,210
+USA,USA,Oregon,Tillamook,210
+USA,USA,Oregon,Benton,210
+USA,USA,Oregon,Gilliam,210
+USA,USA,Pennsylvania,Venango,210
+USA,USA,Pennsylvania,Crawford,210
+USA,USA,Pennsylvania,Forest,210
+USA,USA,Pennsylvania,Clarion,210
+USA,USA,Pennsylvania,Lycoming,210
+USA,USA,Pennsylvania,Blair,210
+USA,USA,Pennsylvania,Warren,210
+USA,USA,Pennsylvania,Erie,210
+USA,USA,Pennsylvania,Tioga,210
+USA,USA,Pennsylvania,Armstrong,210
+USA,USA,Pennsylvania,Clinton,210
+USA,USA,Pennsylvania,Fulton,210
+USA,USA,Pennsylvania,Jefferson,210
+USA,USA,Pennsylvania,Cameron,210
+USA,USA,Pennsylvania,Lawrence,210
+USA,USA,Pennsylvania,Susquehanna,210
+USA,USA,Pennsylvania,Beaver,210
+USA,USA,Pennsylvania,Bradford,210
+USA,USA,Pennsylvania,Indiana,210
+USA,USA,Pennsylvania,Schuylkill,210
+USA,USA,Pennsylvania,Cambria,210
+USA,USA,Pennsylvania,Mifflin,210
+USA,USA,Pennsylvania,Somerset,210
+USA,USA,Pennsylvania,Washington,210
+USA,USA,Pennsylvania,Butler,210
+USA,USA,Pennsylvania,Westmoreland,210
+USA,USA,Pennsylvania,Fayette,210
+USA,USA,Pennsylvania,Potter,210
+USA,USA,Pennsylvania,Northumberland,210
+USA,USA,Pennsylvania,Bedford,210
+USA,USA,Pennsylvania,Mercer,210
+USA,USA,Pennsylvania,Montour,210
+USA,USA,Pennsylvania,Elk,210
+USA,USA,Pennsylvania,Greene,210
+USA,USA,Pennsylvania,Clearfield,210
+USA,USA,Pennsylvania,Wyoming,210
+USA,USA,Pennsylvania,Columbia,210
+USA,USA,Pennsylvania,Wayne,210
+USA,USA,Pennsylvania,Allegheny,210
+USA,USA,Pennsylvania,York,210
+USA,USA,Pennsylvania,Luzerne,210
+USA,USA,Pennsylvania,Carbon,210
+USA,USA,Pennsylvania,Lebanon,210
+USA,USA,Pennsylvania,McKean,210
+USA,USA,Pennsylvania,Snyder,210
+USA,USA,Pennsylvania,Juniata,210
+USA,USA,Pennsylvania,Monroe,210
+USA,USA,Pennsylvania,Berks,210
+USA,USA,Pennsylvania,Perry,210
+USA,USA,Pennsylvania,Northampton,210
+USA,USA,Pennsylvania,Franklin,210
+USA,USA,Pennsylvania,Huntingdon,210
+USA,USA,Pennsylvania,Lehigh,210
+USA,USA,Pennsylvania,Centre,210
+USA,USA,Pennsylvania,Lackawanna,210
+USA,USA,Pennsylvania,Union,210
+USA,USA,Pennsylvania,Cumberland,210
+USA,USA,Pennsylvania,Pike,210
+USA,USA,Pennsylvania,Sullivan,210
+USA,USA,Pennsylvania,Lancaster,210
+USA,USA,Pennsylvania,Dauphin,210
+USA,USA,Pennsylvania,Adams,210
+USA,USA,Pennsylvania,Bucks,210
+USA,USA,Pennsylvania,Chester,210
+USA,USA,Pennsylvania,Montgomery,210
+USA,USA,Pennsylvania,Delaware,210
+USA,USA,Pennsylvania,Philadelphia,210
+USA,USA,Puerto Rico,Vieques ,210
+USA,USA,Puerto Rico,Cataño,210
+USA,USA,Puerto Rico,Guayama,210
+USA,USA,Puerto Rico,Gurabo,210
+USA,USA,Puerto Rico,Río Grande,210
+USA,USA,Puerto Rico,Caguas,210
+USA,USA,Puerto Rico,Juncos,210
+USA,USA,Puerto Rico,Naranjito,210
+USA,USA,Puerto Rico,San Lorenzo,210
+USA,USA,Puerto Rico,Canóvanas,210
+USA,USA,Puerto Rico,Mayagüez,210
+USA,USA,Puerto Rico,Villalba,210
+USA,USA,Puerto Rico,Toa Alta,210
+USA,USA,Puerto Rico,Comerío,210
+USA,USA,Puerto Rico,San Juan,210
+USA,USA,Puerto Rico,Coamo,210
+USA,USA,Puerto Rico,Fajardo,210
+USA,USA,Puerto Rico,San Sebastián,210
+USA,USA,Puerto Rico,Barceloneta,210
+USA,USA,Puerto Rico,Ceiba,210
+USA,USA,Puerto Rico,Ponce,210
+USA,USA,Puerto Rico,Cidra,210
+USA,USA,Puerto Rico,Barranquitas,210
+USA,USA,Puerto Rico,Carolina,210
+USA,USA,Puerto Rico,Humacao,210
+USA,USA,Puerto Rico,Aguadilla,210
+USA,USA,Puerto Rico,Naguabo,210
+USA,USA,Puerto Rico,Arroyo,210
+USA,USA,Puerto Rico,Adjuntas,210
+USA,USA,Puerto Rico,Guánica,210
+USA,USA,Puerto Rico,Salinas,210
+USA,USA,Puerto Rico,Rincón,210
+USA,USA,Puerto Rico,Aguada,210
+USA,USA,Puerto Rico,Yauco,210
+USA,USA,Puerto Rico,Peñuelas,210
+USA,USA,Puerto Rico,Maunabo,210
+USA,USA,Puerto Rico,Sabana Grande,210
+USA,USA,Puerto Rico,Guaynabo,210
+USA,USA,Puerto Rico,Santa Isabel,210
+USA,USA,Puerto Rico,Cayey,210
+USA,USA,Puerto Rico,Corozal,210
+USA,USA,Puerto Rico,Orocovis,210
+USA,USA,Puerto Rico,Moca,210
+USA,USA,Puerto Rico,Patillas,210
+USA,USA,Puerto Rico,Bayamón,210
+USA,USA,Puerto Rico,Toa Baja,210
+USA,USA,Puerto Rico,Vega Alta,210
+USA,USA,Puerto Rico,Guayanilla,210
+USA,USA,Puerto Rico,Manatí,210
+USA,USA,Puerto Rico,Vega Baja,210
+USA,USA,Puerto Rico,Las Piedras,210
+USA,USA,Puerto Rico,Hormigueros,210
+USA,USA,Puerto Rico,Morovis,210
+USA,USA,Puerto Rico,Loíza,210
+USA,USA,Puerto Rico,Yabucoa,210
+USA,USA,Puerto Rico,Lares,210
+USA,USA,Puerto Rico,Juana Díaz,210
+USA,USA,Puerto Rico,Dorado,210
+USA,USA,Puerto Rico,Aibonito,210
+USA,USA,Puerto Rico,Hatillo,210
+USA,USA,Puerto Rico,Añasco,210
+USA,USA,Puerto Rico,Cabo Rojo,210
+USA,USA,Puerto Rico,Ciales,210
+USA,USA,Puerto Rico,Trujillo Alto,210
+USA,USA,Puerto Rico,Lajas,210
+USA,USA,Puerto Rico,Camuy,210
+USA,USA,Puerto Rico,Aguas Buenas,210
+USA,USA,Puerto Rico,Isabela,210
+USA,USA,Puerto Rico,Arecibo,210
+USA,USA,Puerto Rico,Jayuya,210
+USA,USA,Puerto Rico,Utuado,210
+USA,USA,Puerto Rico,Culebra,210
+USA,USA,Puerto Rico,Florida,210
+USA,USA,Puerto Rico,Las Marías,210
+USA,USA,Puerto Rico,Luquillo,210
+USA,USA,Puerto Rico,Maricao,210
+USA,USA,Puerto Rico,Quebradillas,210
+USA,USA,Puerto Rico,San Germán,210
+USA,USA,Rhode Island,Kent,210
+USA,USA,Rhode Island,Bristol,210
+USA,USA,Rhode Island,Providence,210
+USA,USA,Rhode Island,Washington,210
+USA,USA,Rhode Island,Newport,210
+USA,USA,South Carolina,McCormick,210
+USA,USA,South Carolina,Lee,210
+USA,USA,South Carolina,Greenwood,210
+USA,USA,South Carolina,Union,210
+USA,USA,South Carolina,Oconee,210
+USA,USA,South Carolina,Sumter,210
+USA,USA,South Carolina,Lancaster,210
+USA,USA,South Carolina,Newberry,210
+USA,USA,South Carolina,Abbeville,210
+USA,USA,South Carolina,Pickens,210
+USA,USA,South Carolina,Anderson,210
+USA,USA,South Carolina,York,210
+USA,USA,South Carolina,Hampton,210
+USA,USA,South Carolina,Greenville,210
+USA,USA,South Carolina,Darlington,210
+USA,USA,South Carolina,Colleton,210
+USA,USA,South Carolina,Chester,210
+USA,USA,South Carolina,Chesterfield,210
+USA,USA,South Carolina,Kershaw,210
+USA,USA,South Carolina,Florence,210
+USA,USA,South Carolina,Spartanburg,210
+USA,USA,South Carolina,Barnwell,210
+USA,USA,South Carolina,Lexington,210
+USA,USA,South Carolina,Horry,210
+USA,USA,South Carolina,Aiken,210
+USA,USA,South Carolina,Cherokee,210
+USA,USA,South Carolina,Charleston,210
+USA,USA,South Carolina,Saluda,210
+USA,USA,South Carolina,Georgetown,210
+USA,USA,South Carolina,Richland,210
+USA,USA,South Carolina,Dorchester,210
+USA,USA,South Carolina,Clarendon,210
+USA,USA,South Carolina,Marlboro,210
+USA,USA,South Carolina,Jasper,210
+USA,USA,South Carolina,Laurens,210
+USA,USA,South Carolina,Orangeburg,210
+USA,USA,South Carolina,Edgefield,210
+USA,USA,South Carolina,Berkeley,210
+USA,USA,South Carolina,Beaufort,210
+USA,USA,South Carolina,Allendale,210
+USA,USA,South Carolina,Fairfield,210
+USA,USA,South Carolina,Dillon,210
+USA,USA,South Carolina,Marion,210
+USA,USA,South Carolina,Calhoun,210
+USA,USA,South Carolina,Bamberg,210
+USA,USA,South Carolina,Williamsburg,210
+USA,USA,South Dakota,Dewey,210
+USA,USA,South Dakota,Potter,210
+USA,USA,South Dakota,Sully,210
+USA,USA,South Dakota,Lyman,210
+USA,USA,South Dakota,Perkins,210
+USA,USA,South Dakota,Hutchinson,210
+USA,USA,South Dakota,Charles Mix,210
+USA,USA,South Dakota,Fall River,210
+USA,USA,South Dakota,Douglas,210
+USA,USA,South Dakota,McCook,210
+USA,USA,South Dakota,Todd,210
+USA,USA,South Dakota,Moody,210
+USA,USA,South Dakota,Hughes,210
+USA,USA,South Dakota,Davison,210
+USA,USA,South Dakota,Faulk,210
+USA,USA,South Dakota,Brule,210
+USA,USA,South Dakota,Brown,210
+USA,USA,South Dakota,Deuel,210
+USA,USA,South Dakota,Union,210
+USA,USA,South Dakota,Hyde,210
+USA,USA,South Dakota,Mellette,210
+USA,USA,South Dakota,Stanley,210
+USA,USA,South Dakota,Butte,210
+USA,USA,South Dakota,Ziebach,210
+USA,USA,South Dakota,Gregory,210
+USA,USA,South Dakota,Pennington,210
+USA,USA,South Dakota,Yankton,210
+USA,USA,South Dakota,Grant,210
+USA,USA,South Dakota,Codington,210
+USA,USA,South Dakota,Tripp,210
+USA,USA,South Dakota,Bon Homme,210
+USA,USA,South Dakota,Edmunds,210
+USA,USA,South Dakota,Lawrence,210
+USA,USA,South Dakota,Minnehaha,210
+USA,USA,South Dakota,Kingsbury,210
+USA,USA,South Dakota,Beadle,210
+USA,USA,South Dakota,Lincoln,210
+USA,USA,South Dakota,Clark,210
+USA,USA,South Dakota,Sanborn,210
+USA,USA,South Dakota,Hanson,210
+USA,USA,South Dakota,Turner,210
+USA,USA,South Dakota,Jerauld,210
+USA,USA,South Dakota,Roberts,210
+USA,USA,South Dakota,Meade,210
+USA,USA,South Dakota,Clay,210
+USA,USA,South Dakota,Custer,210
+USA,USA,South Dakota,Hamlin,210
+USA,USA,South Dakota,Campbell,210
+USA,USA,South Dakota,McPherson,210
+USA,USA,South Dakota,Haakon,210
+USA,USA,South Dakota,Marshall,210
+USA,USA,South Dakota,Brookings,210
+USA,USA,South Dakota,Miner,210
+USA,USA,South Dakota,Day,210
+USA,USA,South Dakota,Walworth,210
+USA,USA,South Dakota,Lake,210
+USA,USA,South Dakota,Jackson,210
+USA,USA,South Dakota,Aurora,210
+USA,USA,South Dakota,Buffalo,210
+USA,USA,South Dakota,Bennett,210
+USA,USA,South Dakota,Corson,210
+USA,USA,South Dakota,Hand,210
+USA,USA,South Dakota,Spink,210
+USA,USA,South Dakota,Harding,210
+USA,USA,South Dakota,Oglala Lakota,210
+USA,USA,South Dakota,Jones,210
+USA,USA,Tennessee,Johnson,210
+USA,USA,Tennessee,Scott,210
+USA,USA,Tennessee,Pickett,210
+USA,USA,Tennessee,Washington,210
+USA,USA,Tennessee,Benton,210
+USA,USA,Tennessee,Sullivan,210
+USA,USA,Tennessee,Hawkins,210
+USA,USA,Tennessee,Greene,210
+USA,USA,Tennessee,Haywood,210
+USA,USA,Tennessee,Bedford,210
+USA,USA,Tennessee,McNairy,210
+USA,USA,Tennessee,Obion,210
+USA,USA,Tennessee,Van Buren,210
+USA,USA,Tennessee,Moore,210
+USA,USA,Tennessee,Grainger,210
+USA,USA,Tennessee,Sequatchie,210
+USA,USA,Tennessee,Carter,210
+USA,USA,Tennessee,Cumberland,210
+USA,USA,Tennessee,Morgan,210
+USA,USA,Tennessee,Roane,210
+USA,USA,Tennessee,Campbell,210
+USA,USA,Tennessee,Bledsoe,210
+USA,USA,Tennessee,Rutherford,210
+USA,USA,Tennessee,Tipton,210
+USA,USA,Tennessee,Dickson,210
+USA,USA,Tennessee,Union,210
+USA,USA,Tennessee,Hickman,210
+USA,USA,Tennessee,Henderson,210
+USA,USA,Tennessee,Trousdale,210
+USA,USA,Tennessee,Williamson,210
+USA,USA,Tennessee,Anderson,210
+USA,USA,Tennessee,Stewart,210
+USA,USA,Tennessee,Humphreys,210
+USA,USA,Tennessee,Blount,210
+USA,USA,Tennessee,Coffee,210
+USA,USA,Tennessee,Macon,210
+USA,USA,Tennessee,Smith,210
+USA,USA,Tennessee,Hardin,210
+USA,USA,Tennessee,Madison,210
+USA,USA,Tennessee,Fayette,210
+USA,USA,Tennessee,Monroe,210
+USA,USA,Tennessee,Hamblen,210
+USA,USA,Tennessee,Unicoi,210
+USA,USA,Tennessee,Cocke,210
+USA,USA,Tennessee,Warren,210
+USA,USA,Tennessee,Sevier,210
+USA,USA,Tennessee,Lawrence,210
+USA,USA,Tennessee,Wayne,210
+USA,USA,Tennessee,Fentress,210
+USA,USA,Tennessee,DeKalb,210
+USA,USA,Tennessee,White,210
+USA,USA,Tennessee,Maury,210
+USA,USA,Tennessee,Franklin,210
+USA,USA,Tennessee,Jefferson,210
+USA,USA,Tennessee,Wilson,210
+USA,USA,Tennessee,Knox,210
+USA,USA,Tennessee,Houston,210
+USA,USA,Tennessee,Davidson,210
+USA,USA,Tennessee,Cannon,210
+USA,USA,Tennessee,Giles,210
+USA,USA,Tennessee,Weakley,210
+USA,USA,Tennessee,Hancock,210
+USA,USA,Tennessee,Cheatham,210
+USA,USA,Tennessee,Loudon,210
+USA,USA,Tennessee,Claiborne,210
+USA,USA,Tennessee,Sumner,210
+USA,USA,Tennessee,Rhea,210
+USA,USA,Tennessee,Bradley,210
+USA,USA,Tennessee,Putnam,210
+USA,USA,Tennessee,Carroll,210
+USA,USA,Tennessee,Chester,210
+USA,USA,Tennessee,Grundy,210
+USA,USA,Tennessee,Hamilton,210
+USA,USA,Tennessee,Polk,210
+USA,USA,Tennessee,Shelby,210
+USA,USA,Tennessee,Overton,210
+USA,USA,Tennessee,Lincoln,210
+USA,USA,Tennessee,Marshall,210
+USA,USA,Tennessee,Robertson,210
+USA,USA,Tennessee,Crockett,210
+USA,USA,Tennessee,McMinn,210
+USA,USA,Tennessee,Meigs,210
+USA,USA,Tennessee,Marion,210
+USA,USA,Tennessee,Decatur,210
+USA,USA,Tennessee,Montgomery,210
+USA,USA,Tennessee,Clay,210
+USA,USA,Tennessee,Henry,210
+USA,USA,Tennessee,Gibson,210
+USA,USA,Tennessee,Lauderdale,210
+USA,USA,Tennessee,Perry,210
+USA,USA,Tennessee,Jackson,210
+USA,USA,Tennessee,Lewis,210
+USA,USA,Tennessee,Lake,210
+USA,USA,Tennessee,Hardeman,210
+USA,USA,Tennessee,Dyer,210
+USA,USA,Texas,La Salle,210
+USA,USA,Texas,Scurry,210
+USA,USA,Texas,Gray,210
+USA,USA,Texas,Real,210
+USA,USA,Texas,Carson,210
+USA,USA,Texas,Randall,210
+USA,USA,Texas,El Paso,210
+USA,USA,Texas,Kerr,210
+USA,USA,Texas,DeWitt,210
+USA,USA,Texas,King,210
+USA,USA,Texas,Roberts,210
+USA,USA,Texas,Terry,210
+USA,USA,Texas,Hutchinson,210
+USA,USA,Texas,Potter,210
+USA,USA,Texas,Hall,210
+USA,USA,Texas,Briscoe,210
+USA,USA,Texas,Moore,210
+USA,USA,Texas,Donley,210
+USA,USA,Texas,Floyd,210
+USA,USA,Texas,Karnes,210
+USA,USA,Texas,Frio,210
+USA,USA,Texas,Cochran,210
+USA,USA,Texas,Wheeler,210
+USA,USA,Texas,Dallam,210
+USA,USA,Texas,Collingsworth,210
+USA,USA,Texas,Lipscomb,210
+USA,USA,Texas,Baylor,210
+USA,USA,Texas,Gillespie,210
+USA,USA,Texas,Deaf Smith,210
+USA,USA,Texas,Hartley,210
+USA,USA,Texas,Sherman,210
+USA,USA,Texas,Jack,210
+USA,USA,Texas,Castro,210
+USA,USA,Texas,Culberson,210
+USA,USA,Texas,Lubbock,210
+USA,USA,Texas,Comanche,210
+USA,USA,Texas,Bandera,210
+USA,USA,Texas,Winkler,210
+USA,USA,Texas,Yoakum,210
+USA,USA,Texas,Dimmit,210
+USA,USA,Texas,Motley,210
+USA,USA,Texas,Fisher,210
+USA,USA,Texas,Zavala,210
+USA,USA,Texas,Wilson,210
+USA,USA,Texas,Armstrong,210
+USA,USA,Texas,Lynn,210
+USA,USA,Texas,Guadalupe,210
+USA,USA,Texas,Atascosa,210
+USA,USA,Texas,Maverick,210
+USA,USA,Texas,Willacy,210
+USA,USA,Texas,Edwards,210
+USA,USA,Texas,Kendall,210
+USA,USA,Texas,Crosby,210
+USA,USA,Texas,Hemphill,210
+USA,USA,Texas,Taylor,210
+USA,USA,Texas,Kinney,210
+USA,USA,Texas,Mitchell,210
+USA,USA,Texas,Hockley,210
+USA,USA,Texas,Madison,210
+USA,USA,Texas,Comal,210
+USA,USA,Texas,Medina,210
+USA,USA,Texas,Parmer,210
+USA,USA,Texas,Grimes,210
+USA,USA,Texas,Ward,210
+USA,USA,Texas,Throckmorton,210
+USA,USA,Texas,Duval,210
+USA,USA,Texas,Garza,210
+USA,USA,Texas,Lampasas,210
+USA,USA,Texas,Sutton,210
+USA,USA,Texas,Hale,210
+USA,USA,Texas,Oldham,210
+USA,USA,Texas,Concho,210
+USA,USA,Texas,Blanco,210
+USA,USA,Texas,Caldwell,210
+USA,USA,Texas,Hays,210
+USA,USA,Texas,Delta,210
+USA,USA,Texas,Reeves,210
+USA,USA,Texas,Uvalde,210
+USA,USA,Texas,Ector,210
+USA,USA,Texas,Martin,210
+USA,USA,Texas,Lavaca,210
+USA,USA,Texas,Brown,210
+USA,USA,Texas,Tarrant,210
+USA,USA,Texas,Llano,210
+USA,USA,Texas,Childress,210
+USA,USA,Texas,Clay,210
+USA,USA,Texas,Montgomery,210
+USA,USA,Texas,Wood,210
+USA,USA,Texas,Dallas,210
+USA,USA,Texas,Gonzales,210
+USA,USA,Texas,Dickens,210
+USA,USA,Texas,Starr,210
+USA,USA,Texas,Nolan,210
+USA,USA,Texas,Walker,210
+USA,USA,Texas,Pecos,210
+USA,USA,Texas,Williamson,210
+USA,USA,Texas,Denton,210
+USA,USA,Texas,Crane,210
+USA,USA,Texas,Stephens,210
+USA,USA,Texas,Irion,210
+USA,USA,Texas,Knox,210
+USA,USA,Texas,Archer,210
+USA,USA,Texas,Ochiltree,210
+USA,USA,Texas,Midland,210
+USA,USA,Texas,San Patricio,210
+USA,USA,Texas,Dawson,210
+USA,USA,Texas,Van Zandt,210
+USA,USA,Texas,Galveston,210
+USA,USA,Texas,Tom Green,210
+USA,USA,Texas,Orange,210
+USA,USA,Texas,Navarro,210
+USA,USA,Texas,Collin,210
+USA,USA,Texas,Hansford,210
+USA,USA,Texas,Stonewall,210
+USA,USA,Texas,Burleson,210
+USA,USA,Texas,Glasscock,210
+USA,USA,Texas,Haskell,210
+USA,USA,Texas,Burnet,210
+USA,USA,Texas,McLennan,210
+USA,USA,Texas,Anderson,210
+USA,USA,Texas,Brazoria,210
+USA,USA,Texas,Austin,210
+USA,USA,Texas,Henderson,210
+USA,USA,Texas,San Saba,210
+USA,USA,Texas,Hardin,210
+USA,USA,Texas,Leon,210
+USA,USA,Texas,Callahan,210
+USA,USA,Texas,Bastrop,210
+USA,USA,Texas,Refugio,210
+USA,USA,Texas,Cherokee,210
+USA,USA,Texas,Fort Bend,210
+USA,USA,Texas,Hamilton,210
+USA,USA,Texas,Brazos,210
+USA,USA,Texas,Bexar,210
+USA,USA,Texas,Mills,210
+USA,USA,Texas,Washington,210
+USA,USA,Texas,Cameron,210
+USA,USA,Texas,Crockett,210
+USA,USA,Texas,Jim Wells,210
+USA,USA,Texas,Wise,210
+USA,USA,Texas,Franklin,210
+USA,USA,Texas,Lamar,210
+USA,USA,Texas,Liberty,210
+USA,USA,Texas,Upton,210
+USA,USA,Texas,Bailey,210
+USA,USA,Texas,Bell,210
+USA,USA,Texas,Nueces,210
+USA,USA,Texas,Lamb,210
+USA,USA,Texas,Smith,210
+USA,USA,Texas,Titus,210
+USA,USA,Texas,Travis,210
+USA,USA,Texas,Matagorda,210
+USA,USA,Texas,Swisher,210
+USA,USA,Texas,Wichita,210
+USA,USA,Texas,Coleman,210
+USA,USA,Texas,Parker,210
+USA,USA,Texas,Kleberg,210
+USA,USA,Texas,Coryell,210
+USA,USA,Texas,Harris,210
+USA,USA,Texas,Jim Hogg,210
+USA,USA,Texas,Montague,210
+USA,USA,Texas,Hill,210
+USA,USA,Texas,Johnson,210
+USA,USA,Texas,Milam,210
+USA,USA,Texas,Hidalgo,210
+USA,USA,Texas,Menard,210
+USA,USA,Texas,Schleicher,210
+USA,USA,Texas,Jasper,210
+USA,USA,Texas,Hopkins,210
+USA,USA,Texas,Bee,210
+USA,USA,Texas,Red River,210
+USA,USA,Texas,Brooks,210
+USA,USA,Texas,Erath,210
+USA,USA,Texas,Tyler,210
+USA,USA,Texas,Palo Pinto,210
+USA,USA,Texas,Lee,210
+USA,USA,Texas,Hood,210
+USA,USA,Texas,Jefferson,210
+USA,USA,Texas,Bowie,210
+USA,USA,Texas,Eastland,210
+USA,USA,Texas,Webb,210
+USA,USA,Texas,Coke,210
+USA,USA,Texas,Cass,210
+USA,USA,Texas,Waller,210
+USA,USA,Texas,Fayette,210
+USA,USA,Texas,Fannin,210
+USA,USA,Texas,Grayson,210
+USA,USA,Texas,Zapata,210
+USA,USA,Texas,Wilbarger,210
+USA,USA,Texas,Bosque,210
+USA,USA,Texas,Camp,210
+USA,USA,Texas,Young,210
+USA,USA,Texas,Hunt,210
+USA,USA,Texas,Kaufman,210
+USA,USA,Texas,Morris,210
+USA,USA,Texas,Shackelford,210
+USA,USA,Texas,Freestone,210
+USA,USA,Texas,Aransas,210
+USA,USA,Texas,Gregg,210
+USA,USA,Texas,Trinity,210
+USA,USA,Texas,Ellis,210
+USA,USA,Texas,Rockwall,210
+USA,USA,Texas,Reagan,210
+USA,USA,Texas,Wharton,210
+USA,USA,Texas,Nacogdoches,210
+USA,USA,Texas,Somervell,210
+USA,USA,Texas,Howard,210
+USA,USA,Texas,Panola,210
+USA,USA,Texas,Shelby,210
+USA,USA,Texas,Angelina,210
+USA,USA,Texas,Colorado,210
+USA,USA,Texas,Runnels,210
+USA,USA,Texas,Gaines,210
+USA,USA,Texas,Limestone,210
+USA,USA,Texas,San Jacinto,210
+USA,USA,Texas,Houston,210
+USA,USA,Texas,Rusk,210
+USA,USA,Texas,Brewster,210
+USA,USA,Texas,Jones,210
+USA,USA,Texas,Harrison,210
+USA,USA,Texas,Polk,210
+USA,USA,Texas,McCulloch,210
+USA,USA,Texas,Upshur,210
+USA,USA,Texas,San Augustine,210
+USA,USA,Texas,Marion,210
+USA,USA,Texas,Sabine,210
+USA,USA,Texas,Victoria,210
+USA,USA,Texas,Cooke,210
+USA,USA,Texas,Rains,210
+USA,USA,Texas,Newton,210
+USA,USA,Texas,Robertson,210
+USA,USA,Texas,Falls,210
+USA,USA,Texas,Andrews,210
+USA,USA,Texas,Borden,210
+USA,USA,Texas,Calhoun,210
+USA,USA,Texas,Chambers,210
+USA,USA,Texas,Cottle,210
+USA,USA,Texas,Foard,210
+USA,USA,Texas,Goliad,210
+USA,USA,Texas,Hardeman,210
+USA,USA,Texas,Hudspeth,210
+USA,USA,Texas,Jackson,210
+USA,USA,Texas,Jeff Davis,210
+USA,USA,Texas,Kenedy,210
+USA,USA,Texas,Kent,210
+USA,USA,Texas,Kimble,210
+USA,USA,Texas,Live Oak,210
+USA,USA,Texas,Loving,210
+USA,USA,Texas,Mason,210
+USA,USA,Texas,McMullen,210
+USA,USA,Texas,Presidio,210
+USA,USA,Texas,Sterling,210
+USA,USA,Texas,Terrell,210
+USA,USA,Texas,Val Verde,210
