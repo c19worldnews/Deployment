@@ -22,12 +22,14 @@ from pprint import pprint
 from html_table_parser.parser import HTMLTableParser
 import builtins
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
+
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-wd = webdriver.Chrome('chromedriver',options=options)
-wd.get("https://chromedriver.chromium.org/home")
+
 
 # open it, go to a website, and get results
 
@@ -121,7 +123,8 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   usa_prov = country_name.lower()
   #scraping the button show all click data
   #return select_location
-  wd = webdriver.Chrome('chromedriver',options=options)
+  wd = webdriver.Chrome(ChromeDriverManager().install())
+  #wd = webdriver.Chrome('chromedriver',options=options)
   if select_location == 'USA':
       wd.get("https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html")
       #baseurl = "https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html"
