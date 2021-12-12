@@ -22,7 +22,7 @@ from pprint import pprint
 from html_table_parser.parser import HTMLTableParser
 import builtins
 from selenium import webdriver
-from webdrivermanager.chrome import ChromeDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 options = webdriver.ChromeOptions()
