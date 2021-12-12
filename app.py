@@ -127,8 +127,8 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #return select_location
   #wd = webdriver.Chrome(ChromeDriverManager().install())
   #wd = webdriver.Chrome('chromedriver',options=options)
-  wd = webdriver.Chrome(executable_path=r'chromedriver.exe')
-  wd.get('https://chromedriver.chromium.org/home')
+  wd = webdriver.Chrome('chromedriver.exe',options=options)
+  
 
   if select_location == 'USA':
       wd.get("https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html")
