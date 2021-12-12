@@ -1,6 +1,6 @@
 beautifulsoup4
 geopy
-html_table_parser
+html-table-parser-python3
 numpy
 pandas
 requests_html
