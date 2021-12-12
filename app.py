@@ -27,6 +27,8 @@ options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 wd = webdriver.Chrome('chromedriver',options=options)
+wd.get("https://chromedriver.chromium.org/home")
+
 # open it, go to a website, and get results
 
 
