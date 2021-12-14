@@ -127,7 +127,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   usa_prov = country_name.lower()
   #scraping the button show all click data
   #return select_location
-  wd = webdriver.Chrome()
+  wd = webdriver.Chrome('/usr/bin/chromedriver',options=chrome_options)
   #wd.get("https://share.streamlit.io/")
   #wd = webdriver.Chrome(ChromeDriverManager().install())
   #wd = webdriver.Chrome('chromedriver',options=options)
