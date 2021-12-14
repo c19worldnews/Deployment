@@ -125,9 +125,9 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   usa_prov = country_name.lower()
   #scraping the button show all click data
   #return select_location
-  #wd = webdriver.Chrome(ChromeDriverManager().install())
+  wd = webdriver.Chrome(ChromeDriverManager().install())
   #wd = webdriver.Chrome('chromedriver',options=options)
-  wd = webdriver.Chrome(executable_path =r'/content/drive/MyDrive/Weather/Deployment/chromedriver.exe')
+  #wd = webdriver.Chrome(executable_path =r'/content/drive/MyDrive/Weather/Deployment/chromedriver.exe')
   
 
   if select_location == 'USA':
