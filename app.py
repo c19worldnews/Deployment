@@ -24,7 +24,7 @@ import builtins
 #from selenium import webdriver
 #from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
-import chromedriver_binary
+import chromedriver_binary-auto
 
 
 
