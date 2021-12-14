@@ -126,8 +126,8 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #scraping the button show all click data
   #return select_location
   #wd = webdriver.Chrome(ChromeDriverManager().install())
-  wd = webdriver.Chrome('chromedriver',options=options)
-  #wd = webdriver.Chrome(executable_path ='chromedriver.exe')
+  #wd = webdriver.Chrome('chromedriver',options=options)
+  wd = webdriver.Chrome(executable_path ='/usr/bin/chromedriver')
   
 
   if select_location == 'USA':
