@@ -74,7 +74,7 @@ isos=['ABW','AFG','AGO','AIA','ALB','AND','ARE','ARG','ARM','ASM','ATG','AUS','A
 'VCT','VEN','VGB','VIR','VNM','VUT','WLF','WSM','YEM','ZAF','ZMB','ZWE']
 
 # loading the trained model
-model = keras.models.load_model('/content/drive/MyDrive/Weather/Deployment/finalmodelv1.h5')
+model = keras.models.load_model('finalmodelv1.h5')
 #regression = pickle.load(model)
 
 @st.cache()
@@ -254,7 +254,7 @@ import base64
 def main():  
     # front end elements of the web page 
     st.set_page_config(layout="wide")
-    main_bg = "/content/drive/MyDrive/Weather/Deployment/giphy.gif"
+    main_bg = "giphy.gif"
     main_bg_ext = "gif"
     padding_left = "50px"
     #background-color: #1c294b
@@ -285,7 +285,7 @@ def main():
      
   
    
-    st.sidebar.image("/content/drive/MyDrive/Weather/Deployment/tlogo.png")
+    st.sidebar.image("tlogo.png")
     Date_today = date.today()  
        
     html_date = str("<p style='color: white; text-align:center; font-size:20px'>") + str(Date_today.strftime("%d %b, %y"))+ str("</p>")
