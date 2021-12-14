@@ -22,15 +22,14 @@ from pprint import pprint
 from html_table_parser.parser import HTMLTableParser
 import builtins
 import chromedriver_binary 
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
-
-
-
-
-chrome_options = webdriver.ChromeOptions()
+chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
+
 
 
 # open it, go to a website, and get results
