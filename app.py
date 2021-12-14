@@ -21,8 +21,10 @@ from pprint import pprint
 # on the website
 from html_table_parser.parser import HTMLTableParser
 import builtins
+#from selenium import webdriver
+#from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+import chromedriver_binary
 
 
 
@@ -125,9 +127,11 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   usa_prov = country_name.lower()
   #scraping the button show all click data
   #return select_location
+  wd = webdriver.Chrome()
+  #wd.get("https://share.streamlit.io/")
   #wd = webdriver.Chrome(ChromeDriverManager().install())
   #wd = webdriver.Chrome('chromedriver',options=options)
-  wd = webdriver.Chrome(executable_path ='/usr/bin/chromedriver')
+  #wd = webdriver.Chrome(executable_path ='/usr/bin/chromedriver')
   
 
   if select_location == 'USA':
