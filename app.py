@@ -24,6 +24,7 @@ import builtins
 #from selenium import webdriver
 #from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
+import chromedriver_binary 
 
 
 
@@ -129,7 +130,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #return select_location
   wd = webdriver.Chrome('/usr/bin/chromedriver',options=chrome_options)
   #wd.get("https://share.streamlit.io/")
-  #wd = webdriver.Chrome(ChromeDriverManager().install())
+  wd = webdriver.Chrome()
   #wd = webdriver.Chrome('chromedriver',options=options)
   #wd = webdriver.Chrome(executable_path ='/usr/bin/chromedriver')
   
