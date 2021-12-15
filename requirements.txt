@@ -9,4 +9,3 @@ selenium
 streamlit
 tensorflow-cpu
 webdriver-manager
-chromedriver
