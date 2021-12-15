@@ -126,9 +126,9 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #return select_location
   #wd = webdriver.Chrome('/usr/bin/chromedriver',options=chrome_options)
   #wd.get("https://share.streamlit.io/")
-  #wd = webdriver.Chrome()
+  wd = webdriver.Chrome()
   #wd = webdriver.Chrome('chromedriver',options=options)
-  wd = webdriver.Chrome(executable_path ='chromedriver')
+  #wd = webdriver.Chrome(executable_path ='chromedriver')
   
 
   if select_location == 'USA':
