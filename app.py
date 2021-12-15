@@ -127,7 +127,8 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #wd = webdriver.Chrome('/usr/bin/chromedriver',options=chrome_options)
   #wd.get("https://share.streamlit.io/")
   #wd = webdriver.Chrome()
-  wd = webdriver.Chrome(executable_path ='/content/chromedriver',options=chrome_options)
+  os.chmod('chromedriver', 755)
+  wd = webdriver.Chrome(executable_path ='chromedriver',options=chrome_options)
   #wd = webdriver.Chrome(executable_path ='chromedriver')
   
 
