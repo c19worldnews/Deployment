@@ -430,10 +430,24 @@ def main():
 
                else:
                   association_msg.append("Today the weather is " + weather_desc[i] + " and temp is between " + min_temp[i] + "/ " + max_temp[i] + ", So the number of new cases of covid-19 cases may not be affected.")
-           
+            
+            today_cases = int(result[3])
+            new_pred = []
+            for i in forecast_newcases:
+              diff = int(i)-today_cases
+              if -150 <= diff <= 150:
+                new_pred.append(i)
+              elif diff<-150:
+                rand = random.uniform(-150, 0)
+                generalied_newcase = int(today_cases + rand)
+                new_pred.append(generalied_newcase)
+              elif diff> 150:
+                rand = random.uniform(0,150)
+                generalied_newcase = int(today_cases + rand)
+                new_pred.append(generalied_newcase)
            
             format_nc = []
-            for x in forecast_newcases:
+            for x in new_pred:
               x = int(x)
               if x < 4:
                 minimum_cases = 0
