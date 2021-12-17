@@ -75,7 +75,7 @@ isos=['ABW','AFG','AGO','AIA','ALB','AND','ARE','ARG','ARM','ASM','ATG','AUS','A
 'VCT','VEN','VGB','VIR','VNM','VUT','WLF','WSM','YEM','ZAF','ZMB','ZWE']
 
 # loading the trained model
-model = keras.models.load_model('finalmodel.h5')
+model = keras.models.load_model('finalmodel_v1.h5')
 #regression = pickle.load(model)
 
 @st.cache()
