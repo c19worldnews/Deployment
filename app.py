@@ -433,19 +433,36 @@ def main():
                   association_msg.append("Today the weather is " + weather_desc[i] + " and temp is between " + min_temp[i] + "/ " + max_temp[i] + ", So the number of new cases of covid-19 cases may not be affected.")
             
             today_cases = int(result[3])
+            today_cases_len = len(str(today_cases))
             new_pred = []
-            for i in forecast_newcases:
-              diff = int(i)-today_cases
-              if -150 <= diff <= 150:
-                new_pred.append(i)
-              elif diff<-150:
-                rand = random.uniform(-150, 0)
-                generalied_newcase = int(today_cases + rand)
-                new_pred.append(generalied_newcase)
-              elif diff> 150:
-                rand = random.uniform(0,150)
-                generalied_newcase = int(today_cases + rand)
-                new_pred.append(generalied_newcase)
+            if today_cases_len > 1:
+             for i in forecast_newcases:
+                diff = int(i)-today_cases
+                if -150 <= diff <= 150:
+                  new_pred.append(i)
+                elif diff<-150:
+                  rand = random.uniform(-150, 0)
+                  generalied_newcase = int(today_cases + rand)
+                  new_pred.append(generalied_newcase)
+                elif diff> 150:
+                  rand = random.uniform(0,150)
+                  generalied_newcase = int(today_cases + rand)
+                  new_pred.append(generalied_newcase)
+            else:
+                for i in forecast_newcases:
+                  diff = int(i)-today_cases
+                  if -5 <= diff <= 5:
+                    rand = random.uniform(0,5)
+                    generalied_newcase = int(today_cases + rand)
+                    new_pred.append(generalied_newcase)
+                  elif diff<-5:
+                    rand = random.uniform(-5, 0)
+                    generalied_newcase = int(today_cases + rand)
+                    new_pred.append(generalied_newcase)
+                  elif diff> 5:
+                    rand = random.uniform(0,5)
+                    generalied_newcase = int(today_cases + rand)
+                    new_pred.append(generalied_newcase)
            
             format_nc = []
             for x in new_pred:
