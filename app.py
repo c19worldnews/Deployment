@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup as bs
 from requests_html import HTMLSession 
 import pickle
+import random
 import streamlit as st
 from tensorflow import keras
 # univariate bidirectional lstm example
