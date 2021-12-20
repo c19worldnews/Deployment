@@ -172,7 +172,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #element = wd.find_element(By.XPATH,"//button[contains(@class,'showall')]")
   #element = wd.find_element(By.XPATH,"//*[@id='world-france-covid-cases']/div/div/main/div[3]/div[4]/section[2]/div[2]/table/tbody/tr")
   #wd.execute_script("arguments[0].click();", element)
- if select_location != 'France':
+  if select_location != 'France':
     elements=wd.find_elements_by_xpath("//button[contains(@class,'showall')]")
     for element in elements:
       wd.execute_script("arguments[0].click();", element);
