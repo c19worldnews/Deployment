@@ -136,13 +136,11 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #/app/deployment/chromedriver
   wd = webdriver.Chrome(executable_path ='chromedriver', options=chrome_options)
   #wd = webdriver.Chrome(executable_path ='chromedriver')
-  
-
- if select_location == 'USA':
+  if select_location == 'USA':
       wd.get("https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html")
       #baseurl = "https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html"
       #return baseurl
- elif select_location == 'France' :
+  elif select_location == 'France' :
       france_url = 'https://www.data.gouv.fr/fr/datasets/r/5c4e1452-3850-4b59-b11c-3dd51d7fb8b5'
       france_df = pd.read_csv(france_url)
       
@@ -162,7 +160,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
       #getting city name 
       city_name = france_df[france_df['dep'] == dept_id]['lib_dep'].values[3]
       #return city_name
- else:
+  else:
       wd.get("https://www.nytimes.com/interactive/2021/world/"+country+"-covid-cases.html")
       #baseurl ="https://www.nytimes.com/interactive/2021/world/"+country+"-covid-cases.html"
       #print(baseurl)
