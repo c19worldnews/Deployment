@@ -76,7 +76,7 @@ isos=['ABW','AFG','AGO','AIA','ALB','AND','ARE','ARG','ARM','ASM','ATG','AUS','A
 
 # loading the trained model
 #for share streamlit
-model = keras.models.load_model('finalmodel.h5')
+model = keras.models.load_model('finalmodel_v1.h5')
 #for google colab
 #model = keras.models.load_model('/content/drive/MyDrive/Weather/Deployment/finalmodel_v1.h5')
 
