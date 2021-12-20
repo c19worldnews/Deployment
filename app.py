@@ -22,7 +22,7 @@ from pprint import pprint
 # on the website
 from html_table_parser.parser import HTMLTableParser
 import builtins
-import chromedriver_binary 
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
@@ -75,8 +75,10 @@ isos=['ABW','AFG','AGO','AIA','ALB','AND','ARE','ARG','ARM','ASM','ATG','AUS','A
 'VCT','VEN','VGB','VIR','VNM','VUT','WLF','WSM','YEM','ZAF','ZMB','ZWE']
 
 # loading the trained model
-model = keras.models.load_model('finalmodel_v1.h5')
-#regression = pickle.load(model)
+#for share streamlit
+#model = keras.models.load_model('finalmodel.h5')
+#for google colab
+model = keras.models.load_model('/content/drive/MyDrive/Weather/Deployment/finalmodel.h5')
 
 @st.cache()
 
@@ -128,14 +130,19 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #return select_location
   #wd = webdriver.Chrome('/usr/bin/chromedriver',options=chrome_options)
   #wd.get("https://share.streamlit.io/")
-  #wd = webdriver.Chrome()
+  #for google colab
+  #wd = webdriver.Chrome(options=chrome_options)
   os.chmod('chromedriver', 1363)
   #mypath= os.getcwd()
   #mydir = os.listdir('./')
   #return mydir
+
+  #for share streamlit
   #/app/deployment/chromedriver
   wd = webdriver.Chrome(executable_path ='chromedriver', options=chrome_options)
   #wd = webdriver.Chrome(executable_path ='chromedriver')
+  
+
   if select_location == 'USA':
       wd.get("https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html")
       #baseurl = "https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html"
@@ -281,7 +288,10 @@ import base64
 def main():  
     # front end elements of the web page 
     st.set_page_config(layout="wide")
+    #for share streamlit
     main_bg = "giphy.gif"
+    #for google colab
+    #main_bg = "/content/drive/MyDrive/Weather/Deployment/giphy.gif"
     main_bg_ext = "gif"
     padding_left = "50px"
     #background-color: #1c294b
@@ -309,6 +319,9 @@ def main():
      
   
    
+    #fro google colab
+    #st.sidebar.image("/content/drive/MyDrive/Weather/Deployment/tlogo.png")
+    #for share streamlit
     st.sidebar.image("tlogo.png")
     Date_today = date.today()  
        
@@ -353,8 +366,10 @@ def main():
     select_location = st.sidebar.selectbox('Select Location',
                                     ['Australia', 'Brazil','Canada','France','Germany','Italy','India','Japan','Mexico','Spain','United Kingdom','USA'])
     
-                             
-    reference_file = pd.read_csv('/content/drive/MyDrive/Weather/Deployment/location_list.csv')
+    #for streamlit
+    reference_file = pd.read_csv('https://raw.githubusercontent.com/neerja198/Deployment/main/location_list.csv')                         
+    #for google colab
+    #reference_file = pd.read_csv('/content/drive/MyDrive/Weather/Deployment/location_list.csv')
     if select_location == 'USA':
             usa_dataset = pd.read_csv('https://raw.githubusercontent.com/neerja198/Deployment/main/USA_referance.csv') 
            
@@ -377,7 +392,7 @@ def main():
 
 
             result =""
-     elif select_location == 'France':  
+    elif select_location == 'France':  
             sel_region = '<p style="font-style: oblique; text-align:left;color:white; font-size:16px">Select Region</p>'
             st.sidebar.markdown(sel_region,unsafe_allow_html=True)
 
@@ -644,4 +659,4 @@ def main():
      
 if __name__=='__main__': 
     main()
-  
+     
