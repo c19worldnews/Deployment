@@ -142,6 +142,26 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
       wd.get("https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html")
       #baseurl = "https://www.nytimes.com/interactive/2021/us/"+usa_prov+"-covid-cases.html"
       #return baseurl
+  elif select_location == 'France' :
+      france_url = 'https://www.data.gouv.fr/fr/datasets/r/5c4e1452-3850-4b59-b11c-3dd51d7fb8b5'
+      france_df = pd.read_csv(france_url)
+      
+      dept_id = str(city_name)  #here city_name is the id of department
+      sub = france_df[france_df.dep == dept_id]
+      if sub.empty:
+        dept_id = int(city_name)  #here city_name is the id of department
+        sub = france_df[france_df.dep == dept_id]
+      else:
+        pass
+     
+      latest = sub.tail(7)
+      new_cases_list = latest.pos
+      
+      index_value= new_cases_list.index.get_loc(new_cases_list.last_valid_index())
+      new_cases = new_cases_list.iloc[index_value]
+      #getting city name 
+      city_name = france_df[france_df['dep'] == dept_id]['lib_dep'].values[3]
+      #return city_name
   else:
       wd.get("https://www.nytimes.com/interactive/2021/world/"+country+"-covid-cases.html")
       #baseurl ="https://www.nytimes.com/interactive/2021/world/"+country+"-covid-cases.html"
@@ -152,72 +172,73 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #element = wd.find_element(By.XPATH,"//button[contains(@class,'showall')]")
   #element = wd.find_element(By.XPATH,"//*[@id='world-france-covid-cases']/div/div/main/div[3]/div[4]/section[2]/div[2]/table/tbody/tr")
   #wd.execute_script("arguments[0].click();", element)
+ if select_location != 'France':
+    elements=wd.find_elements_by_xpath("//button[contains(@class,'showall')]")
+    for element in elements:
+      wd.execute_script("arguments[0].click();", element);
+      #return element.text
+    # Get 'HTML'
 
-  elements=wd.find_elements_by_xpath("//button[contains(@class,'showall')]")
-  for element in elements:
-    wd.execute_script("arguments[0].click();", element);
-    #return element.text
-  # Get 'HTML'
+    html_data = wd.page_source
+    #return html_data
+    soup = bs(html_data, 'html.parser')
+    table = soup.findAll('table', {"class": "g-table super-table withchildren"})
+    #return table
+    if len(table) == 2:
 
-  html_data = wd.page_source
-  #return html_data
-  soup = bs(html_data, 'html.parser')
-  table = soup.findAll('table', {"class": "g-table super-table withchildren"})
-  #return table
-  if len(table) == 2:
+        df = pd.read_html(str(table[0]))[0]
+        df = df[df.columns[:2]]
+        df = df.rename(columns={ df.columns[0]: "location", df.columns[1]: "new_cases" })
+        #if country=='italy':
+        # df.drop(columns=['Per 100,000',	'14-day change'], inplace=True)
+        # df.rename(columns={'Unnamed: 0': 'location', 'Cases Daily Avg.':'new_cases'}, inplace=True)
+        #else:
+        # df.drop(columns=['Per 100,000',	'14-day change',	'Deaths Daily Avg.',	'Per 100,000.1'], inplace=True)
+        # df.rename(columns={'Unnamed: 0': 'location', 'New Hospitalizations Daily Avg.':'new_cases'}, inplace=True)
+        
+        df2 = pd.read_html(str(table[1]))[0]
 
-      df = pd.read_html(str(table[0]))[0]
-      df = df[df.columns[:2]]
-      df = df.rename(columns={ df.columns[0]: "location", df.columns[1]: "new_cases" })
-      #if country=='italy':
-       # df.drop(columns=['Per 100,000',	'14-day change'], inplace=True)
-       # df.rename(columns={'Unnamed: 0': 'location', 'Cases Daily Avg.':'new_cases'}, inplace=True)
-      #else:
-       # df.drop(columns=['Per 100,000',	'14-day change',	'Deaths Daily Avg.',	'Per 100,000.1'], inplace=True)
-       # df.rename(columns={'Unnamed: 0': 'location', 'New Hospitalizations Daily Avg.':'new_cases'}, inplace=True)
+
+        df2 = df2[df2.columns[:2]]
+        df2 = df2.rename(columns={ df2.columns[0]: "location", df2.columns[1]: "new_cases" })
+        #if country=='italy':
+        # df2.drop(columns=['Per 100,000',	'14-day change'], inplace=True)
+        # df2.rename(columns={'Unnamed: 0': 'location', 'Cases Daily Avg.':'new_cases'}, inplace=True)
+        #else:
+        # df2.drop(columns=['Per 100,000',	'14-day change',	'Deaths Daily Avg.',	'Per 100,000.1'], inplace=True)
+        # df2.rename(columns={'Unnamed: 0': 'location', 'New Hospitalizations Daily Avg.':'new_cases'}, inplace=True)
+
+        df = df.append(df2)
       
-      df2 = pd.read_html(str(table[1]))[0]
 
+    else:
 
-      df2 = df2[df2.columns[:2]]
-      df2 = df2.rename(columns={ df2.columns[0]: "location", df2.columns[1]: "new_cases" })
-      #if country=='italy':
-       # df2.drop(columns=['Per 100,000',	'14-day change'], inplace=True)
-       # df2.rename(columns={'Unnamed: 0': 'location', 'Cases Daily Avg.':'new_cases'}, inplace=True)
-      #else:
-       # df2.drop(columns=['Per 100,000',	'14-day change',	'Deaths Daily Avg.',	'Per 100,000.1'], inplace=True)
-       # df2.rename(columns={'Unnamed: 0': 'location', 'New Hospitalizations Daily Avg.':'new_cases'}, inplace=True)
+        df = pd.read_html(str(table[0]))[0]
+        df = df[df.columns[:2]]
+        df = df.rename(columns={ df.columns[0]: "location", df.columns[1]: "new_cases" })
+        #df.drop(columns=['Per 100,000',	'14-day change',	'Deaths Daily Avg.',	'Per 100,000.1'], inplace=True)
+        #df.rename(columns={'Unnamed: 0': 'location', 'Cases Daily Avg.':'new_cases'}, inplace=True)
 
-      df = df.append(df2)
+    #return df  
+    if select_location == 'USA':  
+        df['location'] = df['location'].replace('[^a-zA-Z0-9 ]', '', regex=True)
+        #city =  df[df['location'] == city_name]  
+        new_cases = df[df['location'] == city_name]['new_cases'].values[0]
     
-
-  else:
-
-      df = pd.read_html(str(table[0]))[0]
-      df = df[df.columns[:2]]
-      df = df.rename(columns={ df.columns[0]: "location", df.columns[1]: "new_cases" })
-      #df.drop(columns=['Per 100,000',	'14-day change',	'Deaths Daily Avg.',	'Per 100,000.1'], inplace=True)
-      #df.rename(columns={'Unnamed: 0': 'location', 'Cases Daily Avg.':'new_cases'}, inplace=True)
-
-  #return df  
-  if select_location == 'USA':  
-      df['location'] = df['location'].replace('[^a-zA-Z0-9 ]', '', regex=True)
-      #city =  df[df['location'] == city_name]  
-      new_cases = df[df['location'] == city_name]['new_cases'].values[0]
-     
-  else:
-      #city =  df[df['location'] == city_name]   
-      new_cases = df[df['location'] == city_name]['new_cases'].values[0]
-     
-
       
-  if str(new_cases).startswith('<'): 
-      new_cases = int(new_cases[1:])
-  else :
-      int(new_cases)
+    else:
+        #city =  df[df['location'] == city_name]   
+        new_cases = df[df['location'] == city_name]['new_cases'].values[0]
+      
 
-  #return new_cases 
-  #call the weather function
+        
+    if str(new_cases).startswith('<'): 
+        new_cases = int(new_cases[1:])
+    else :
+        int(new_cases)
+
+    #return new_cases 
+    #call the weather function
   
   weatherData = getWeather(city_name,country_name)
  # return weatherData
@@ -275,16 +296,13 @@ def main():
       <style>
       
       .reportview-container .main {{
-
           background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()});
           
           background-size: 150px 100px;
           background-repeat: repeat-y;
           background-color: #031444;
           
-
           }}
-
      
       </style>
       """,
@@ -338,7 +356,7 @@ def main():
                                     ['Australia', 'Brazil','Canada','France','Germany','Italy','India','Japan','Mexico','Spain','United Kingdom','USA'])
     
                              
-
+    reference_file = pd.read_csv('/content/drive/MyDrive/Weather/Deployment/location_list.csv')
     if select_location == 'USA':
             usa_dataset = pd.read_csv('https://raw.githubusercontent.com/neerja198/Deployment/main/USA_referance.csv') 
            
@@ -361,7 +379,29 @@ def main():
 
 
             result =""
+     elif select_location == 'France':  
+            sel_region = '<p style="font-style: oblique; text-align:left;color:white; font-size:16px">Select Region</p>'
+            st.sidebar.markdown(sel_region,unsafe_allow_html=True)
 
+            region = st.sidebar.selectbox("Select Region", sorted(reference_file.loc[reference_file.Country == 'France'].City.unique()), index=0)
+
+
+            sel_dept = '<p style="font-style: oblique; text-align:left;color:white; font-size:16px">Select Department</p>'
+            st.sidebar.markdown(sel_dept,unsafe_allow_html=True)
+            dept_name = st.sidebar.selectbox("Select Department", sorted(reference_file.loc[reference_file.City == region].dept.unique()))
+            
+             # 0: city   1: country   2: ISO   3: Label
+            dept_key =reference_file.loc[reference_file.dept== dept_name].values[0]
+            city_name = dept_key[6]
+            country_name = dept_key[1]
+            country_name = country_name.lower()
+            iso_code = dept_key[3]
+            alpha_2 = dept_key[2] 
+            label_alpha_2 = alpha_2[:2].lower()
+           
+
+
+            result =""
     else: 
           reference_file = pd.read_csv('https://raw.githubusercontent.com/neerja198/Deployment/main/location_list.csv')
           
@@ -606,4 +646,4 @@ def main():
      
 if __name__=='__main__': 
     main()
-     
+  
