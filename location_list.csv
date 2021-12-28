@@ -33,15 +33,15 @@ Nova Scotia,Canada,CAN,32,,,
 Prince Edward Island,Canada,CAN,32,,,
 Newfoundland and Labrador,Canada,CAN,32,,,
 Nunavut,Canada,CAN,32,,,
-Auvergne et Rhône-Alpes,France,FRA,63,84,Ain,01
-Hauts-de-France,France,FRA,63,32,Aisne,02
-Auvergne et Rhône-Alpes,France,FRA,63,84,Allier,03
-Provence-Alpes-Côte d'Azur,France,FRA,63,93,Alpes-de-Haute-Provence,04
-Provence-Alpes-Côte d'Azur,France,FRA,63,93,Hautes-Alpes,05
-Provence-Alpes-Côte d'Azur,France,FRA,63,93,Alpes-Maritimes,06
-Auvergne et Rhône-Alpes,France,FRA,63,84,Ardèche,07
-Grand Est,France,FRA,63,44,Ardennes,08
-Occitanie,France,FRA,63,76,Ariège,09
+Auvergne et Rhône-Alpes,France,FRA,63,84,Ain,1
+Hauts-de-France,France,FRA,63,32,Aisne,2
+Auvergne et Rhône-Alpes,France,FRA,63,84,Allier,3
+Provence-Alpes-Côte d'Azur,France,FRA,63,93,Alpes-de-Haute-Provence,4
+Provence-Alpes-Côte d'Azur,France,FRA,63,93,Hautes-Alpes,5
+Provence-Alpes-Côte d'Azur,France,FRA,63,93,Alpes-Maritimes,6
+Auvergne et Rhône-Alpes,France,FRA,63,84,Ardèche,7
+Grand Est,France,FRA,63,44,Ardennes,8
+Occitanie,France,FRA,63,76,Ariège,9
 Grand Est,France,FRA,63,44,Aube,10
 Occitanie,France,FRA,63,76,Aude,11
 Occitanie,France,FRA,63,76,Aveyron,12
@@ -134,6 +134,58 @@ Martinique,France,FRA,63,2,Martinique,972
 Guyane,France,FRA,63,3,Guyane,973
 Réunion,France,FRA,63,4,Réunion,974
 Mayotte,France,FRA,63,6,Mayotte,976
+Saxony,Germany,DEU,49,,,
+Bavaria,Germany,DEU,49,,,
+Thuringia,Germany,DEU,49,,,
+Saxony-Anhalt,Germany,DEU,49,,,
+Brandenburg,Germany,DEU,49,,,
+Baden-Württemberg,Germany,DEU,49,,,
+Berlin,Germany,DEU,49,,,
+Saarland,Germany,DEU,49,,,
+Rhineland-Palatinate,Germany,DEU,49,,,
+Hamburg,Germany,DEU,49,,,
+Hesse,Germany,DEU,49,,,
+Mecklenburg-Western Pomerania,Germany,DEU,49,,,
+North Rhine-Westphalia,Germany,DEU,49,,,
+Bremen,Germany,DEU,49,,,
+Lower Saxony,Germany,DEU,49,,,
+Schleswig-Holstein,Germany,DEU,49,,,
+Mizoram,India,IND,87,,,
+Kerala,India,IND,87,,,
+Ladakh,India,IND,87,,,
+Puducherry,India,IND,87,,,
+Manipur,India,IND,87,,,
+Goa,India,IND,87,,,
+Himachal Pradesh,India,IND,87,,,
+Jammu and Kashmir,India,IND,87,,,
+Lakshadweep,India,IND,87,,,
+Tamil Nadu,India,IND,87,,,
+Sikkim,India,IND,87,,,
+Meghalaya,India,IND,87,,,
+West Bengal,India,IND,87,,,
+Maharashtra,India,IND,87,,,
+Assam,India,IND,87,,,
+Odisha,India,IND,87,,,
+Nagaland,India,IND,87,,,
+Karnataka,India,IND,87,,,
+Telangana,India,IND,87,,,
+Andhra Pradesh,India,IND,87,,,
+Arunachal Pradesh,India,IND,87,,,
+Chandigarh,India,IND,87,,,
+Delhi,India,IND,87,,,
+Andaman and Nicobar Islands,India,IND,87,,,
+Tripura,India,IND,87,,,
+Uttarakhand,India,IND,87,,,
+Chhattisgarh,India,IND,87,,,
+Punjab,India,IND,87,,,
+Gujarat,India,IND,87,,,
+Haryana,India,IND,87,,,
+Jharkhand,India,IND,87,,,
+Rajasthan,India,IND,87,,,
+Madhya Pradesh,India,IND,87,,,
+Bihar,India,IND,87,,,
+Uttar Pradesh,India,IND,87,,,
+Dadra and Nagar Haveli and Daman and Diu,India,IND,87,,,
 Udine,Italy,ITA,93,,,
 Imperia,Italy,ITA,93,,,
 Ascoli Piceno,Italy,ITA,93,,,
