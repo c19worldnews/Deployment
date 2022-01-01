@@ -159,7 +159,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
       else:
         dept_id = str(city_name)
         #here city_name is the id of department
-      dept_id = str(city_name)  #here city_name is the id of department
+      
       sub = france_df[france_df.dep == dept_id]
       if sub.empty:
         dept_id = int(city_name)  #here city_name is the id of department
