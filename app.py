@@ -152,7 +152,13 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   elif select_location == 'France' :
       france_url = 'https://www.data.gouv.fr/fr/datasets/r/5c4e1452-3850-4b59-b11c-3dd51d7fb8b5'
       france_df = pd.read_csv(france_url)
-      
+      if len(city_name) == 1 :
+         dept_id = str(city_name)
+         dept_id = '0'+ dept_id
+         st.success(dept_id)
+     else:
+        dept_id = str(city_name)
+        #here city_name is the id of department
       dept_id = str(city_name)  #here city_name is the id of department
       sub = france_df[france_df.dep == dept_id]
       if sub.empty:
