@@ -156,7 +156,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
          dept_id = str(city_name)
          dept_id = '0'+ dept_id
          st.success(dept_id)
-     else:
+      else:
         dept_id = str(city_name)
         #here city_name is the id of department
       dept_id = str(city_name)  #here city_name is the id of department
