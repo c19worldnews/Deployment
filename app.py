@@ -14,6 +14,7 @@ from geopy.geocoders import Nominatim
 # Library for opening url and creating
 # requests
 import urllib.request
+import requests
  
 # pretty-print python data structures
 from pprint import pprint
@@ -26,6 +27,7 @@ import builtins
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
+import wget
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
@@ -76,9 +78,9 @@ isos=['ABW','AFG','AGO','AIA','ALB','AND','ARE','ARG','ARM','ASM','ATG','AUS','A
 
 # loading the trained model
 #for share streamlit
-model = keras.models.load_model('finalmodel_v1.h5')
+model = keras.models.load_model('finalmodel.h5')
 #for google colab
-#model = keras.models.load_model('/content/drive/MyDrive/Weather/Deployment/finalmodel_v1.h5')
+#model = keras.models.load_model('/content/drive/MyDrive/Weather/Deployment/finalmodel.h5')
 
 @st.cache()
 
@@ -132,7 +134,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
   #wd.get("https://share.streamlit.io/")
   #for google colab
   #wd = webdriver.Chrome(options=chrome_options)
-  os.chmod('chromedriver', 1363)
+  #os.chmod('chromedriver', 1363)
   #mypath= os.getcwd()
   #mydir = os.listdir('./')
   #return mydir
@@ -289,11 +291,11 @@ def main():
     # front end elements of the web page 
     st.set_page_config(layout="wide")
     #for share streamlit
-    main_bg = "giphy.gif"
+    #main_bg = "giphy.gif"
     #for google colab
     #main_bg = "/content/drive/MyDrive/Weather/Deployment/giphy.gif"
-    main_bg_ext = "gif"
-    padding_left = "50px"
+    #main_bg_ext = "gif"
+    #padding_left = "50px"
     #background-color: #1c294b
     #background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()});
     #background-size: cover;
@@ -304,11 +306,8 @@ def main():
       <style>
       
       .reportview-container .main {{
-          background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()});
-          
-          background-size: 150px 100px;
-          background-repeat: repeat-y;
-          background-color: #031444;
+        
+          background-color: #343A40
           
           }}
      
@@ -317,8 +316,7 @@ def main():
       unsafe_allow_html=True
     )
      
-  
-   
+      
     #fro google colab
     #st.sidebar.image("/content/drive/MyDrive/Weather/Deployment/tlogo.png")
     #for share streamlit
@@ -333,7 +331,7 @@ def main():
       <style>
       [data-testid="stSidebar"][aria-expanded="true"] > div:first-child {{
          
-          background-color:#031444;
+          background-color:#343A40;
           width:230px;
           
       }}
@@ -343,7 +341,7 @@ def main():
       )
     
     
-    new_title = '<p style="font-style: oblique; text-align:center;color:#ffe168; font-size:25px">5  Days Forecasting of Covid 19 New Cases Based on Weather</p>'
+    new_title = '<p style="font-style: oblique; text-align:center;color:#cc0919; font-size:25px">5  Days Forecasting of Covid 19 New Cases Based on Weather</p>'
     st.markdown(new_title,unsafe_allow_html=True)
    
   
@@ -358,13 +356,25 @@ def main():
     <style>
     [data-baseweb="select"] {
         margin-top: -50px;
+        
+        
+        
     }
+    div[role="listbox"] ul {
+        background-color: #585858;
+    }
+    div[data-baseweb="select"] > div {
+          background-color:#585858;
+          color: #c0c0c0;
+          border-color: #343A40;
+      }
+
     </style>
     """,
     unsafe_allow_html=True,
     )
     select_location = st.sidebar.selectbox('Select Location',
-                                    ['Australia', 'Brazil','Canada','France','Germany','Italy','India','Japan','Mexico','Spain','United Kingdom','USA'])
+                                    ['Australia', 'Brazil','Canada','France','Germany','Italy','India','Japan','Mexico','Spain','United Kingdom','USA'] )
     
     #for streamlit
     reference_file = pd.read_csv('https://raw.githubusercontent.com/neerja198/Deployment/main/location_list.csv')                         
@@ -439,7 +449,7 @@ def main():
           result =""
 
     # when 'Predict' is clicked, make the prediction and store it 
-    if st.sidebar.button("Predict"): 
+    if st.sidebar.button("Forecast"): 
         result = prediction(city_name,country_name,iso_code,label_alpha_2,select_location)
         #st.success(result)
         if len(result) == 6:
@@ -533,7 +543,9 @@ def main():
                 cases_range = "between " + str(minimum_cases)+" and "+str(maximum_cases)
                 new_cases = str(minimum_cases)+" - "+str(maximum_cases)
                 format_nc.append(new_cases)
-            #st.success(format_nc)
+            
+            split_range = format_nc[5].split('-')
+            #st.success(split_range[1])
             
             #date list
             date_lst = []
@@ -541,113 +553,366 @@ def main():
 
             for i in builtins.range(0,5):
                 Date_req = Date_today+ timedelta(days=i+1)
-                date_lst.append(Date_req.strftime("%d %b %y"))
+                date_lst.append(Date_req.strftime("%a, " " %d.%m.%Y"))
 
 
+            #separting the range 
+            newcases_lst = format_nc[1:]
+            range_lst  = []
+            for rnge in newcases_lst:
+              split_range = rnge.split('-')
+              range_lst.append(int(split_range[1])) 
             
-                
+            largest_num = max(range_lst)
+            min_num = min(range_lst)
+           
             
-            #index_value = ['Date','New Cases','Icon','Desc','Max_Temp','Min_Temp']
-            #tble for date
-
-            html_code1 = str("<h4 style='text-align: center; color: white;'>") + str(date_lst[0])+ str("</h4>")
-            html_code2 = str("<h4 style='text-align: center; color: white;'>") + str(date_lst[1])+ str("</h4>")
-            html_code3 = str("<h4 style='text-align: center; color: white;'>") + str(date_lst[2])+ str("</h4>")
-            html_code4 = str("<h4 style='text-align: center; color: white;'>") + str(date_lst[3])+ str("</h4>")
-            html_code5 = str("<h4 style='text-align: center; color: white;'>") + str(date_lst[4])+ str("</h4>")
-
-           
-            col9,col10,col11,col12,col13 = st.columns(5)
-            col9.markdown(html_code1, unsafe_allow_html=True)
-            col10.markdown(html_code2, unsafe_allow_html=True)
-            col11.markdown(html_code3, unsafe_allow_html=True)
-            col12.markdown(html_code4, unsafe_allow_html=True)
-            col13.markdown(html_code5, unsafe_allow_html=True)
-
-            #table for new cases
-            html_code6 = str("<h3 style='text-align: center; color: #ffe168;'>") +str(format_nc[1] )+ str("</h3>")
-            html_code7 = str("<h3 style='text-align: center; color: #ffe168;'>") + str(format_nc[2])+ str("</h3>")
-            html_code8 = str("<h3 style='text-align: center; color: #ffe168;'>") + str(format_nc[3])+ str("</h3>")
-            html_code9 = str("<h3 style='text-align: center; color: #ffe168;'>") + str(format_nc[4])+ str("</h3>")
-            html_code10 = str("<h3 style='text-align: center; color: #ffe168;'>") + str(format_nc[5])+ str("</h3>")
-
-           
-            col14,col15,col16,col17,col18 = st.columns(5)
-            col14.markdown(html_code6,unsafe_allow_html=True)
+            covid1, covid2,covid3,covid4,covid5 = st.columns(5)
             
-            col15.markdown(html_code7,unsafe_allow_html=True)
-            col16.markdown(html_code8,unsafe_allow_html=True)
-            col17.markdown(html_code9,unsafe_allow_html=True)
-            col18.markdown(html_code10,unsafe_allow_html=True)
-
-            html_ass1 = str("<p style='text-align: center; color: white;'>") +str(association_msg[0])+ str("</p>")
-            html_ass2= str("<p style='text-align: center; color: white;'>") +str(association_msg[1] )+ str("</p>")
-            html_ass3= str("<p style='text-align: center; color: white;'>") +str(association_msg[2] )+ str("</p>")
-            html_ass4= str("<p style='text-align: center; color: white;'>") +str(association_msg[3] )+ str("</p>")
-            html_ass5= str("<p style='text-align: center; color: white;'>") +str(association_msg[4] )+ str("</p>")
-
-            col_ass1,col_ass2,col_ass3,col_ass4,col_ass5 = st.columns(5)
-            col_ass1.markdown(html_ass1,unsafe_allow_html=True)
-            col_ass2.markdown(html_ass2,unsafe_allow_html=True)
-            col_ass3.markdown(html_ass3,unsafe_allow_html=True)
-            col_ass4.markdown(html_ass4,unsafe_allow_html=True)
-            col_ass5.markdown(html_ass5,unsafe_allow_html=True)
-
-            #table for Desc
-            html_code11 = str("<p style='text-align: center; font-style: oblique; color: white; font-size:20px'>") + str(weather_desc[0])+ str("</p>")
-            html_code12 = str("<p style='text-align: center; font-style: oblique; color: white; font-size:20px'>") + str(weather_desc[1])+ str("</p>")
-            html_code13 = str("<p style='text-align: center; font-style: oblique; color: white; font-size:20px'>") + str(weather_desc[2])+ str("</p>")
-            html_code14 = str("<p style='text-align: center; font-style: oblique; color: white; font-size:20px'>") + str(weather_desc[3])+ str("</p>")
-            html_code15 = str("<p style='text-align: center; font-style: oblique; color: white; font-size:20px'>") + str(weather_desc[4])+ str("</p>")
-
-           
-            col19,col20,col21,col22,col23 = st.columns(5)
-            col19.markdown(html_code11, unsafe_allow_html=True)
-            col20.markdown(html_code12, unsafe_allow_html=True)
-            col21.markdown(html_code13, unsafe_allow_html=True)
-            col22.markdown(html_code14, unsafe_allow_html=True)
-            col23.markdown(html_code15, unsafe_allow_html=True)
-            
-            
-
-            #table for icon
-
-            col24,col25,col26,col27,col28,col24_1,col24_2,col24_3,col24_4,col24_5 = st.columns([1,2,1,2,1,2,1,2,1,2])
-           
-           
         
-            with col25:
-                st.image("https:"+weather_img[0])
-            with col27:
-                st.image("https:"+weather_img[1])
-            with col24_1:
-                st.image("https:"+weather_img[2])
-            with col24_3:
-                st.image("https:"+weather_img[3])
-            with col24_5:
-                st.image("https:"+weather_img[4])
             
-            
-            
-            #col26.image("https:"+weather_img[1])
-            #col27.image("https:"+weather_img[2])
-            #col28.image("https:"+weather_img[3])
-            #col34.image("https:"+weather_img[4])
+            st.markdown(
+                    """
+                    <style>
+                    
+                    .container {
+                        background-color: #28A745;
+                        width:100px !important;
+                    }
+                    .logo-text {
+                        
+                        color: white !important;
+                        padding-top: 75px !important;
+                    }
+                    .logo-img {
+                        
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        
+                        
+                    }
 
-            #table for mintemp/maxtemp
-            html_code21 = str("<p style='text-align: center; color: white; font-size:20px'>") + str(min_temp[0] + "C"+ "/"+max_temp[0]+ "C")+ str("</p>")
-            html_code22 = str("<p style='text-align: center; color: white; font-size:20px'>") + str(min_temp[1] + "C" + " / "+max_temp[1]+ "C")+ str("</p>")
-            html_code23 = str("<p style='text-align: center; color: white; font-size:20px'>") + str(min_temp[2] + "C" + " / "+max_temp[2]+ "C")+ str("</p>")
-            html_code24 = str("<p style='text-align: center; color: white; font-size:20px'>") + str(min_temp[3] + "C" + " / "+max_temp[3]+ "C")+ str("</p>")
-            html_code25 = str("<p style='text-align: center; color: white; font-size:20px'>") + str(min_temp[4] + "C" + " / "+max_temp[4]+ "C")+ str("</p>")
+                    h4.date {
+                          text-align: center; color: #FFFFFF; font-size:20px; border-bottom: 1px solid black;
 
-           
-            col29,col30,col31,col32,col33 = st.columns(5)
-            col29.markdown(html_code21,unsafe_allow_html=True)
-            col30.markdown(html_code22,unsafe_allow_html=True)
-            col31.markdown(html_code23,unsafe_allow_html=True)
-            col32.markdown(html_code24,unsafe_allow_html=True)
-            col33.markdown(html_code25,unsafe_allow_html=True)
+
+                    }
+
+                    h3.newcases {
+
+                      text-align: center; color:#FFFFFF;font-size:30px;
+                      padding: 0; margin: 0;
+                      font-family:American Typewriter;
+                    }
+                    p.temp{
+
+                      text-align: center; color: #FFFFFF; font-size:25px;font-family:American Typewriter;
+                    }
+
+                    h6.weatherdesc{text-align: center; font-style: oblique; color: #FFFFFF; font-size:20px; }
+
+                    p.newcasestext {text-align: center; color: #FFFFFF; font-style: oblique;}
+
+                    </style>
+                    """,
+                    unsafe_allow_html=True
+                )
+   
+          
+            with covid1:
+                
+                last_range = format_nc[1].split('-')
+                last_num = int(last_range[1])
+              
+                if largest_num == last_num :
+                      st.markdown(
+                        f"""
+                            <div style="background-color: #DC3545; padding: 10px; min-height:200px;">
+                              <h4 class="date">{date_lst[0]}</h4>
+                              <p></p>
+                              <h3 class="newcases">{format_nc[1]}</h3>
+                              <p class="newcasestext">New Cases</p>
+                              <h6 style='text-align: center; color: #FFFFFF;'>{association_msg[0]}</h6>
+                              <h6 class="weatherdesc">{weather_desc[0]}</h6>
+                              <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[0]), "rb").read()).decode()}">
+                              <p class="temp">{ min_temp[0]} C / {max_temp[0]} C </p>
+                            </div>
+                      
+                        """,
+                        unsafe_allow_html=True
+                        )
+                      
+                elif min_num == last_num :
+                       st.markdown(
+                        f"""
+                            <div style="background-color: #28A745; padding: 10px;padding: 10px; min-height:200px;">
+                            <h4 class="date">{date_lst[0]}</h4> 
+                            <p></p> 
+                            <h3 class="newcases">{format_nc[1]}</h3>
+                            <p class="newcasestext">New Cases</p>
+                            <h6 style='text-align: center; color: #FFFFFF;'>{association_msg[0]}</h6>
+                            <h6 class="weatherdesc">{weather_desc[0]}</h6>
+                            <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[0]), "rb").read()).decode()}">
+                            <p class="temp">{ min_temp[0]} C / {max_temp[0]} C </p>
+                            </div>
+                      
+                        """,
+                        unsafe_allow_html=True
+                        )      
+                else:
+                       st.markdown(
+                        f"""
+                            <div style="background-color: #F4BB44;padding: 10px; min-height:200px;">
+                            <h4 class="date">{date_lst[0]}</h4>
+                            <p></p>  
+                            <h3 class="newcases">{format_nc[1]}</h3>
+                            <p class="newcasestext">New Cases</p>
+                            <h6 style='text-align: center; color: #FFFFFF;'>{association_msg[0]}</h6>
+                            <h6 class="weatherdesc">{weather_desc[0]}</h6>
+                            <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[0]), "rb").read()).decode()}">
+                            <p class="temp">{ min_temp[0]} C / {max_temp[0]} C </p>
+                            </div>
+                      
+                        """,
+                        unsafe_allow_html=True
+                        )
+                
+
+            with covid2:
+                last_range = format_nc[2].split('-')
+                last_num = int(last_range[1])
+                
+                if largest_num == last_num :
+                  st.markdown(
+                    f"""
+                        <div style="background-color: #DC3545;padding: 10px; min-height:200px;">
+                        <h4 class="date">{date_lst[1]}</h4>
+                        <p></p>  
+                        <h3 class="newcases">{format_nc[2]}</h3>
+                        <p class="newcasestext">New Cases</p>
+                        <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[1]}</h6>
+                        <h6 class="weatherdesc">{weather_desc[1]}</h6>
+                        <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[1]), "rb").read()).decode()}">
+                        <p class="temp">{ min_temp[1]} C / {max_temp[1]} C </p>
+                        </div>
+                  
+                    """,
+                    unsafe_allow_html=True
+                    )
+                elif min_num == last_num : 
+                  st.markdown(
+                      f"""
+                          <div style="background-color: #28A745;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[1]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[2]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[1]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[1]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[1]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[1]} C / {max_temp[1]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      )
+                else: 
+                  st.markdown(
+                      f"""
+                          <div style="background-color: #F4BB44;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[1]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[2]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[1]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[1]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[1]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[1]} C / {max_temp[1]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      ) 
+                
+        
+            with covid3:
+                last_range = format_nc[3].split('-')
+                last_num = int(last_range[1])
+                
+                if largest_num == last_num :
+                    st.markdown(
+                      f"""
+                          <div style="background-color: #DC3545;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[2]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[3]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[2]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[2]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[2]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[2]} C / {max_temp[2]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      )
+                elif min_num == last_num :
+                    st.markdown(
+                      f"""
+                           <div style="background-color: #28A745;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[2]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[3]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[2]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[2]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[2]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[2]} C / {max_temp[2]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      )
+                else:
+                    st.markdown(
+                      f"""
+                           <div style="background-color: #F4BB44;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[2]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[3]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[2]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[2]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[2]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[2]} C / {max_temp[2]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      )
+               
+        
+            with covid4:
+                last_range = format_nc[4].split('-')
+                last_num = int(last_range[1])
+                
+                if largest_num == last_num :
+                    st.markdown(
+                      f"""
+                          <div style="background-color: #DC3545;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[3]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[4]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[3]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[3]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[3]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[3]} C / {max_temp[3]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      )
+                    
+                elif min_num == last_num :
+                   st.markdown(
+                      f"""
+                          <div style="background-color: #28A745;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[3]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[4]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[3]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[3]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[3]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[3]} C / {max_temp[3]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      )    
+                else :
+                   st.markdown(
+                      f"""
+                          <div style="background-color: #F4BB44;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[3]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[4]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[3]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[3]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[3]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[3]} C / {max_temp[3]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                      )
+
+                
+            with covid5:
+               last_range = format_nc[5].split('-')
+               last_num = int(last_range[1])
+                
+               if largest_num == last_num : 
+                  
+                 st.markdown(
+                      f"""
+                          <div style="background-color: #DC3545;padding: 10px; min-height:200px;">
+                          <h4 class="date">{date_lst[4]}</h4>
+                          <p></p>  
+                          <h3 class="newcases">{format_nc[5]}</h3>
+                          <p class="newcasestext">New Cases</p>
+                          <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[4]}</h6>
+                          <h6 class="weatherdesc">{weather_desc[4]}</h6>
+                          <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[4]), "rb").read()).decode()}">
+                          <p class="temp">{ min_temp[4]} C / {max_temp[4]} C </p>
+                          </div>
+                    
+                      """,
+                      unsafe_allow_html=True
+                    )
+                
+               elif min_num == last_num :
+
+                     st.markdown(
+                        f"""
+                            <div style="background-color: #28A745;padding: 10px; min-height:200px;">
+                            <h4 class="date">{date_lst[4]}</h4>
+                            <p></p>  
+                            <h3 class="newcases">{format_nc[5]}</h3>
+                            <p class="newcasestext">New Cases</p>
+                            <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[4]}</h6>
+                            <h6 class="weatherdesc">{weather_desc[4]}</h6>
+                            <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[4]), "rb").read()).decode()}">
+                            <p class="temp">{ min_temp[4]} C / {max_temp[4]} C </p>
+                            </div>
+                      
+                        """,
+                        unsafe_allow_html=True
+                      )       
+               else :
+
+                     st.markdown(
+                        f"""
+                            <div style="background-color: #F4BB44;padding: 10px; min-height:200px;">
+                            <h4 class="date">{date_lst[4]}</h4>
+                            <p></p>  
+                            <h3 class="newcases">{format_nc[5]}</h3>
+                            <p class="newcasestext">New Cases</p>
+                            <h6 style='text-align: center; color: #FFFFFF; '>{association_msg[4]}</h6>
+                            <h6 style='text-align: center; font-style: oblique; color: #FFFFFF; font-size:20px; '>{weather_desc[4]}</h6>
+                            <img class="logo-img" width=50 src="data:image/png;base64,{base64.b64encode(open(wget.download("https:"+weather_img[4]), "rb").read()).decode()}">
+                            <p class="temp">{ min_temp[4]} C / {max_temp[4]} C </p>
+                            </div>
+                      
+                        """,
+                        unsafe_allow_html=True
+                      )
+        
+        
+        
         else:
             st.success(result)  
 
