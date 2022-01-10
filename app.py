@@ -167,7 +167,7 @@ def prediction(city_name,country_name,iso_code,label_alpha_2,select_location):
       else:
         pass
      
-      latest = sub.tail(7)
+      latest = sub.tail(15)
       new_cases_list = latest.pos
       
       index_value= new_cases_list.index.get_loc(new_cases_list.last_valid_index())
