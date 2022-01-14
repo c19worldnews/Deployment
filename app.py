@@ -471,12 +471,18 @@ def main():
             col1,col2= st.columns(2)
             Date_today = date.today()  
             
+            iso_code_usa = ['al','az','ar','ca','co','de','ga','hi','id','in','ia','ks','ky','la','me','md','ma','mn','ms','mo','mt','ne','nv','nh','nj','nm','ny','nc','nd','oh',
+                            'ok','or','pa','pr','ri','sc','sd','tn','tx','fl','mi']
+
             html_location = str("<p style='text-align: left; color: white; font-size:20px'>") + str( result[5] + " , "  +result[1])+ str("</p>")
             col1.markdown(html_location, unsafe_allow_html=True)
-            if result[4] == 'fl':
+            
+           
+            if result[4] in iso_code_usa and result[1] == 'USA' :
                 st.image("https://flagcdn.com/256x192/"+ "us-" +result[4]+".png" , width=40)
             else:
                 st.image("https://flagcdn.com/256x192/"+result[4]+".png" , width=40)
+           
             html_newcases = str("<p style='text-align: right; color: white; font-size:20px'>") + str( "New Cases: " + f"{int(result[3]):,}")+ str("</p>")
             col2.markdown(html_newcases, unsafe_allow_html=True)
             
