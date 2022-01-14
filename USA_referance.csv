@@ -32,7 +32,6 @@ USA,USA,Alabama,Lauderdale,210
 USA,USA,Alabama,Marion,210
 USA,USA,Alabama,Winston,210
 USA,USA,Alabama,Tuscaloosa,210
-USA,USA,Alabama,St. Clair,210
 USA,USA,Alabama,Bullock,210
 USA,USA,Alabama,Limestone,210
 USA,USA,Alabama,Jackson,210
@@ -2022,7 +2021,7 @@ USA,USA,Oklahoma,Comanche,210
 USA,USA,Oklahoma,Cotton,210
 USA,USA,Oklahoma,Jefferson,210
 USA,USA,Oklahoma,Choctaw,210
-USA,USA,Oregon,Wheeler ,210
+USA,USA,Oregon,Wheeler,210
 USA,USA,Oregon,Baker,210
 USA,USA,Oregon,Deschutes,210
 USA,USA,Oregon,Sherman,210
@@ -2123,9 +2122,8 @@ USA,USA,Pennsylvania,Adams,210
 USA,USA,Pennsylvania,Bucks,210
 USA,USA,Pennsylvania,Chester,210
 USA,USA,Pennsylvania,Montgomery,210
-USA,USA,Pennsylvania,Delaware,210
 USA,USA,Pennsylvania,Philadelphia,210
-USA,USA,Puerto Rico,Vieques ,210
+USA,USA,Puerto Rico,Vieques,210
 USA,USA,Puerto Rico,Cataño,210
 USA,USA,Puerto Rico,Guayama,210
 USA,USA,Puerto Rico,Gurabo,210
@@ -2203,11 +2201,11 @@ USA,USA,Puerto Rico,Luquillo,210
 USA,USA,Puerto Rico,Maricao,210
 USA,USA,Puerto Rico,Quebradillas,210
 USA,USA,Puerto Rico,San Germán,210
-USA,USA,Rhode Island,Kent,210
-USA,USA,Rhode Island,Bristol,210
-USA,USA,Rhode Island,Providence,210
-USA,USA,Rhode Island,Washington,210
-USA,USA,Rhode Island,Newport,210
+USA,USA,Rhode-Island,Kent,210
+USA,USA,Rhode-Island,Bristol,210
+USA,USA,Rhode-Island,Providence,210
+USA,USA,Rhode-Island,Washington,210
+USA,USA,Rhode-Island,Newport,210
 USA,USA,South Carolina,McCormick,210
 USA,USA,South Carolina,Lee,210
 USA,USA,South Carolina,Greenwood,210
@@ -2216,7 +2214,6 @@ USA,USA,South Carolina,Oconee,210
 USA,USA,South Carolina,Sumter,210
 USA,USA,South Carolina,Lancaster,210
 USA,USA,South Carolina,Newberry,210
-USA,USA,South Carolina,Abbeville,210
 USA,USA,South Carolina,Pickens,210
 USA,USA,South Carolina,Anderson,210
 USA,USA,South Carolina,York,210
@@ -2228,7 +2225,6 @@ USA,USA,South Carolina,Chester,210
 USA,USA,South Carolina,Chesterfield,210
 USA,USA,South Carolina,Kershaw,210
 USA,USA,South Carolina,Florence,210
-USA,USA,South Carolina,Spartanburg,210
 USA,USA,South Carolina,Barnwell,210
 USA,USA,South Carolina,Lexington,210
 USA,USA,South Carolina,Horry,210
@@ -2253,7 +2249,6 @@ USA,USA,South Carolina,Dillon,210
 USA,USA,South Carolina,Marion,210
 USA,USA,South Carolina,Calhoun,210
 USA,USA,South Carolina,Bamberg,210
-USA,USA,South Carolina,Williamsburg,210
 USA,USA,South Dakota,Dewey,210
 USA,USA,South Dakota,Potter,210
 USA,USA,South Dakota,Sully,210
